@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cosicer.com/post/%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html</loc>
+    
+    <lastmod>2019-08-11T14:48:09.298Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cosicer.com/post/hello-world.html</loc>
+    
+    <lastmod>2019-08-11T14:45:51.372Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cosicer.com/message/index.html</loc>
     
     <lastmod>2019-08-11T13:48:54.742Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>https://cosicer.com/categories/index.html</loc>
     
     <lastmod>2019-08-11T13:05:18.971Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cosicer.com/post/hello-world.html</loc>
-    
-    <lastmod>2019-08-11T10:59:08.080Z</lastmod>
     
   </url>
   

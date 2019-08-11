@@ -20,11 +20,11 @@
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    Hello World | 阅微草堂
+    阅微草堂
     
   </title>
 
-  <link rel="canonical" href="/post/hello-world.html">
+  <link rel="canonical" href="/categories/生活/">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -229,78 +229,43 @@
     <!-- Post Container -->
     
     <style>
-    .sidebar {
-        position: static;
-        float: left;
-        font-size: 14px;
-    }
+        @media (min-width: 1200px) {
+            .main-container {
+                width: 1000px !important;
+            }
+        }
 
-    .sidebar-left {
-        border-right: 1px solid #eaecef;
-        margin-right: 10px;
-    }
+        #gkt-index-sidebar {
+            border-left: 1px solid #eaecef;
+        }
 
-    .sidebar-left,
-    .sidebar-left>div {
-        width: 280px;
-    }
-
-    .sidebar-right,
-    .sidebar-right>div {
-        width: 260px;
-    }
-
-    .sidebar-wrapper li {
-        list-style-type: square;
-    }
-
-    .sidebar-wrapper a {
-        color: rgba(0, 0, 0, 0.9);
-        font-size: 14px;
-    }
-
-    .sidebar-active {
-        color: #108ee9 !important;
-        font-weight: bold;
-    }
-
-    .sidebar-wrapper section {
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-
-    .sidebar-fixed {
-        position: fixed;
-        top: 46px;
-        margin-top: 0;
-        max-height: 81%;
-        z-index: 1;
-    }
-</style>
-<style>
-    .post-container {
-        overflow: hidden;
-    }
-
-    .post-item-date {
-        margin-left: 10px;
-        color: hsla(0, 0%, 71%, .9);
-        font-size: 0.85em;
-    }
-
-    .series_links {
-        border: 1px solid #eaecef;
-        padding: 15px;
-        background-color: #fff8dc;
-        margin-bottom: 20px;
-        border-radius: 5px;
-    }
-</style>
-<!-- Post Content -->
-<aside class="sidebar sidebar-left hidden-xs hidden-sm">
-    <div></div>
-    <div class="sidebar-wrapper" style="top: -60px">
-        <section><style>
+        #gkt-index-sidebar section {
+            margin-bottom: 10px;
+        }
+    </style>
+    <div class="col-xs-12 padding-0">
+        <div class="col-xs-12 col-md-8">
+            
+<!-- Main Content -->
+<div class="post-list">
+    <!-- 专题列表 -->
+    <ul>
+        
+        <li class="post-item-parent post-item-color-0">
+            <a class="post-text-parent" id="生活">生活</a>
+        </li>
+        
+        <li>
+            <a class="post-item-title" href="/post/ういちど.html">ういちど</a>
+            <span class="post-item-date">(Aug 11, 2019)</span>
+        </li>
+        
+        
+    </ul>
+</div>
+        </div>
+        <div id="gkt-index-sidebar" class="hidden-xs hidden-sm col-md-4">
+            <section><style>
     .gkt-summary {
         border: 1px solid #DDDDDD;
         border-radius: 3px;
@@ -376,313 +341,7 @@
     </div>
     
 </div></section>
-        
-        
-        
-        <section>
-            <h3>最近的文章</h3>
-            <ul>
-                
-                <li>
-                    <a href="/post/ういちど.html">ういちど</a>
-                </li>
-                
-                <li>
-                    <a href="/post/hello-world.html">Hello World</a>
-                </li>
-                
-            </ul>
-        </section>
-    </div>
-</aside>
-<div class="col-xs-12">
-    <article class="post-container">
-        <h1> Hello World </h1>
-
-        
-
-        
-        
-
-
-
-
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-939225546" data-ad-slot="2247208099"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
-<div style="height: 10px;"></div>
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-        
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-        <!-- 文章末尾的提示 start -->
-        
-
-
-
-<!-- 文章内嵌ad，文章开始，专题下面 -->
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid"
-    data-ad-client="ca-pub-939225546" data-ad-slot="1110943177"></ins>
-<div style="height: 10px;"></div>
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-        
-        <p>
-            本站永久域名<strong>「 <a href="/post/hello-world.html">cosicer.com</a>
-                」</strong>，也可搜索<strong>「 阅微草堂 」</strong>找到我。
-        </p>
-        
-        
-        <!-- 文章末尾的提示 end -->
-        <div class="hidden-xs col-xs-12 text-center">
-    <canvas id="geektutu-post-qr"></canvas>
-    <p style="margin-top: -10px;"><small>微信扫一扫，阅读/分享</small></p>
-</div>
-<script src="/js/qrious.min.js"></script>
-<script>
-    (function () {
-        new QRious({
-            element: document.getElementById('geektutu-post-qr'),
-            value: window.location.href,
-            size: 120
-        });
-    })();
-</script>
-        <hr>
-        <div>
-            <p>
-                <span>标签: </span>
-                
-            </p>
-            
-            <p>
-                <span>发表于2019-08-11 18:59:08，最后修改于2019-08-11 22:45:51。</span>
-            </p>
-            <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
-        </div>
-        <hr />
-        <p name="pagination">
-    
-    
-    <a class="float-right" href="/post/ういちど.html">下一篇 » ういちど</a>
-    
-</p>
-    </article>
-    <!-- 赞赏 -->
-    <!--打赏-->
-
-<style>
-    #reward .reward-btn-wrapper {
-        width: 100px;
-        padding-top: 25px;
-        cursor: pointer;
-        margin: 0 auto;
-    }
-
-    #reward .reward-btn {
-        padding: 2px 15px;
-        color: #fff;
-        background-color: #ea6f5a;
-        border-radius: 20px;
-    }
-
-    #reward .reward-code {
-        position: absolute;
-        top: -230px;
-        left: 50%;
-        display: none;
-        width: 360px;
-        height: 240px;
-        margin-left: -180px;
-        padding: 15px 20px;
-        border: 1px solid #e6e6e6;
-        background: #fff;
-        box-shadow: 0 1px 1px 1px #efefef;
-    }
-
-    #reward .reward-code:after,
-    #reward .reward-code:before {
-        position: absolute;
-        content: '';
-        border: 10px solid transparent
-    }
-
-    #reward .reward-code:after {
-        bottom: -19px;
-        left: 50%;
-        margin-left: -10px;
-        border-top-color: #fff
-    }
-
-    #reward .reward-code:before {
-        bottom: -20px;
-        left: 50%;
-        margin-left: -10px;
-        border-top-color: #e6e6e6
-    }
-
-    #reward .qr-code {
-        width: 50%;
-        float: left;
-        padding: 5px;
-    }
-
-    #reward .qr-code p {
-        margin-top: -6px;
-    }
-
-    #reward img[alt='i'] {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        margin: 0 auto;
-        z-index: 2;
-        margin-left: 75px;
-        margin-top: 65px;
-    }
-
-    #reward img[alt="ali"] {
-        width: 100%;
-        box-sizing: border-box;
-        border: 5px solid #0f9be0;
-    }
-
-    #reward img[alt="wechat"] {
-        width: 100%;
-        box-sizing: border-box;
-        border: 5px solid #3db034;
-    }
-
-    #reward .reward-tip {
-        font-size: 1.2em;
-        margin-bottom: 0;
-        color: #ea6f5a;
-    }
-</style>
-<div id="reward" class="col-xs-12">
-    <div class="reward-btn-wrapper">
-        <div class="reward-btn text-center">赞赏支持</div>
-    </div>
-    <div class="reward-code text-center">
-        <p class="text-center reward-tip"><strong>有杯咖啡喝就好了~ </strong></p>
-        <div class="qr-code">
-            <img src="/img/icon.png" alt="i">
-            <img id="reward-ali" src="" alt="ali">
-            <p><small>支付宝</small></p>
-        </div>
-        <div class="qr-code">
-            <img src="/img/icon.png" alt="i">
-            <img id="reward-wechat" src="" alt="wechat">
-            <p><small>微信</small></p>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window, document) {
-        var aliQr = new QRious({ value: 'HTTPS://QR.ALIPAY.COM/FKX060967JKWZT6XOQ3D14' });
-        var wechatQr = new QRious({ value: 'wxp://f2f0w156GnDAImCWVDnlV9-pGu4nzp6X9VGf' });
-        document.querySelector('#reward-ali').src = aliQr.toDataURL();
-        document.querySelector('#reward-wechat').src = wechatQr.toDataURL();
-
-        var rewardBtn = document.querySelector('#reward .reward-btn-wrapper');
-        var qrCode = document.querySelector('#reward .reward-code')
-        var activeFunc = function (e) {
-            qrCode.style.display = 'block';
-        }
-        var hideFunc = function (e) {
-            qrCode.style.display = 'none';
-        }
-
-        rewardBtn.addEventListener('mouseenter', activeFunc, false)
-        rewardBtn.addEventListener('mouseover', activeFunc, false)
-        rewardBtn.addEventListener('mouseleave', hideFunc, false)
-        qrCode.addEventListener('mouseenter', activeFunc, false)
-        qrCode.addEventListener('mouseover', activeFunc, false)
-        qrCode.addEventListener('mouseleave', hideFunc, false)
-    })(window, document);
-</script>
-
-    <!-- 推荐阅读三篇文章 -->
-    <div style="margin-top: 20px">
-        <h3>推荐阅读</h3>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/undefined')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#Thinking"
-                    title="Thinking">Thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/ういちど.html" class="title">
-                ういちど
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-08-11，</span>
-                    <span class="hidden-xs">全文76字，</span>
-                    <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/undefined')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-            </div>
-            <a href="/post/hello-world.html" class="title">
-                Hello World
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-08-11，</span>
-                    <span class="hidden-xs">全文826字，</span>
-                    <span>阅读约2分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-    </div>
-    <div style="margin: 20px 0">
-        <!-- 标签列表 -->
-        <!-- Featured Tags -->
+            <section><!-- Featured Tags -->
 <style>
     #featured-tag .post-tag-item {
         font-size: 12px;
@@ -705,98 +364,10 @@
     <a class="post-tag-item" href="/tags/#Thinking" title="Thinking"
         rel="1">#Thinking (1) </a>
     
-</div>
-    </div>
-    <div style="overflow: hidden;">
-        
+</div></section>
+            
 
-
-
-
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-939225546" data-ad-slot="2247208099"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
-<div style="height: 10px;"></div>
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-    </div>
-    <!-- 评论 -->
-    
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="/css/gitalk.css">
-<script src="/js/gitalk.min.js"></script>
-<script>
-    window.addEventListener('load', function () {
-        const gitalk = new Gitalk({
-            clientID: '783e888d298cb1fcec4f',
-            clientSecret: 'df330db37b2d67f6caf1048fb4338dca98f5fc99',
-            repo: 'MyBlog',
-            owner: 'LSanJie',
-            admin: ['LSanJie'],
-            id: window.location.pathname,
-            distractionFreeMode: false
-        });
-        gitalk.render('gitalk-container');
-        document.querySelector('#gitalk-container').addEventListener('click', function (e) {
-            e && e.stopPropagation && e.stopPropagation();
-        });
-    })
-</script>
-
-</div>
-<aside class="sidebar sidebar-right hidden-md hidden-xs hidden-sm">
-    <div></div>
-    <div class="sidebar-wrapper">
-        <section><!-- Table of Contents -->
-<h3>目录</h3>
-<div id="sidebar-toc">
-  <!-- TOC  -->
-  
-  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Quick-Start"><span class="toc-nav-text">Quick Start</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Create-a-new-post"><span class="toc-nav-text">Create a new post</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Run-server"><span class="toc-nav-text">Run server</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Generate-static-files"><span class="toc-nav-text">Generate static files</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Deploy-to-remote-sites"><span class="toc-nav-text">Deploy to remote sites</span></a></li></ol></li></ol>
-  
-</div>
-
-<script>
-  (function () {
-    var h2 = document.querySelectorAll('article h2');
-    var h3 = document.querySelectorAll('article h3');
-    var linkList = document.querySelectorAll('#sidebar-toc a');
-
-    function findLinkElement(name) {
-      for (var i = 0; i < linkList.length; i++) {
-        var items = linkList[i].href.split('#');
-        if (items && items[items.length - 1] === encodeURIComponent(name)) {
-          return i;
-        }
-      }
-      return -1;
-    }
-
-    function activeLink(titleList) {
-      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      for (var i = titleList.length - 1; i >= 0; i--) {
-        if (scrollTop - titleList[i].offsetTop > 0) {
-          var index = findLinkElement(titleList[i].id);
-          index != -1 && linkList[index].classList.add('sidebar-active');
-          break;
-        }
-      }
-    }
-
-    window.addEventListener("scroll", function (e) {
-      [].slice.call(linkList).forEach(function (link) {
-        link.classList.remove('sidebar-active');
-      })
-      activeLink(h2);
-    })
-  })();
-</script></section>
-        
-
-        
+            
 
 <!-- 侧边栏ad 250 * 90 -->
 <ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
@@ -810,7 +381,7 @@
 </script>
 
 
-        
+            
 
 <!-- 侧边栏ad 250 * 90 -->
 <ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
@@ -824,25 +395,106 @@
 </script>
 
 
-    </div>
-</aside>
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
 <script>
-    (function () {
-        [].slice.call(document.querySelectorAll('.sidebar .sidebar-wrapper')).forEach(function (ele, index) {
-            var last = 0
-            window.addEventListener("scroll", function (e) {
-                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-                var isDown = scrollTop > last;
-                var pos = getPosition(ele).y - scrollTop;
-                var downLimit = index == 0 ? -50 : 40;
-                var upLimit = index == 0 ? -100 : 40;
-                isDown && pos <= downLimit && ele.classList.add("sidebar-fixed");
-                !isDown && pos > upLimit && ele.classList.remove("sidebar-fixed");
-                last = scrollTop
-            })
-        })
-    })();
+    (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        </div>
+    </div>
     
 </main>
     </div>

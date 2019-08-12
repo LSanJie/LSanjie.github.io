@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cosicer.com/"/>
-  <updated>2019-08-12T12:24:10.548Z</updated>
+  <updated>2019-08-12T13:57:06.871Z</updated>
   <id>https://cosicer.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cosicer.com/post/%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
     <id>https://cosicer.com/post/ういちど.html</id>
     <published>2019-08-11T14:38:04.000Z</published>
-    <updated>2019-08-12T12:24:10.548Z</updated>
+    <updated>2019-08-12T13:57:06.871Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,7 @@
     <link href="https://cosicer.com/post/buildsite.html"/>
     <id>https://cosicer.com/post/buildsite.html</id>
     <published>2019-08-11T12:18:24.000Z</published>
-    <updated>2019-08-12T09:52:48.911Z</updated>
+    <updated>2019-08-12T13:57:08.413Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -64,7 +64,7 @@
     <link href="https://cosicer.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
     <id>https://cosicer.com/post/共结连理.html</id>
     <published>2019-05-05T01:51:35.000Z</published>
-    <updated>2019-08-12T13:03:37.870Z</updated>
+    <updated>2019-08-12T13:57:04.154Z</updated>
     
     <content type="html"><![CDATA[<p>连理枝是指两棵树的枝干合生在一起。<br>北京故宫御花园里钦安殿、浮碧亭的旁边都有这样合生的树。在树皮和木质部之间，有一层细胞叫做形成层，这一层细胞有很强烈的向外和向内分裂作用，细胞分裂，增生了许多新的细胞，就会使树干长粗。如果两棵树在有风的天气里，树干互相摩擦，把树皮磨光了，到无风的时候，两条树枝挨近，形成层就密接在一起，互相增生的新细胞，就会长在一起，越是靠得紧，就越容易长在一起。</p><p>共谐连理的意思是：同根的草木、枝干连生在一起。现多用来比喻恩爱夫妻。</p><p>===满足狄利克雷条件的分割线===</p><p>~~结束两年恋爱，今天我和女朋友就正式领证啦！领证地点在斗城的安居。从此，自己也算一家之主了，竟然还有点方。要加油加油，冲鸭！</p>]]></content>
     
@@ -85,11 +85,40 @@
   </entry>
   
   <entry>
+    <title>新手学习技巧&lt;转载&gt;</title>
+    <link href="https://cosicer.com/post/%E6%96%B0%E6%89%8B%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7.html"/>
+    <id>https://cosicer.com/post/新手学习技巧.html</id>
+    <published>2019-05-04T14:26:33.000Z</published>
+    <updated>2019-08-12T14:33:31.224Z</updated>
+    
+    <content type="html"><![CDATA[<p>浮躁的人容易问：我到底该学什么；—— 别问，学就对了；</p><p>浮躁的人容易问：有钱途吗；—— 建议你去抢银行算了；</p><p>浮躁的人容易说：我要中文版！我英文不行！—— 不行？学呀！</p><p>浮躁的人分两种：只观望而不学的人；只学而不坚持的人；</p><p>浮躁的人永远不是（也成不了）一个高手。</p><ul><li><p>不要看到别人的回复，第一句话就说：给个代码吧！你应该想想为什么。当你自己想出来再参考别人的提示，你就知道自己和别人思路的差异。</p></li><li><p>初学者请不要看太多的书那会误人子弟的。先找一本好书系统的学习。很多人用了很久都是只对部分功能熟悉而已，不系统还是不够的。</p></li><li><p>看帮助。不要因为很难，而自己又是初学者所以就不看；帮助永远是最好的参考手册，虽然帮助的文字有时候很难看懂，或不够直观。</p></li><li><p>不要被一些专用词汇所迷惑；最根本的是先了解最基础知识。</p></li><li><p>不要放过任何一个看上去很简单的小问题，他们往往并不那么简单，或者可以引伸出很多知识点；不会举一反三你就永远学不会。</p></li><li><p>知道一点东西，并不能说明你会用，会用是需要实践经验和时间积累的。</p></li><li><p>入门并不难，难的是长期坚持实践和不遗余力的学习和实践。</p></li><li><p>看再多的书是学不会用的，要多实践，多动手。</p></li><li><p>把时髦的技术挂在嘴边，还不如把基本的技术记在心里。</p></li><li><p>在任何时刻都不要认为自己手中的书已经足够了。</p></li><li><p>看得懂的书，请仔细看；看不懂的书，请硬着头皮看。</p></li><li><p>别指望看第一遍书就能记住和掌握什么??请看第二遍、第三遍。</p></li><li><p>请把书上的例子亲手去实践一下。</p></li><li><p>把在书中看到的有意义的例子进行扩充；并将其切实的运用到自己的设计中。</p></li><li><p>不要漏掉书中任何一个练习和实例??请全部做完并记录下思路。</p></li><li><p>别心急，应用确实不容易，水平是在不断的实践中完善和发展的。</p></li><li><p>每学到一个知识点的时候，尝试着对别人讲解这个知识点并让他理解，你能讲清楚才说明你真的理解了。</p></li><li><p>记录下在和别人交流时发现的自己忽视或不理解的知识点。</p></li><li><p>保存好你做过的所有的源文件，那是你最好的积累之一。</p></li><li><p>对于网络，还是希望大家能多利用一下。很多问题不是非要到论坛来问的，首先你要学会自己找答案，比如google、百度都是很好的搜索引擎，你只要输入关键字就能找到很多相关资料，别老是等待别人给你希望，看的出你平时一定也很懒！</p></li><li><p>到一个论坛，你要学会去看以前的帖子，不要什么都不看就发帖子问，也许你的问题早就有人问过了，你再问，别人已经不想再重复了，做为初学者，谁也不希望自己的帖子没人回。</p></li><li><p>虽然不是打击初学者，但是这句话还是要说：论坛论坛，就是大家讨论的地方，如果你总期望有高手总无偿指点你，除非他是你亲戚！！讨论者，起码是水平相当的才有讨论的说法，如果水平真差距太远了，连基本操作都需要别人给解答，谁还跟你讨论呢。</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;浮躁的人容易问：我到底该学什么；—— 别问，学就对了；&lt;/p&gt;
+&lt;p&gt;浮躁的人容易问：有钱途吗；—— 建议你去抢银行算了；&lt;/p&gt;
+&lt;p&gt;浮躁的人容易说：我要中文版！我英文不行！—— 不行？学呀！&lt;/p&gt;
+&lt;p&gt;浮躁的人分两种：只观望而不学的人；只学而不坚持的人；&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+    
+    
+      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
     <title>祭祀祖先</title>
     <link href="https://cosicer.com/post/%E7%A5%AD%E7%A5%80%E7%A5%96%E5%85%88.html"/>
     <id>https://cosicer.com/post/祭祀祖先.html</id>
     <published>2019-05-04T10:50:50.000Z</published>
-    <updated>2019-08-12T13:38:23.890Z</updated>
+    <updated>2019-08-12T13:57:04.960Z</updated>
     
     <content type="html"><![CDATA[<p>时隔8年，再次回到拔毛草丛生的斗城山坡上——祭祖，我的祖父、爷爷奶奶还有玖伯。可能是冥冥之中的安排，天气特别好，在凝结后的坑洼泥路上汽车颠簸行进，顺利上山刨开杂草丛，抵达祭拜点。带着歉意和虔诚，点蜡、上香、烧纸、作揖，鞭炮声在大山里的空中回响，延绵不绝，不知祖辈们是否听见后辈子孙们的心声。</p><p>8年前，刚满二十，如今胡子拉碴体弱多病，愿身体恢复；<br>8年前，单身一人，如今将女朋友变成妻子，愿家人平安；<br>8年前，父母敏捷，如今白发已染语多不思，愿爸妈健康；<br>8年前，高考在即，如今博士在读已过四年，愿顺利毕业；<br>…<br>…<br>下次再去祭祖，房子还会在，路会变好，车也会变多…一定要记住这个地方！</p><center><img src="/img/post/jizu/cover.jpg" width="60%"></center>]]></content>
     
@@ -114,7 +143,7 @@
     <link href="https://cosicer.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
     <id>https://cosicer.com/post/cds-to-OA小结.html</id>
     <published>2019-03-25T00:55:44.000Z</published>
-    <updated>2019-08-12T12:48:53.716Z</updated>
+    <updated>2019-08-12T13:57:07.595Z</updated>
     
     <content type="html"><![CDATA[<p>动机：<br>cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p><p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（PDKinstall.pl）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>]]></content>
     
@@ -131,9 +160,9 @@
       <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
-    
       <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+    
+      <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
     
   </entry>
   
@@ -142,7 +171,7 @@
     <link href="https://cosicer.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
     <id>https://cosicer.com/post/人为刀俎.html</id>
     <published>2019-03-07T11:45:14.000Z</published>
-    <updated>2019-08-12T12:56:19.296Z</updated>
+    <updated>2019-08-12T13:57:06.159Z</updated>
     
     <content type="html"><![CDATA[<p>贴一张图。</p><center><img src="/img/post/renwei/cover.jpg" width="60%"></center><p>上图是一款3bit 30Gbps DAC芯片的税前价格，近10w RMB一颗芯片。而一个工控、通信乃至jun用系统，一台机器，难道才使用一颗这样的芯片吗？国内研制不出来这样高性能的芯片，又被米国禁运，第三方当然坐地起价。而高性能ADC芯片目前根本还没有渠道可以购买，这就不是钱能解决的事情了。总之，没有核心技术就如同案板上的鱼肉，任人宰割。</p><p>国家也在努力，但40年过去了，依然摆脱不了进口芯片的事实。问题出在哪儿呢？有篇报告认为：</p><blockquote>· 中国在半导体方面投入了巨资，这些投入正在取得成果，但目前仍然依赖西方技术。· 中国是一个技术净进口过，芯片和技术进口仍将是未来许多年的常态。· 中国创新增长的趋势面临风险<p>政府的支持意味着中国企业即使在无利可图的情况下也可以继续经营，这将对中国经济和其他国家的经济造成损害。中国政府补贴的扩张将挤压其他国家的半导体企业，缩减它们的收入和数量，降低半导体生产商投资研发的能力。中国投资的总体影响将是削弱全球产业，减缓半导体创新的步伐。</p></blockquote>Anyway，干一行爱一行，积累，也从自身做起。]]></content>
     
@@ -170,7 +199,7 @@
     <link href="https://cosicer.com/post/%E6%97%A5%E6%9C%AC%E5%95%86%E6%97%85%E4%B9%8B%E8%A1%8C.html"/>
     <id>https://cosicer.com/post/日本商旅之行.html</id>
     <published>2018-11-17T04:39:14.000Z</published>
-    <updated>2019-08-12T13:53:01.115Z</updated>
+    <updated>2019-08-12T13:57:03.249Z</updated>
     
     <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>自从恋爱以来，就和另一半计划每年要外出旅行一次，为此还专门成立了二人的旅游基金。<a id="more"></a>从去年4月确认关系到现在一年半的时间里，我们一起去过西安翠华山在天池里划船，一起走过湘西土家凤凰古城的青石阶，一起近距离感受了阿凡达悬浮山所呈现的神奇地貌，一起爬到曾土匪居住地乌龙寨的天波府山顶，张开双臂万般景物尽收眼底，一起坐过世界上最长的高山索道 ，行越过世界上最高的穿山溶洞。今年继续，我们当然还去到了成都的街头走一走，一起登过可观雨城全貌的西蜀天梯，一起看过漫川关双戏楼的表演，还一起在首都故宫、天安门留下了合影，在北大未名湖畔结下了爱的心形；迎着初春和风雪在八达岭长城牵手与天公试比高……还记得曾经对她说过，当然并非原创：所谓新鲜感，不是和不同之人一起去做同样的事情，而是和相同之人一起去体验未知的人生。自己说过一定要和喜欢的人看一次大海，转眼间到了今年的暑假，因为安全等原因，我们放弃了其他海岛之旅，选择了三亚，后来证明此次决定非常明智。两人一起在洁净的白沙滩上嬉戏推攘、一起拾过被海水冲上岸边的贝壳，还在情人桥上接过吻，还奢侈了一把住豪华海景房。当然印象最深是一起坐快艇去远海深潜，当潜入水下的一瞬间，当鱼儿包围自己那一刻，当周围世界突然安静只剩下呼吸声，真真切切感受到身体处在未知的世界，所谓all blue梦想大抵如此，没想到世间还有如此美的宝地，几十分钟我用力瞪大眼睛细细感受，一路疲惫和辛苦都消失得一干二净，这种消失和忘却如同佛教词义中的“空”，得之我幸。</p><p>按理说旅游基金所剩不多，可自己偏偏中了一篇国际会议，导师恰又同意参会，而会议主办地是日本这个一直想去感受的国家。没有多想就决定要去，另一半是小说编辑兼自由作家，工作时间相对灵活，虽然嘴上一直以我一人胆小不敢出国为由而非要陪着我去开会，那么带上她作为兼职“秘书”去开会也就非常自然地确定下来了。另一半的消费由我俩AA自费承担，于是商务签/旅游签、机票/酒店一气呵成。在继续总结商旅日本之前，倒是觉得有必要谈谈自己对这个国家的主观感受，可以说由于历史原因和捕杀鲸鱼等缘故，几年前我对这个国家还是挺讨厌的，留下的印象就是变态。最近稍微有些改变，这并不是就说原谅他们侵略的事实，也不是为他们所犯下的错误和罪行洗地，这是不可能的。现在只想单纯了解他们的文化，为何每年都有科学类的诺贝尔学奖诞生？为何在世界杯上表现如此有组织性和纪律性？为何原产于中国的抹茶被他们做成了自己闻名于世的特色？为何他们政府对国民如此信任？为何本地人表现都特别有礼貌？……本人之前也选修了一年的日语课，可听过不如见过，见过不如做过，现在也开始试着主动去了解这个邻邦国家，恰好趁着会议的这几天去感受一下，要完全了解一个国家的文化几天时间肯定不够，这次只能先浅尝但未辄止。下面是本人在日本所待6天（实际上只有4整天）的一些日常感受，毕竟时间有限，有些地方可能不全面甚至出现主观判断错误，但不影响自己对此的看法。</p><h4 id="Day-1-入境日本"><a href="#Day-1-入境日本" class="headerlink" title="Day 1 入境日本"></a>Day 1 入境日本</h4><p>初临大阪关西机场，没特别的感受，国内的摆渡车变成了摆渡小火车，其他一切按规矩进行检查入境。乘坐Haruka特快列车前往京都，在通过机场大桥时，并没有看到前两个月被台风“飞燕”毁坏的痕迹，和风煦日，海面仍风平浪静。沿途是一些居民住所，街上的车辆和行人都十分稀少，路面看起来十分狭窄，居民楼房也很矮，大概也只就一户一楼，鳞次栉比。下午4点就已近黄昏，从列车窗外看过去，一副冷清萧条之感，很难将这幅场景和发达国家联系起来，直到我们抵达京都站。到达京都站，正值下班放学高峰，和电视剧一样，身着正装的白领们和黑色校服的学生们提着包聊着天忙着乘坐地铁回家或是去居酒屋小坐一会儿。虽然我们预定的酒店就在京都站对面，但由于此行目的是开会，因此还需要换乘地铁前往会议中心登记签到。日本的地铁不需要安检，换乘进出都十分方便，据说政府十分相信自己人民素质很高才取消了安检设施。乘坐自动扶梯和等候排队都是很整齐的一列，不过高峰期地铁内倒是很拥挤，有大声聊天的也有接电话的，并不是网传那样安静，当然看书的人也不少，老人居多。会议签到完成回到京都站不过才刚下午6点，外面天就已黑成一片。我们在车站附近“随意”吃了一碗拉面，走出车站，一座发着粉红蓝彩光的京都塔映入眼帘，远看像一座烛台，总感觉和上海的东方明珠有点相似。都说京都是日本的古都，那京都塔灯在夜晚的颜色本人倒觉得不太适合这座城市，反观西安的大雁塔，夜晚柔和的金黄光加上古典音乐喷泉才会有种梦回大唐繁荣的体验。不过京都塔也算是京都的标致，配合周围交错的街道和流光溢彩，似乎想告诉我们：这才是所谓的现代文化。不过京都塔有个最大的作用，它是我俩此行每天开始和结束的地标。还是很欣慰的。</p><center><img src="/img/post/lvyou/JP/1.jpg" width="50%">图1 Haruka特快列车单程票&ICOCA卡</center><center><img src="/img/post/lvyou/JP/2.jpg" width="50%">图2 夜幕下的京都塔</center><h4 id="Day-2-会议欢迎式-渡月桥"><a href="#Day-2-会议欢迎式-渡月桥" class="headerlink" title="Day 2 会议欢迎式+渡月桥"></a>Day 2 会议欢迎式+渡月桥</h4><p>酒店很小，但麻雀虽小，五脏俱全。冰箱是东芝的、电吹风松下的、电水壶虎牌的、马桶toto的……免费提供的香波、沐浴露等查阅网上都是100多RMB一小瓶。最后入住心斋桥的酒店也是类似配置，那暂且怀疑是政府要求，方便统一采购和管理。不过话说回来，空间真的很小，可能只有国内同等价格酒店的三分之一，窗户也只能开启五分之一左右，有铁网封锁，不知道是为了防止跳楼还是防止向窗外扔东西。总之结束了一日的行程劳顿，闹铃带我们来到了第二天。在外从不敢睡懒觉，都是为了错峰出行。而日本比中国快1小时，也就是说，我们在日本早7点起床，其实在国内才6点。即使这样，早上7点的当地人已经无比忙碌了：有卖力擦拭楼梯扶手栏杆的，有三五个学生结伴嬉笑上学的，有白领们提着包快速步行去乘坐地铁的……人行横道两边也等满了人，没人闯红灯，这点值得学习。我们出电梯陌生人会说一声“早上好”，陌生人进电梯会说一声“失礼了”。虽然都知道日本人做这些都是面子工程，指不定私底下在说我们坏话哩，但在当时还是让人心里感觉舒服，噢，真是虚伪hhh。今天会议议题主要是进行欢迎式、几个关于5G通信的综述性报告，并邀请与会者观看艺伎表演，而我俩完全不懂欣赏什么艺妓，那只能推掉它去逛逛京都的周边。一起去了柯南剧场版里、仓木麻衣歌声中的岚山渡月桥，这里插播一句《渡月桥<del>想念你</del>》的网易音乐评论：「同一个古都，十字路口是春季的樱花，唐红的恋歌则是秋季的红叶；同一个麻衣，彼时的Time after time，此时的渡月桥」。当时站在渡月桥上，可能也会有这样的心境。柯南从小就在看，《迷宫的十字路口》歌曲time after time到去年《唐红的恋歌》歌曲渡月桥<del>想念你</del>，都十四年了啊，柯南还是小学一年级，而仓木麻衣已成大妈，自己也已经是博士在读四年级了，回忆起真是忽然之间略带感伤。回去时顺路看了东福寺和伏见稻荷大社，那时东福寺的红叶初现，就已经美的让人沉醉。有说红叶代表深情的恋人，有说代表对往事的追忆，还有说是岁月的轮回……不管怎样，都是安静美好的象征，这是大自然·秋之赠予。前来赏红叶的本地游客不少，拍照时，有人等我们先拍，而让他们先路过时，他们却说一声“抱歉不好意思”，实在客气，让人有些惊讶。而在伏见稻荷大社的千本鸟居，以外国人和本地年轻男女游客居多。相传千本鸟居是区分神界和人界的结界，是通往神域的入口。我总自诩为太阳之子（因为尽管天气预报有雨，但自己每次外出游玩也基本是蓝天白云），虽然也没少被另一半嘲笑。呐，这一天是自己正儿八经的生日，也来跟着沾了沾神气，才能对得起这个称号嘛。</p><center><img src="/img/post/lvyou/JP/3.jpg" width="50%">图3 岚山渡月桥</center><center><img src="/img/post/lvyou/JP/4.jpg" width="50%">图4 秋·红叶</center><center><img src="/img/post/lvyou/JP/5.jpg" width="50%">图5 千本鸟居</center><h4 id="Day-3-会议开会-南禅寺"><a href="#Day-3-会议开会-南禅寺" class="headerlink" title="Day 3 会议开会+南禅寺"></a>Day 3 会议开会+南禅寺</h4><p>会议按照日程有条不紊地进行着，不过昨天是欢迎式，今天又是开幕式，这是什么鬼，不得不佩服组织机构真是会玩。自己就跑去听感兴趣的专场，入乡随俗，也穿上了积灰几年的西装和皮鞋，提着公文包，免得别人说我像高中生，怪不好意思的。而另一半表面像个秘书，实际上拿着电脑写小说呢，跟着我东跑西跑，翻译也没帮上啥忙hh，竟然还担心被当做间谍抓起来。每个专场的报告都在不同的单独房间内举行，一个口头汇报大概20分钟，对于和自己相关的专业再结合PPT，英文汇报还是很容易理解的，当然有些非母语国家人说的那个英语啊，怎么感觉和自己差不多呢，全靠猜！遗憾这次被分配为poster，下次有机会我一定申请oral！反正大部分听众都只是结合PPT靠猜，会场上能发出笑声的人袅袅无几，拍照的人倒是挺多，就连会场提问怀疑都是事先找的托儿，当然只是怀疑，也有口语真正很棒的。呐，如果做英语汇报，本人倒是觉得问题应该不太大，还是要注意平时多练习多积累才行。不过启发是，语言在某些场合真的太重要了。比如这次开会，自己日语句子说最多的除了“谢谢”应该就是问“某个地点（事物）在哪儿”的表达了。会议午餐发放的是盒饭，盒饭被方方正正的纸盒包起来，里面饭菜种类很多，有几个饭团、虾、生菜、肉丸子、寿司等等，看起来营养搭配还算合理，不过我俩并没有当做午餐吃，因为这点份量根本无法满足我们对吃饱的定义，于是将它带回宾馆作为第二天的早餐对待，午餐去了会馆附近的名叫「饺子·王将」的中餐店吃饭，价格便宜还好吃。在回宾馆路上又顺路去了南禅寺以及永观堂，南禅寺很安静，有人在安静扫地，蓝天白云下红叶和鸟语的交织也着实让人不想再回到市中的闹区，这是悟禅的好去处，我俩也进入堂内投下钱币参拜祈福。说起南禅寺，本科学校所在的无锡也有一个南禅寺，那时那里充满江南韵味，静雾氤氲，风景旧曾谙。自己没少去过，印象最深的是每次去都会和同学购买一注双色球，然后“分析”讨论下期尾号概率，旧时的乐趣回忆起来脸上也会带着笑吧。日本京都南禅寺更多体现的是一种禅道，曲径通幽处，是一个讲究心静的地方，想必乔布斯当年选择京都寺庙修行养心也有此考虑。个人觉得修行体现在方方面面，大的来说，活着就是一种修行，此行是参悟人间百态五味，活出自我。而现在读博也是在修行，每个阶段都会遇到困难，写不出小论文觉得天快塌下来了，测不出结果就算是冬天汗水也会渗出额头，担心是否顺利毕业有时候也会睡不着觉……如何坦然面对并处置这些困难，这是几年读书修行的意义。由于时间关系我们最终放弃了哲学之道的步行，本人可能也不太懂哲学，因为工程和哲学之间还差一个科学，等自己研究的问题成为了科学，把科学做好再去探讨哲学也不迟嘛，有些人一辈子也上升不到这个高度，所以我等凡人就不必去凑这个热闹啦(笑。</p><center><img src="/img/post/lvyou/JP/6.jpg" width="50%">图6 会议专场</center><center><img src="/img/post/lvyou/JP/7.jpg" width="50%">图7 南禅寺·永观堂</center><h4 id="Day-4-会议展示-清水寺"><a href="#Day-4-会议展示-清水寺" class="headerlink" title="Day 4 会议展示+清水寺"></a>Day 4 会议展示+清水寺</h4><p>会议举行的第3天，也是该我展示的一天。展示前自己想顺路去清水寺走一趟，清水寺离酒店很近，步行可到。清水寺是京都最古老的寺院，赏樱胜地，不过现在只能赏红叶了。同样是柯南里的场景，也是讲述服部平次与远山和叶爱情的地方，呐，可以说整个关西片场都在讲述他俩的恋情。迷宫的十字路是定情，唐红的恋歌是推进，相比新兰/柯哀，本人更看好这对恋人呢哈哈。至于清水寺还有其他什么故事，自己真的很文盲。后来才了解到它由慈恩大师创建，慈恩大师是唐僧玄奘在日本的第一个弟子。百科还介绍到「清水寺因寺中清水而得名，顺着奥院的石阶而下便是音羽瀑布，清泉一分为三，分别代表长寿，健康，智慧，被视为具有神奇力量，游客路经此地一定会来喝上一口水，据说可预防疾病及灾厄，是一座观音灵地」，难怪看到很多中小学生排队在这里喝水，原来是在祈福。不过去清水寺的体验不太好，就算去的早游客也是特别多，而且非常吵，以韩国游客声音最大最吵居首，对他们好感瞬间变负。算了，清水寺没待一小会儿，以后找个时间等人少了再去吧。乘坐地铁抵达国际会馆，开始张贴海报，自己展示的顺序是进门第三个，周围的人都还没来，挺不好意思的，幸好有“秘书”陪我聊天缓解尴尬的气氛，等与会的人逐渐增多，自己也开始张贴海报，当然随行“秘书”并不是当翻译，而是在拍照，辛苦了！海报交流的人越来越多，有华为、东芝、上海交大、电子科大、北航等单位进行海报参展，我的展示牌前面也有了几个人一起聊天，原来是同一所学校的，互相招呼几句就各回各“家”。也会有人前来问技术问题，遇到会说中文的，讨论就相当畅快，比如和上海华为那个工程师有说有笑；遇到说英语的，英语母语国家的人还好，遇到印度的那本人也只能说一些单词外加些许肢体语言，真的没办法，大家的口语都太有特色了。展示期间，还发现一个问题，就是展板前如果是女性，貌似去询问讨论的人非常多。为了验证此发现，就让“秘书”站在海报前，而自己去打水喝，果然不一会儿发微信让赶紧过去，这些人真是“不要脸”哈哈。海报展示完毕后，同样是领盒饭，听几场专场讲座就回到酒店附近吃了顿烤肉，心满意不足，分量根本不够啊！</p><h4 id="Day-5-返程1：宇治-奈良-心斋桥"><a href="#Day-5-返程1：宇治-奈良-心斋桥" class="headerlink" title="Day 5 返程1：宇治+奈良+心斋桥"></a>Day 5 返程1：宇治+奈良+心斋桥</h4><p>其实Day4会议就差不多快结束了，今天只是颁奖和闭幕仪式，而且京都离机场有些距离，我们得赶到大阪以方便第二天乘机，于是中途提前离开会场沿着JR奈良线乘坐列车去大阪入住，中途吃饭我们在宇治和奈良各停留了一小会儿，前面有提到过日本的地铁从不安检，真的很方便；其次地铁站外有自助行李寄存柜，通用的各种大小都有，投币寄存，对于游客来说也是十分方便。吃完宇治的抹茶冰淇淋并给家里买了些特产，然后喂完奈良可爱的小鹿就来到了大阪心斋桥附近的酒店。这里还是想说几句，抹茶据说是中国茶叶传入日本的，却被日本做出了世界特色，不得不佩服它们的工匠精神，看来发明者不一定会弘扬，需要反思啊！好了，既然此行商旅也快结束了，那么大阪烧、购物也抓紧体验吧，没错我们回归了作为学生或者人最俗气的本质，那就是逛吃逛吃。咦—这家大阪烧不错，吃！咦—这个耳机也挺好的，买！这个药妆店东西也很便宜，还有中文导购，逛！……行李箱装不下这些东西了诶？再买个行李箱！心斋桥呐，真是人山人海，可能是周五的缘故，像极了放大版的回民街，资本主义的现代社会实在是太油腻了！</p><center><img src="/img/post/lvyou/JP/10.jpg" width="50%">图10 抹茶冰淇淋</center><center><img src="/img/post/lvyou/JP/11.jpg" width="50%">图11 人山人海·心斋桥</center><h4 id="Day-6-返程2-总结"><a href="#Day-6-返程2-总结" class="headerlink" title="Day 6 返程2+总结"></a>Day 6 返程2+总结</h4><p>这一天主要是返程，其实也没什么好写的。之前还担心海关查的严，但中国人实在太多了，排队值机等了俩小时。而且他们基本上人手两个大箱子，像我俩一人一个小箱子可算小巫见大巫，海关完全没查，如同在国内般畅通顺利。坐在飞机上，还在想这几天这么快就度过了，像做了一场梦，其实行程挺紧的也没细细感受，以后有空再去细细体验一下吧。当时唯一的愿望就是飞机能顺利降落，因为起飞前广播提醒航空管制而延误了半小时，当时天都快黑了，自己还在猜疑是不是发生了什么。而在天空上，只要遇到飞机颠簸厉害，心里就会暗暗发誓说：如果飞机能顺利降落，那我一定好好学习，把没完成的事情好好做完。人真是奇怪，第一次坐飞机因为紧张刺激并不会感到害怕，但是随着次数增多以及各种骇人听闻的报道加持，心里难免有些发怵。不过幸好，一切顺利，另一半也安全从北京抵达西安。此行一切平安，阿弥陀佛。</p><h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>此次商旅，可以说之前毫无准备，第一是经济上没有准备，第二是另一半要跟着去没有准备。第一点比较好解决。第二点可以说是上演了碟中谍N部曲，为此俩人还差点吵了一架，这里就不展开了，都是泪。还是来说说日本。在交通上，很贵很方便，此行6天，各种地铁、新干线、公交等交通工具费用（ICOCA卡）人均是3600+2000+2000+1000+510≈9000日元，约为550 RMB左右。而在国内，相同距离路线的交通费人均不超过100 RMB。日本地铁起步价在130-210日元，即大概RMB 8-13块之间。出租车更是不敢坐，网上了解到日本出租车起步价一般都是在600-700日元即40 RMB左右，超过2km，按路程每300米上跳90日元（6块左右），比国内贵将近5倍。之所以贵，可能是政府对这些交通补贴很少甚至没有补贴，从而导致价格偏高。本地人，本地人非常客气，对陌生人也非常客气。除了之前所说的那些礼貌，乘坐地铁或新干线也很少听到有小孩吵闹。还有就是车让人，这个最有体会，我们在一个没有斑马线的路边，还没走到路口呢，前面一辆车就减速停下，里面司机示意让我们先过去，自己也微微点头表示感谢，这种车主动让人的情况遇到了好多次，简直和帝都形成鲜明对比……上述都是本人在日几天亲自体验到的，不知道能不能代表日本整个国家，但不管是不是表面功夫，这些行为确实让人心里感觉舒服。商店，非市区商店开门很晚，关门早。比如宇治抹茶冰淇淋店他们10点才开门，可能自己潜意识一直以中国时间为准，每次看到日本有些商店晚上9点关门，我都觉得关的好早啊（毕竟此时中国才晚上8点）。餐饮，吃不惯日本的食物，生鱼片吃着软软的有点想吐。一些排骨非常甜，啥东西都要来点奶油，可能是沟通不便，要不然直接说上辣的。当然冰淇淋和抹茶食品的味道还是非常不错。总之，大爱中国食物。其他优点包括天空比较蓝没有雾霾，当然这可能是我们运气好。路面干净，这没什么好说的，每天很早就有人仔细卖力打扫，很少看到垃圾桶，人们身上自带垃圾袋。日本夜景比较漂亮，自然景观保存完整。缺点当然也有，首先别看日本人彬彬有礼，实际上他们不想给自己惹麻烦，换句话说就是日本人之间很难交心成为好朋友，至于是不是脸上笑嘻嘻心里mmp本人倒没体会到，但是真要和日本人做朋友个人觉得应该非常困难。第二是生活单调，个人感觉那些上班族每天都是西装、裙子、公文包啥的很是单调，三点或两点一线的生活方式可能不太适合我们；第三，日本人口密度还是很大的，但路上行人汽车却很少，这说明什么。宅家里的人非常多，侧面也反映了他们对交朋友这种事真的不关心。总之一句话，日本于我而言只适合游玩不适合居住。</p><p>以上。</p><p>啰啰嗦嗦写了这么多，从上周日开始写，周内搁置，今天补齐。不知道该以怎样的形式或者文体来呈现出人生第一次出国的日常，甚至不知道如何用华丽的辞藻来组织语言，毕竟都知道我语文是硬伤，见笑了，还需要多写多练习啊。</p><center><img src="/img/post/lvyou/JP/12.jpg" width="50%">图12 作者本人</center>]]></content>
     
@@ -184,6 +213,33 @@
     
     
       <category term="happy" scheme="https://cosicer.com/tags/happy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用ADS进行Load-Pull仿真</title>
+    <link href="https://cosicer.com/post/ads-LP-sim.html"/>
+    <id>https://cosicer.com/post/ads-LP-sim.html</id>
+    <published>2018-11-15T13:56:00.000Z</published>
+    <updated>2019-08-12T14:25:36.738Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h1><p><em>本文来自作者的知乎文章，曾经用户名为cosmos，水印可见，原地址访问<a href="https://zhuanlan.zhihu.com/p/49971724" target="_blank" rel="noopener">这里</a></em><br><strong>之前设计PA都使用ADS自带的Load-Pull模板进行设计，但最近设计一款PA发现模板某些地方好像有点不明白。总的来说，模板给的内容太多太杂，有些结果目前根本用不上，因此打算自己来配置一下Load-Pull的仿真设置，加深一下对此的理解。通过调研ADS的help文档并自己完成验证，下面就把过程总结到这里。在总结之前，需要注意一下几点：</strong></p><ul><li>Load-Pull仿真的前提：器件的大信号模型要准，否则使用测试数据设计PA更佳；</li><li>一般在偏置bias和稳定性stability网络确定后再做Load-Pull仿真；</li><li>Load-Pull仿真后，还没有结束，一般还会做Source-Pull，再折返做Load-Pull，来来回回迭代做个大概3到4次，从而确定最优源/负载阻抗；</li><li>最初Load-Pull的源阻抗值一般设置的比较小，如10Ω，在进行完成source/load-pull迭代后得到最优值。</li></ul><p>Load-Pull仿真，中文叫做负载牵引，它可以改变器件的负载反射系数，从而找到使输出功率Pdel或功率附加效率PAE最大的最优反射系数。接下来就讲一下如何画出Pdel和PAE轮廓。</p><center><img src="/img/post/adslpsim/0.jpg" width="50%">图0</center><h1 id="1-指定并生成期望的负载反射系数"><a href="#1-指定并生成期望的负载反射系数" class="headerlink" title="1. 指定并生成期望的负载反射系数"></a>1. 指定并生成期望的负载反射系数</h1><h2 id="1-1-扫描变量的设置"><a href="#1-1-扫描变量的设置" class="headerlink" title="1.1 扫描变量的设置"></a>1.1 扫描变量的设置</h2><p>我们通常在一个圆里面来指定负载反射系数，虽然这样设置会比较复杂，但是得到的反射系数区域会更加均匀，从而方便后续一些参数的计算，得到如下图1-1左图所示这样的圆区域。而不是像右图那样呈放射状的反射系数区域。</p><center><img src="/img/post/adslpsim/1.jpg" width="50%">图1-1</center><ul><li>在一个圆内扫描反射系数，那么首先要画出一个圆，画圆则需要指定圆心和半径。ADS中用变量模块VAR来指定：</li></ul><center><img src="/img/post/adslpsim/2.jpg" width="50%">图1-2</center><ul><li>通过扫描两个变量imag_indexs11和real_indexs11可以在圆上产生反射系数点，它们分别表示反射系数点的虚部和实部。ADS中用参数扫描控件来设置。</li></ul><center><img src="/img/post/adslpsim/3.jpg" width="50%">图1-3</center><ul><li>圆上的每个反射系数点都是一组数据对，Smith图上的中心点为(0,0)，其中y轴表示虚部，x轴表示实部。</li></ul><center><img src="/img/post/adslpsim/4.jpg" width="50%">图1-4</center><h2 id="1-2-imag-indexs11的扫描限制"><a href="#1-2-imag-indexs11的扫描限制" class="headerlink" title="1.2 imag_indexs11的扫描限制"></a>1.2 imag_indexs11的扫描限制</h2><ul><li>图1-5中max_rho是有效圆的半径，也就是说如果圆跑到Smith图外面去了，表明这是个有源负载，max_rho公式可以减小仿真反射系数圆的半径。在ADS中的公式如下。</li></ul><center><img src="/img/post/adslpsim/5.jpg" width="50%">图1-5</center><center><img src="/img/post/adslpsim/6.jpg" width="50%">图1-6</center><ul><li>max_rho/(lines+1)又是什么呢？</li></ul><center><img src="/img/post/adslpsim/7.jpg" width="50%">图1-7</center><h2 id="1-3-real-indexs11的扫描限制"><a href="#1-3-real-indexs11的扫描限制" class="headerlink" title="1.3 real_indexs11的扫描限制"></a>1.3 real_indexs11的扫描限制</h2><ul><li>设置水平扫描线</li></ul><center><img src="/img/post/adslpsim/8.jpg" width="50%">图1-8</center><ul><li>计算c_limit</li></ul><center><img src="/img/post/adslpsim/9.jpg" width="50%">图1-9</center><ul><li>计算扫描线lines的数量和每条线上的扫描点数</li></ul><center><img src="/img/post/adslpsim/10.jpg" width="50%">图1-10</center><h1 id="2-在谐波频率指定任意反射系数"><a href="#2-在谐波频率指定任意反射系数" class="headerlink" title="2. 在谐波频率指定任意反射系数"></a>2. 在谐波频率指定任意反射系数</h1><ul><li>需要注意的而是，虽说可以设置负载阻抗与频率无关，但这样的仿真会给出一个不切实际的简单情况，从而得到一个次优的结果，当然也可以定义与频率相关的阻抗值，用if-then-else语句即可。但这里仅仅举个例子说明如何设置Load-Pull仿真，考虑与频率无关的负载阻抗。在变量模块VAR中声明：</li></ul><center><img src="/img/post/adslpsim/11.jpg" width="50%">图2-1</center><ul><li>如何把谐波频率对应的上述阻抗值加载在LoadTuner模块呢？通过list()函数得到数组，在ADS中的语句如下：</li></ul><center><img src="/img/post/adslpsim/12.jpg" width="50%">图2-2</center><ul><li>解释一下上面程序的执行过程：</li></ul><center><img src="/img/post/adslpsim/13.jpg" width="50%">图2-3</center><p>以上步骤就完成了Load-Pull仿真设置，此时就可以执行仿真了。接下来是画Pdel和PAE轮廓的步骤。</p><h1 id="3-计算输出功率Pdel和功率附加效率PAE并画出轮廓"><a href="#3-计算输出功率Pdel和功率附加效率PAE并画出轮廓" class="headerlink" title="3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓"></a>3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓</h1><p><em>（以下公式均在数据显示窗口dds中写入）</em></p><h2 id="3-1-计算直流功耗-Pdc"><a href="#3-1-计算直流功耗-Pdc" class="headerlink" title="3.1 计算直流功耗 Pdc"></a>3.1 计算直流功耗 Pdc</h2><center><img src="/img/post/adslpsim/14.jpg" width="50%">图3-1</center><h2 id="3-2-计算输出功率和PAE"><a href="#3-2-计算输出功率和PAE" class="headerlink" title="3.2 计算输出功率和PAE"></a>3.2 计算输出功率和PAE</h2><center><img src="/img/post/adslpsim/15.jpg" width="50%">图3-2</center><h2 id="3-3-计算Pdel和PAE的最大值"><a href="#3-3-计算Pdel和PAE的最大值" class="headerlink" title="3.3 计算Pdel和PAE的最大值"></a>3.3 计算Pdel和PAE的最大值</h2><ul><li>计算思想是首先找出一维(real_indexs11)的最大值，然后在该剩下的数组中找出最大值。即：</li></ul><center><img src="/img/post/adslpsim/16.jpg" width="50%">图3-3</center><p>Pdelmax的计算与此类似</p><h2 id="3-4-画Pdel和PAE的轮廓线"><a href="#3-4-画Pdel和PAE的轮廓线" class="headerlink" title="3.4 画Pdel和PAE的轮廓线"></a>3.4 画Pdel和PAE的轮廓线</h2><center><img src="/img/post/adslpsim/17.jpg" width="50%">图3-4</center><center><img src="/img/post/adslpsim/18.jpg" width="50%">图3-5</center><ul><li>当然，有一种更复杂但更灵活的画轮廓公式【优】，</li></ul><center><img src="/img/post/adslpsim/19.jpg" width="50%">图3-6</center><h3 id="3-4-1-在矩形图上生成轮廓线"><a href="#3-4-1-在矩形图上生成轮廓线" class="headerlink" title="3.4.1 在矩形图上生成轮廓线"></a>3.4.1 在矩形图上生成轮廓线</h3><center><img src="/img/post/adslpsim/20.jpg" width="50%">图3-7</center><h3 id="3-4-2-在Smith图上生成轮廓线"><a href="#3-4-2-在Smith图上生成轮廓线" class="headerlink" title="3.4.2 在Smith图上生成轮廓线"></a>3.4.2 在Smith图上生成轮廓线</h3><center><img src="/img/post/adslpsim/21.jpg" width="50%">图3-8</center><ul><li>画出实际仿真的反射系数点</li></ul><center><img src="/img/post/adslpsim/22.jpg" width="50%">图3-9</center><ul><li>计算出与光标m3对应的imag_indexs11和real_indexs11的索引并求出相应的Pdel和PAE：</li></ul><center><img src="/img/post/adslpsim/23.jpg" width="50%">图3-10</center><h1 id="4-小结"><a href="#4-小结" class="headerlink" title="4. 小结"></a>4. 小结</h1><p>从调研到验证这个过程花了自己大概1天的时间，整体来说并不复杂，感觉画出好看的图形基本上是数学几何公式的天下，反倒是计算PAE和Pdel并不是太难。</p><p>完成初次Load-Pull仿真后，会得到此刻源阻抗下的最优负载，但并不是最优源阻抗下的最优负载，还要进行source-pull仿真。因为放大器是双边的，所以确定了最优源阻抗也会改变之前的最优负载阻抗，因此又要迭代进行Load-Pull，一般这样来来回回做个3到4次就能确定最优源阻抗以及最优负载阻抗。迭代的方法是，先进行Load-Pull找到一个负载阻抗，然后将其代入source-pull的仿真设置中，仿真得到源阻抗，然后再将该源阻抗代入load-pull仿真设置……source-pull的设置与load-pull类似，只不过时固定基波负载阻抗，公式里面扫描的是源阻抗。还是如前言所说，仿真是次优的，最好还是用load-pull测试数据进行PA的设计。下图是本次验证所使用的原理图和DDS窗口：</p><center><img src="/img/post/adslpsim/24.jpg" width="50%"></center><center><img src="/img/post/adslpsim/25.jpg" width="50%"></center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;0-前言&quot;&gt;&lt;a href=&quot;#0-前言&quot; class=&quot;headerlink&quot; title=&quot;0. 前言&quot;&gt;&lt;/a&gt;0. 前言&lt;/h1&gt;&lt;p&gt;&lt;em&gt;本文来自作者的知乎文章，曾经用户名为cosmos，水印可见，原地址访问&lt;a href=&quot;https://zhua
+      
+    
+    </summary>
+    
+      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+    
+    
+      <category term="ads" scheme="https://cosicer.com/tags/ads/"/>
+    
+      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
     
   </entry>
   

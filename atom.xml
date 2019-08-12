@@ -60,11 +60,36 @@
   </entry>
   
   <entry>
+    <title>共结连理</title>
+    <link href="https://cosicer.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
+    <id>https://cosicer.com/post/共结连理.html</id>
+    <published>2019-05-05T01:51:35.000Z</published>
+    <updated>2019-08-12T13:03:37.870Z</updated>
+    
+    <content type="html"><![CDATA[<p>连理枝是指两棵树的枝干合生在一起。<br>北京故宫御花园里钦安殿、浮碧亭的旁边都有这样合生的树。在树皮和木质部之间，有一层细胞叫做形成层，这一层细胞有很强烈的向外和向内分裂作用，细胞分裂，增生了许多新的细胞，就会使树干长粗。如果两棵树在有风的天气里，树干互相摩擦，把树皮磨光了，到无风的时候，两条树枝挨近，形成层就密接在一起，互相增生的新细胞，就会长在一起，越是靠得紧，就越容易长在一起。</p><p>共谐连理的意思是：同根的草木、枝干连生在一起。现多用来比喻恩爱夫妻。</p><p>===满足狄利克雷条件的分割线===</p><p>~~结束两年恋爱，今天我和女朋友就正式领证啦！领证地点在斗城的安居。从此，自己也算一家之主了，竟然还有点方。要加油加油，冲鸭！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;连理枝是指两棵树的枝干合生在一起。&lt;br&gt;北京故宫御花园里钦安殿、浮碧亭的旁边都有这样合生的树。在树皮和木质部之间，有一层细胞叫做形成层，这一层细胞有很强烈的向外和向内分裂作用，细胞分裂，增生了许多新的细胞，就会使树干长粗。如果两棵树在有风的天气里，树干互相摩擦，把树皮磨光
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="happy" scheme="https://cosicer.com/tags/happy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>cds_to_OA</title>
     <link href="https://cosicer.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
     <id>https://cosicer.com/post/cds-to-OA小结.html</id>
     <published>2019-03-25T00:55:44.000Z</published>
-    <updated>2019-08-12T12:44:34.420Z</updated>
+    <updated>2019-08-12T12:48:53.716Z</updated>
     
     <content type="html"><![CDATA[<p>动机：<br>cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p><p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（PDKinstall.pl）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>]]></content>
     
@@ -84,6 +109,34 @@
       <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
     
       <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人为刀俎</title>
+    <link href="https://cosicer.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
+    <id>https://cosicer.com/post/人为刀俎.html</id>
+    <published>2019-03-07T11:45:14.000Z</published>
+    <updated>2019-08-12T12:56:19.296Z</updated>
+    
+    <content type="html"><![CDATA[<p>贴一张图。</p><center><img src="/img/post/renwei/cover.jpg" width="60%"></center><p>上图是一款3bit 30Gbps DAC芯片的税前价格，近10w RMB一颗芯片。而一个工控、通信乃至jun用系统，一台机器，难道才使用一颗这样的芯片吗？国内研制不出来这样高性能的芯片，又被米国禁运，第三方当然坐地起价。而高性能ADC芯片目前根本还没有渠道可以购买，这就不是钱能解决的事情了。总之，没有核心技术就如同案板上的鱼肉，任人宰割。</p><p>国家也在努力，但40年过去了，依然摆脱不了进口芯片的事实。问题出在哪儿呢？有篇报告认为：</p><blockquote>· 中国在半导体方面投入了巨资，这些投入正在取得成果，但目前仍然依赖西方技术。· 中国是一个技术净进口过，芯片和技术进口仍将是未来许多年的常态。· 中国创新增长的趋势面临风险<p>政府的支持意味着中国企业即使在无利可图的情况下也可以继续经营，这将对中国经济和其他国家的经济造成损害。中国政府补贴的扩张将挤压其他国家的半导体企业，缩减它们的收入和数量，降低半导体生产商投资研发的能力。中国投资的总体影响将是削弱全球产业，减缓半导体创新的步伐。</p></blockquote>Anyway，干一行爱一行，积累，也从自身做起。]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;贴一张图。&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/img/post/renwei/cover.jpg&quot; width=&quot;60%&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;上图是一款3bit 30Gbps DAC芯片的税前价格，近10w RMB一颗芯片。而一个工控、通信乃至jun用
+      
+    
+    </summary>
+    
+      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+    
+    
+      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
     
   </entry>
   

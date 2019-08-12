@@ -14,17 +14,17 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,">
+  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,happy,">
   <!-- page.description has higher priority -->
   <meta name="description" content="刘三姐的小站，致力于分享和思考。">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    阅微草堂
+    共结连理 | 阅微草堂
     
   </title>
 
-  <link rel="canonical" href="/tags/cadence/">
+  <link rel="canonical" href="/post/共结连理.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -196,7 +196,7 @@
                     
                 </li>
                 
-                <li class="gkt-cate-name float-left ">
+                <li class="gkt-cate-name float-left active">
                     <a class="float-left" href="/post/共结连理.html">生活</a>
                     
                 </li>
@@ -239,67 +239,78 @@
     <!-- Post Container -->
     
     <style>
-        @media (min-width: 1200px) {
-            .main-container {
-                width: 1000px !important;
-            }
-        }
+    .sidebar {
+        position: static;
+        float: left;
+        font-size: 14px;
+    }
 
-        #gkt-index-sidebar {
-            border-left: 1px solid #eaecef;
-        }
+    .sidebar-left {
+        border-right: 1px solid #eaecef;
+        margin-right: 10px;
+    }
 
-        #gkt-index-sidebar section {
-            margin-bottom: 10px;
-        }
-    </style>
-    <div class="col-xs-12 padding-0">
-        <div class="col-xs-12 col-md-8">
-            
-<!-- Main Content -->
-<div class="post-list">
-    
+    .sidebar-left,
+    .sidebar-left>div {
+        width: 280px;
+    }
 
-    <!-- 归档列表 -->
-    <ul>
-        
-        <li class="post-item-parent post-item-color-4">
-            <a href="/archives/#2019" class="post-text-parent" id="2019">
-                2019
-            </a>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/ういちど.html">ういちど！</a>
-            <span class="post-item-date">(Aug 11, 2019)</span>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/buildsite.html">建站基本流程</a>
-            <span class="post-item-date">(Aug 11, 2019)</span>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/共结连理.html">共结连理</a>
-            <span class="post-item-date">(May 5, 2019)</span>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/cds-to-OA小结.html">cds_to_OA</a>
-            <span class="post-item-date">(Mar 25, 2019)</span>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/人为刀俎.html">人为刀俎</a>
-            <span class="post-item-date">(Mar 7, 2019)</span>
-        </li>
-        
-        
-    </ul>
-</div>
-        </div>
-        <div id="gkt-index-sidebar" class="hidden-xs hidden-sm col-md-4">
-            <section><style>
+    .sidebar-right,
+    .sidebar-right>div {
+        width: 260px;
+    }
+
+    .sidebar-wrapper li {
+        list-style-type: square;
+    }
+
+    .sidebar-wrapper a {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 14px;
+    }
+
+    .sidebar-active {
+        color: #108ee9 !important;
+        font-weight: bold;
+    }
+
+    .sidebar-wrapper section {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .sidebar-fixed {
+        position: fixed;
+        top: 46px;
+        margin-top: 0;
+        max-height: 81%;
+        z-index: 1;
+    }
+</style>
+<style>
+    .post-container {
+        overflow: hidden;
+    }
+
+    .post-item-date {
+        margin-left: 10px;
+        color: hsla(0, 0%, 71%, .9);
+        font-size: 0.85em;
+    }
+
+    .series_links {
+        border: 1px solid #eaecef;
+        padding: 15px;
+        background-color: #fff8dc;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+</style>
+<!-- Post Content -->
+<aside class="sidebar sidebar-left hidden-xs hidden-sm">
+    <div></div>
+    <div class="sidebar-wrapper" style="top: -60px">
+        <section><style>
     .gkt-summary {
         border: 1px solid #DDDDDD;
         border-radius: 3px;
@@ -375,7 +386,374 @@
     </div>
     
 </div></section>
-            <section><!-- Featured Tags -->
+        
+        
+        <section>
+            <h3>生活</h3>
+            <ul>
+                
+                <li>
+                    <a href="/post/共结连理.html"
+                        class="sidebar-active">共结连理</a>
+                </li>
+                
+                <li>
+                    <a href="/post/ういちど.html"
+                        class="">ういちど！</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+        
+        <section>
+            <h3>最近的文章</h3>
+            <ul>
+                
+                <li>
+                    <a href="/post/ういちど.html">ういちど！</a>
+                </li>
+                
+                <li>
+                    <a href="/post/buildsite.html">建站基本流程</a>
+                </li>
+                
+                <li>
+                    <a href="/post/共结连理.html">共结连理</a>
+                </li>
+                
+                <li>
+                    <a href="/post/cds-to-OA小结.html">cds_to_OA</a>
+                </li>
+                
+                <li>
+                    <a href="/post/人为刀俎.html">人为刀俎</a>
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+</aside>
+<div class="col-xs-12">
+    <article class="post-container">
+        <h1> 共结连理 </h1>
+
+        
+
+        
+        <div class="hidden-lg hidden-md series_links">
+            <p> <strong> 生活系列文章链接：</strong></p>
+            <ul>
+                
+                <li>
+                    <a href="/post/共结连理.html">共结连理</a>
+                    <span class="post-item-date">(May 5, 2019)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/ういちど.html">ういちど！</a>
+                    <span class="post-item-date">(Aug 11, 2019)</span>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+        
+        <p>连理枝是指两棵树的枝干合生在一起。<br>北京故宫御花园里钦安殿、浮碧亭的旁边都有这样合生的树。在树皮和木质部之间，有一层细胞叫做形成层，这一层细胞有很强烈的向外和向内分裂作用，细胞分裂，增生了许多新的细胞，就会使树干长粗。如果两棵树在有风的天气里，树干互相摩擦，把树皮磨光了，到无风的时候，两条树枝挨近，形成层就密接在一起，互相增生的新细胞，就会长在一起，越是靠得紧，就越容易长在一起。</p>
+<p>共谐连理的意思是：同根的草木、枝干连生在一起。现多用来比喻恩爱夫妻。</p>
+<p>===满足狄利克雷条件的分割线===</p>
+<p>~~结束两年恋爱，今天我和女朋友就正式领证啦！领证地点在斗城的安居。从此，自己也算一家之主了，竟然还有点方。要加油加油，冲鸭！</p>
+
+        <hr>
+        <hr />
+        <!-- 文章末尾的提示 start -->
+        
+        <p>
+            本站永久域名<strong>「 <a href="/post/共结连理.html">cosicer.com</a>
+                」</strong>，也可搜索<strong>「 阅微草堂 」</strong>找到我。
+        </p>
+        
+        
+        <!-- 文章末尾的提示 end -->
+        <div class="hidden-xs col-xs-12 text-center">
+    <canvas id="geektutu-post-qr"></canvas>
+    <p style="margin-top: -10px;"><small>微信扫一扫，阅读/分享</small></p>
+</div>
+<script src="/js/qrious.min.js"></script>
+<script>
+    (function () {
+        new QRious({
+            element: document.getElementById('geektutu-post-qr'),
+            value: window.location.href,
+            size: 120
+        });
+    })();
+</script>
+        <hr>
+        <div>
+            <p>
+                <span>标签: </span>
+                
+                <a href="/tags/#happy">
+                    <code style="color: #333" key="happy" class="post-label">#happy</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span>分类: </span>
+                
+                <a href="/categories/#生活">
+                    <code style="color: #c7254e" key="生活" class="post-label">生活</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span>发表于2019-05-05 09:51:35，最后修改于2019-08-12 21:03:37。</span>
+            </p>
+            <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
+        </div>
+        <hr />
+        <p name="pagination">
+    
+    <a class="float-left" href="/post/cds-to-OA小结.html">« 上一篇 cds_to_OA</a>
+    
+    
+    <a class="float-right" href="/post/buildsite.html">下一篇 » 建站基本流程</a>
+    
+</p>
+    </article>
+    <!-- 赞赏 -->
+    <!--打赏-->
+
+<style>
+    #reward .reward-btn-wrapper {
+        width: 100px;
+        padding-top: 25px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    #reward .reward-btn {
+        padding: 2px 15px;
+        color: #fff;
+        background-color: #ea6f5a;
+        border-radius: 20px;
+    }
+
+    #reward .reward-code {
+        position: absolute;
+        top: -230px;
+        left: 50%;
+        display: none;
+        width: 360px;
+        height: 240px;
+        margin-left: -180px;
+        padding: 15px 20px;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        box-shadow: 0 1px 1px 1px #efefef;
+    }
+
+    #reward .reward-code:after,
+    #reward .reward-code:before {
+        position: absolute;
+        content: '';
+        border: 10px solid transparent
+    }
+
+    #reward .reward-code:after {
+        bottom: -19px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #fff
+    }
+
+    #reward .reward-code:before {
+        bottom: -20px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #e6e6e6
+    }
+
+    #reward .qr-code {
+        width: 50%;
+        float: left;
+        padding: 5px;
+    }
+
+    #reward .qr-code p {
+        margin-top: -6px;
+    }
+
+    #reward img[alt='i'] {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 2;
+        margin-left: 75px;
+        margin-top: 65px;
+    }
+
+    #reward img[alt="ali"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #0f9be0;
+    }
+
+    #reward img[alt="wechat"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #3db034;
+    }
+
+    #reward .reward-tip {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        color: #ea6f5a;
+    }
+</style>
+<div id="reward" class="col-xs-12">
+    <div class="reward-btn-wrapper">
+        <div class="reward-btn text-center">赞赏支持</div>
+    </div>
+    <div class="reward-code text-center">
+        <p class="text-center reward-tip"><strong>有杯咖啡喝就好了~ </strong></p>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-ali" src="" alt="ali">
+            <p><small>支付宝</small></p>
+        </div>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-wechat" src="" alt="wechat">
+            <p><small>微信</small></p>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window, document) {
+        var aliQr = new QRious({ value: 'HTTPS://QR.ALIPAY.COM/FKX060967JKWZT6XOQ3D14' });
+        var wechatQr = new QRious({ value: 'wxp://f2f0w156GnDAImCWVDnlV9-pGu4nzp6X9VGf' });
+        document.querySelector('#reward-ali').src = aliQr.toDataURL();
+        document.querySelector('#reward-wechat').src = wechatQr.toDataURL();
+
+        var rewardBtn = document.querySelector('#reward .reward-btn-wrapper');
+        var qrCode = document.querySelector('#reward .reward-code')
+        var activeFunc = function (e) {
+            qrCode.style.display = 'block';
+        }
+        var hideFunc = function (e) {
+            qrCode.style.display = 'none';
+        }
+
+        rewardBtn.addEventListener('mouseenter', activeFunc, false)
+        rewardBtn.addEventListener('mouseover', activeFunc, false)
+        rewardBtn.addEventListener('mouseleave', hideFunc, false)
+        qrCode.addEventListener('mouseenter', activeFunc, false)
+        qrCode.addEventListener('mouseover', activeFunc, false)
+        qrCode.addEventListener('mouseleave', hideFunc, false)
+    })(window, document);
+</script>
+
+    <!-- 推荐阅读三篇文章 -->
+    <div style="margin-top: 20px">
+        <h3>推荐阅读</h3>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/ういちど.html" class="title">
+                ういちど！
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文109字，</span>
+                    <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/buildsite/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#website"
+                    title="website">website</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/buildsite.html" class="title">
+                建站基本流程
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文912字，</span>
+                    <span>阅读约2分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/lianli/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#happy"
+                    title="happy">happy</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/共结连理.html" class="title">
+                共结连理
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-05-05，</span>
+                    <span class="hidden-xs">全文418字，</span>
+                    <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+    </div>
+    <div style="margin: 20px 0">
+        <!-- 标签列表 -->
+        <!-- Featured Tags -->
 <style>
     #featured-tag .post-tag-item {
         font-size: 12px;
@@ -410,137 +788,142 @@
     <a class="post-tag-item" href="/tags/#happy" title="happy"
         rel="1">#happy (1) </a>
     
-</div></section>
-            
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-        </div>
+</div>
     </div>
+    <div style="overflow: hidden;">
+        
+
+
+
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-939225546" data-ad-slot="2247208099"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+<div style="height: 10px;"></div>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+    </div>
+    <!-- 评论 -->
+    
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="/css/gitalk.css">
+<script src="/js/gitalk.min.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        const gitalk = new Gitalk({
+            clientID: '783e888d298cb1fcec4f',
+            clientSecret: 'df330db37b2d67f6caf1048fb4338dca98f5fc99',
+            repo: 'MyBlog',
+            owner: 'LSanJie',
+            admin: ['LSanJie'],
+            id: window.location.pathname,
+            distractionFreeMode: false
+        });
+        gitalk.render('gitalk-container');
+        document.querySelector('#gitalk-container').addEventListener('click', function (e) {
+            e && e.stopPropagation && e.stopPropagation();
+        });
+    })
+</script>
+
+</div>
+<aside class="sidebar sidebar-right hidden-md hidden-xs hidden-sm">
+    <div></div>
+    <div class="sidebar-wrapper">
+        <section><!-- Table of Contents -->
+<h3>目录</h3>
+<div id="sidebar-toc">
+  <!-- TOC  -->
+  
+</div>
+
+<script>
+  (function () {
+    var h2 = document.querySelectorAll('article h2');
+    var h3 = document.querySelectorAll('article h3');
+    var linkList = document.querySelectorAll('#sidebar-toc a');
+
+    function findLinkElement(name) {
+      for (var i = 0; i < linkList.length; i++) {
+        var items = linkList[i].href.split('#');
+        if (items && items[items.length - 1] === encodeURIComponent(name)) {
+          return i;
+        }
+      }
+      return -1;
+    }
+
+    function activeLink(titleList) {
+      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      for (var i = titleList.length - 1; i >= 0; i--) {
+        if (scrollTop - titleList[i].offsetTop > 0) {
+          var index = findLinkElement(titleList[i].id);
+          index != -1 && linkList[index].classList.add('sidebar-active');
+          break;
+        }
+      }
+    }
+
+    window.addEventListener("scroll", function (e) {
+      [].slice.call(linkList).forEach(function (link) {
+        link.classList.remove('sidebar-active');
+      })
+      activeLink(h2);
+    })
+  })();
+</script></section>
+        
+
+        
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+    </div>
+</aside>
+<script>
+    (function () {
+        [].slice.call(document.querySelectorAll('.sidebar .sidebar-wrapper')).forEach(function (ele, index) {
+            var last = 0
+            window.addEventListener("scroll", function (e) {
+                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                var isDown = scrollTop > last;
+                var pos = getPosition(ele).y - scrollTop;
+                var downLimit = index == 0 ? -50 : 40;
+                var upLimit = index == 0 ? -100 : 40;
+                isDown && pos <= downLimit && ele.classList.add("sidebar-fixed");
+                !isDown && pos > upLimit && ele.classList.remove("sidebar-fixed");
+                last = scrollTop
+            })
+        })
+    })();
+</script>
     
 </main>
     </div>

@@ -192,17 +192,17 @@
                 
                 
                 <li class="gkt-cate-name float-left active">
-                    <a class="float-left" href="/post/cds-to-OA小结.html">专业</a>
+                    <a class="float-left" href="/post/人为刀俎.html">专业</a>
+                    
+                </li>
+                
+                <li class="gkt-cate-name float-left ">
+                    <a class="float-left" href="/post/共结连理.html">生活</a>
                     
                 </li>
                 
                 <li class="gkt-cate-name float-left ">
                     <a class="float-left" href="/post/buildsite.html">业余</a>
-                    
-                </li>
-                
-                <li class="gkt-cate-name float-left ">
-                    <a class="float-left" href="/post/ういちど.html">生活</a>
                     
                 </li>
                 
@@ -364,13 +364,13 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">3</number><span>文章</span>
+            <number class="number">5</number><span>文章</span>
         </a>
-        <a href="/series" class="col-xs-4 middle">
+        <a href="/categories" class="col-xs-4 middle">
             <number class="number">3</number><span>分类</span>
         </a>
         <a href="/tags" class="col-xs-4">
-            <number class="number">4</number><span>标签</span>
+            <number class="number">5</number><span>标签</span>
         </a>
     </nav>
 
@@ -391,6 +391,11 @@
         <section>
             <h3>专业</h3>
             <ul>
+                
+                <li>
+                    <a href="/post/人为刀俎.html"
+                        class="">人为刀俎</a>
+                </li>
                 
                 <li>
                     <a href="/post/cds-to-OA小结.html"
@@ -414,7 +419,15 @@
                 </li>
                 
                 <li>
+                    <a href="/post/共结连理.html">共结连理</a>
+                </li>
+                
+                <li>
                     <a href="/post/cds-to-OA小结.html">cds_to_OA</a>
+                </li>
+                
+                <li>
+                    <a href="/post/人为刀俎.html">人为刀俎</a>
                 </li>
                 
             </ul>
@@ -433,6 +446,11 @@
             <ul>
                 
                 <li>
+                    <a href="/post/人为刀俎.html">人为刀俎</a>
+                    <span class="post-item-date">(Mar 7, 2019)</span>
+                </li>
+                
+                <li>
                     <a href="/post/cds-to-OA小结.html">cds_to_OA</a>
                     <span class="post-item-date">(Mar 25, 2019)</span>
                 </li>
@@ -445,6 +463,8 @@
         <p>动机：<br>cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p>
 <p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（PDKinstall.pl）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>
 
+        <hr>
+        <hr />
         <!-- 文章末尾的提示 start -->
         
         <p>
@@ -486,22 +506,24 @@
             <p>
                 <span>分类: </span>
                 
-                <a href="/series/#专业">
+                <a href="/categories/#专业">
                     <code style="color: #c7254e" key="专业" class="post-label">专业</code>
                 </a>
                 
             </p>
             
             <p>
-                <span>发表于2019-03-25 08:55:44，最后修改于2019-08-12 20:44:34。</span>
+                <span>发表于2019-03-25 08:55:44，最后修改于2019-08-12 20:48:53。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
         <hr />
         <p name="pagination">
     
+    <a class="float-left" href="/post/人为刀俎.html">« 上一篇 人为刀俎</a>
     
-    <a class="float-right" href="/post/buildsite.html">下一篇 » 建站基本流程</a>
+    
+    <a class="float-right" href="/post/共结连理.html">下一篇 » 共结连理</a>
     
 </p>
     </article>
@@ -702,7 +724,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/cdstooa/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/lianli/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -710,23 +732,19 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#cadence"
-                    title="cadence">cadence</a>
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#ic"
-                    title="ic">ic</a>
+                <a class="text-gray" href="/tags/#happy"
+                    title="happy">happy</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/cds-to-OA小结.html" class="title">
-                cds_to_OA
+            <a href="/post/共结连理.html" class="title">
+                共结连理
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-03-25，</span>
-                    <span class="hidden-xs">全文680字，</span>
+                    <span>发表于2019-05-05，</span>
+                    <span class="hidden-xs">全文418字，</span>
                     <span>阅读约1分钟</span>
                 </small>
             </p>
@@ -767,7 +785,10 @@
         rel="1">#ic (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
-        rel="1">#thinking (1) </a>
+        rel="2">#thinking (2) </a>
+    
+    <a class="post-tag-item" href="/tags/#happy" title="happy"
+        rel="1">#happy (1) </a>
     
 </div>
     </div>
@@ -1021,7 +1042,7 @@
     <p>
         <small>© 2019 - 刘三姐 - </small>
         <small>
-            <a target="_blank" rel="nofollow noopener" href="http://www.miitbeian.gov.cn/">without备案</a>
+            <a target="_blank" rel="nofollow noopener" href="http://www.miitbeian.gov.cn/">零·备案</a>
         </small>
     </p>
     <p class="footer-hexo">

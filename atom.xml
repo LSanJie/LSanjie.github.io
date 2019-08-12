@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cosicer.com/"/>
-  <updated>2019-08-12T09:52:53.950Z</updated>
+  <updated>2019-08-12T12:24:10.548Z</updated>
   <id>https://cosicer.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cosicer.com/post/%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
     <id>https://cosicer.com/post/ういちど.html</id>
     <published>2019-08-11T14:38:04.000Z</published>
-    <updated>2019-08-12T09:52:53.950Z</updated>
+    <updated>2019-08-12T12:24:10.548Z</updated>
     
     <summary type="html">
     
@@ -56,6 +56,34 @@
     
     
       <category term="website" scheme="https://cosicer.com/tags/website/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cds_to_OA</title>
+    <link href="https://cosicer.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
+    <id>https://cosicer.com/post/cds-to-OA小结.html</id>
+    <published>2019-03-25T00:55:44.000Z</published>
+    <updated>2019-08-12T12:44:34.420Z</updated>
+    
+    <content type="html"><![CDATA[<p>动机：<br>cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p><p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（PDKinstall.pl）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;动机：&lt;br&gt;cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。&lt;/p&gt;
+&lt;p&gt;1.首先要得到一个pdk安装包(tar)，将其丢到
+      
+    
+    </summary>
+    
+      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+    
+    
+      <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
+    
+      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
     
   </entry>
   

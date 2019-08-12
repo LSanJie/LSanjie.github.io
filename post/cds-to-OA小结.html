@@ -14,17 +14,17 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,">
+  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,cadence,ic,">
   <!-- page.description has higher priority -->
   <meta name="description" content="刘三姐的小站，致力于分享和思考。">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    阅微草堂
+    cds_to_OA | 阅微草堂
     
   </title>
 
-  <link rel="canonical" href="/categories/业余/">
+  <link rel="canonical" href="/post/cds-to-OA小结.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -191,7 +191,7 @@
             <ul>
                 
                 
-                <li class="gkt-cate-name float-left ">
+                <li class="gkt-cate-name float-left active">
                     <a class="float-left" href="/post/cds-to-OA小结.html">专业</a>
                     
                 </li>
@@ -239,63 +239,78 @@
     <!-- Post Container -->
     
     <style>
-        @media (min-width: 1200px) {
-            .main-container {
-                width: 1000px !important;
-            }
-        }
+    .sidebar {
+        position: static;
+        float: left;
+        font-size: 14px;
+    }
 
-        #gkt-index-sidebar {
-            border-left: 1px solid #eaecef;
-        }
+    .sidebar-left {
+        border-right: 1px solid #eaecef;
+        margin-right: 10px;
+    }
 
-        #gkt-index-sidebar section {
-            margin-bottom: 10px;
-        }
-    </style>
-    <div class="col-xs-12 padding-0">
-        <div class="col-xs-12 col-md-8">
-            
-<!-- Main Content -->
-<div class="post-list">
-    <!-- 专题列表 -->
-    <ul>
-        
-        <li class="post-item-parent post-item-color-0">
-            <a class="post-text-parent" id="业余">业余</a>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/buildsite.html">建站基本流程</a>
-            <span class="post-item-date">(Aug 11, 2019)</span>
-        </li>
-        
-        
-        <li class="post-item-parent post-item-color-1">
-            <a class="post-text-parent" id="专业">专业</a>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/cds-to-OA小结.html">cds_to_OA</a>
-            <span class="post-item-date">(Mar 25, 2019)</span>
-        </li>
-        
-        
-        <li class="post-item-parent post-item-color-2">
-            <a class="post-text-parent" id="生活">生活</a>
-        </li>
-        
-        <li>
-            <a class="post-item-title" href="/post/ういちど.html">ういちど！</a>
-            <span class="post-item-date">(Aug 11, 2019)</span>
-        </li>
-        
-        
-    </ul>
-</div>
-        </div>
-        <div id="gkt-index-sidebar" class="hidden-xs hidden-sm col-md-4">
-            <section><style>
+    .sidebar-left,
+    .sidebar-left>div {
+        width: 280px;
+    }
+
+    .sidebar-right,
+    .sidebar-right>div {
+        width: 260px;
+    }
+
+    .sidebar-wrapper li {
+        list-style-type: square;
+    }
+
+    .sidebar-wrapper a {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 14px;
+    }
+
+    .sidebar-active {
+        color: #108ee9 !important;
+        font-weight: bold;
+    }
+
+    .sidebar-wrapper section {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .sidebar-fixed {
+        position: fixed;
+        top: 46px;
+        margin-top: 0;
+        max-height: 81%;
+        z-index: 1;
+    }
+</style>
+<style>
+    .post-container {
+        overflow: hidden;
+    }
+
+    .post-item-date {
+        margin-left: 10px;
+        color: hsla(0, 0%, 71%, .9);
+        font-size: 0.85em;
+    }
+
+    .series_links {
+        border: 1px solid #eaecef;
+        padding: 15px;
+        background-color: #fff8dc;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+</style>
+<!-- Post Content -->
+<aside class="sidebar sidebar-left hidden-xs hidden-sm">
+    <div></div>
+    <div class="sidebar-wrapper" style="top: -60px">
+        <section><style>
     .gkt-summary {
         border: 1px solid #DDDDDD;
         border-radius: 3px;
@@ -371,7 +386,358 @@
     </div>
     
 </div></section>
-            <section><!-- Featured Tags -->
+        
+        
+        <section>
+            <h3>专业</h3>
+            <ul>
+                
+                <li>
+                    <a href="/post/cds-to-OA小结.html"
+                        class="sidebar-active">cds_to_OA</a>
+                </li>
+                
+            </ul>
+        </section>
+        
+        
+        <section>
+            <h3>最近的文章</h3>
+            <ul>
+                
+                <li>
+                    <a href="/post/ういちど.html">ういちど！</a>
+                </li>
+                
+                <li>
+                    <a href="/post/buildsite.html">建站基本流程</a>
+                </li>
+                
+                <li>
+                    <a href="/post/cds-to-OA小结.html">cds_to_OA</a>
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+</aside>
+<div class="col-xs-12">
+    <article class="post-container">
+        <h1> cds_to_OA </h1>
+
+        
+
+        
+        <div class="hidden-lg hidden-md series_links">
+            <p> <strong> 专业系列文章链接：</strong></p>
+            <ul>
+                
+                <li>
+                    <a href="/post/cds-to-OA小结.html">cds_to_OA</a>
+                    <span class="post-item-date">(Mar 25, 2019)</span>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+        
+        <p>动机：<br>cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p>
+<p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（PDKinstall.pl）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>
+
+        <!-- 文章末尾的提示 start -->
+        
+        <p>
+            本站永久域名<strong>「 <a href="/post/cds-to-OA小结.html">cosicer.com</a>
+                」</strong>，也可搜索<strong>「 阅微草堂 」</strong>找到我。
+        </p>
+        
+        
+        <!-- 文章末尾的提示 end -->
+        <div class="hidden-xs col-xs-12 text-center">
+    <canvas id="geektutu-post-qr"></canvas>
+    <p style="margin-top: -10px;"><small>微信扫一扫，阅读/分享</small></p>
+</div>
+<script src="/js/qrious.min.js"></script>
+<script>
+    (function () {
+        new QRious({
+            element: document.getElementById('geektutu-post-qr'),
+            value: window.location.href,
+            size: 120
+        });
+    })();
+</script>
+        <hr>
+        <div>
+            <p>
+                <span>标签: </span>
+                
+                <a href="/tags/#cadence">
+                    <code style="color: #333" key="cadence" class="post-label">#cadence</code>
+                </a>
+                
+                <a href="/tags/#ic">
+                    <code style="color: #333" key="ic" class="post-label">#ic</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span>分类: </span>
+                
+                <a href="/series/#专业">
+                    <code style="color: #c7254e" key="专业" class="post-label">专业</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span>发表于2019-03-25 08:55:44，最后修改于2019-08-12 20:44:34。</span>
+            </p>
+            <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
+        </div>
+        <hr />
+        <p name="pagination">
+    
+    
+    <a class="float-right" href="/post/buildsite.html">下一篇 » 建站基本流程</a>
+    
+</p>
+    </article>
+    <!-- 赞赏 -->
+    <!--打赏-->
+
+<style>
+    #reward .reward-btn-wrapper {
+        width: 100px;
+        padding-top: 25px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    #reward .reward-btn {
+        padding: 2px 15px;
+        color: #fff;
+        background-color: #ea6f5a;
+        border-radius: 20px;
+    }
+
+    #reward .reward-code {
+        position: absolute;
+        top: -230px;
+        left: 50%;
+        display: none;
+        width: 360px;
+        height: 240px;
+        margin-left: -180px;
+        padding: 15px 20px;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        box-shadow: 0 1px 1px 1px #efefef;
+    }
+
+    #reward .reward-code:after,
+    #reward .reward-code:before {
+        position: absolute;
+        content: '';
+        border: 10px solid transparent
+    }
+
+    #reward .reward-code:after {
+        bottom: -19px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #fff
+    }
+
+    #reward .reward-code:before {
+        bottom: -20px;
+        left: 50%;
+        margin-left: -10px;
+        border-top-color: #e6e6e6
+    }
+
+    #reward .qr-code {
+        width: 50%;
+        float: left;
+        padding: 5px;
+    }
+
+    #reward .qr-code p {
+        margin-top: -6px;
+    }
+
+    #reward img[alt='i'] {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 2;
+        margin-left: 75px;
+        margin-top: 65px;
+    }
+
+    #reward img[alt="ali"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #0f9be0;
+    }
+
+    #reward img[alt="wechat"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px solid #3db034;
+    }
+
+    #reward .reward-tip {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        color: #ea6f5a;
+    }
+</style>
+<div id="reward" class="col-xs-12">
+    <div class="reward-btn-wrapper">
+        <div class="reward-btn text-center">赞赏支持</div>
+    </div>
+    <div class="reward-code text-center">
+        <p class="text-center reward-tip"><strong>有杯咖啡喝就好了~ </strong></p>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-ali" src="" alt="ali">
+            <p><small>支付宝</small></p>
+        </div>
+        <div class="qr-code">
+            <img src="/img/icon.png" alt="i">
+            <img id="reward-wechat" src="" alt="wechat">
+            <p><small>微信</small></p>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window, document) {
+        var aliQr = new QRious({ value: 'HTTPS://QR.ALIPAY.COM/FKX060967JKWZT6XOQ3D14' });
+        var wechatQr = new QRious({ value: 'wxp://f2f0w156GnDAImCWVDnlV9-pGu4nzp6X9VGf' });
+        document.querySelector('#reward-ali').src = aliQr.toDataURL();
+        document.querySelector('#reward-wechat').src = wechatQr.toDataURL();
+
+        var rewardBtn = document.querySelector('#reward .reward-btn-wrapper');
+        var qrCode = document.querySelector('#reward .reward-code')
+        var activeFunc = function (e) {
+            qrCode.style.display = 'block';
+        }
+        var hideFunc = function (e) {
+            qrCode.style.display = 'none';
+        }
+
+        rewardBtn.addEventListener('mouseenter', activeFunc, false)
+        rewardBtn.addEventListener('mouseover', activeFunc, false)
+        rewardBtn.addEventListener('mouseleave', hideFunc, false)
+        qrCode.addEventListener('mouseenter', activeFunc, false)
+        qrCode.addEventListener('mouseover', activeFunc, false)
+        qrCode.addEventListener('mouseleave', hideFunc, false)
+    })(window, document);
+</script>
+
+    <!-- 推荐阅读三篇文章 -->
+    <div style="margin-top: 20px">
+        <h3>推荐阅读</h3>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/ういちど.html" class="title">
+                ういちど！
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文109字，</span>
+                    <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/buildsite/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#website"
+                    title="website">website</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/buildsite.html" class="title">
+                建站基本流程
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文912字，</span>
+                    <span>阅读约2分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/cdstooa/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#cadence"
+                    title="cadence">cadence</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/cds-to-OA小结.html" class="title">
+                cds_to_OA
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-03-25，</span>
+                    <span class="hidden-xs">全文680字，</span>
+                    <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+    </div>
+    <div style="margin: 20px 0">
+        <!-- 标签列表 -->
+        <!-- Featured Tags -->
 <style>
     #featured-tag .post-tag-item {
         font-size: 12px;
@@ -403,137 +769,142 @@
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="1">#thinking (1) </a>
     
-</div></section>
-            
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-            
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-        </div>
+</div>
     </div>
+    <div style="overflow: hidden;">
+        
+
+
+
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-939225546" data-ad-slot="2247208099"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+<div style="height: 10px;"></div>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+    </div>
+    <!-- 评论 -->
+    
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="/css/gitalk.css">
+<script src="/js/gitalk.min.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        const gitalk = new Gitalk({
+            clientID: '783e888d298cb1fcec4f',
+            clientSecret: 'df330db37b2d67f6caf1048fb4338dca98f5fc99',
+            repo: 'MyBlog',
+            owner: 'LSanJie',
+            admin: ['LSanJie'],
+            id: window.location.pathname,
+            distractionFreeMode: false
+        });
+        gitalk.render('gitalk-container');
+        document.querySelector('#gitalk-container').addEventListener('click', function (e) {
+            e && e.stopPropagation && e.stopPropagation();
+        });
+    })
+</script>
+
+</div>
+<aside class="sidebar sidebar-right hidden-md hidden-xs hidden-sm">
+    <div></div>
+    <div class="sidebar-wrapper">
+        <section><!-- Table of Contents -->
+<h3>目录</h3>
+<div id="sidebar-toc">
+  <!-- TOC  -->
+  
+</div>
+
+<script>
+  (function () {
+    var h2 = document.querySelectorAll('article h2');
+    var h3 = document.querySelectorAll('article h3');
+    var linkList = document.querySelectorAll('#sidebar-toc a');
+
+    function findLinkElement(name) {
+      for (var i = 0; i < linkList.length; i++) {
+        var items = linkList[i].href.split('#');
+        if (items && items[items.length - 1] === encodeURIComponent(name)) {
+          return i;
+        }
+      }
+      return -1;
+    }
+
+    function activeLink(titleList) {
+      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      for (var i = titleList.length - 1; i >= 0; i--) {
+        if (scrollTop - titleList[i].offsetTop > 0) {
+          var index = findLinkElement(titleList[i].id);
+          index != -1 && linkList[index].classList.add('sidebar-active');
+          break;
+        }
+      }
+    }
+
+    window.addEventListener("scroll", function (e) {
+      [].slice.call(linkList).forEach(function (link) {
+        link.classList.remove('sidebar-active');
+      })
+      activeLink(h2);
+    })
+  })();
+</script></section>
+        
+
+        
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        
+
+<!-- 侧边栏ad 250 * 90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
+    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
+
+
+
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+    </div>
+</aside>
+<script>
+    (function () {
+        [].slice.call(document.querySelectorAll('.sidebar .sidebar-wrapper')).forEach(function (ele, index) {
+            var last = 0
+            window.addEventListener("scroll", function (e) {
+                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                var isDown = scrollTop > last;
+                var pos = getPosition(ele).y - scrollTop;
+                var downLimit = index == 0 ? -50 : 40;
+                var upLimit = index == 0 ? -100 : 40;
+                isDown && pos <= downLimit && ele.classList.add("sidebar-fixed");
+                !isDown && pos > upLimit && ele.classList.remove("sidebar-fixed");
+                last = scrollTop
+            })
+        })
+    })();
+</script>
     
 </main>
     </div>

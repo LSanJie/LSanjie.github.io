@@ -315,10 +315,30 @@
     }
 </style>
 
-<!-- Post Content -->
-
 <div class="col-xs-12">
     <article class="post-container">
+        <h1> 关于 </h1>
+
+        
+
+        
+        
+
+
+
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-939225546" data-ad-slot="2247208099"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+<div style="height: 10px;"></div>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        
+        
+        <h1 id="abc"><a href="#abc" class="headerlink" title="abc"></a>abc</h1>
         <!-- 文章末尾的提示 start -->
         
 
@@ -342,6 +362,11 @@
         </p>
         
         
+        <!-- 文章末尾的提示 end -->
+        <hr>
+        <div>
+            
+        </div>
         <hr />
         <p name="pagination">
     
@@ -482,81 +507,7 @@
     })(window, document);
 </script>
 
-    <!-- 评论 -->
-    
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="/css/gitalk.css">
-<script src="/js/gitalk.min.js"></script>
-<script>
-    window.addEventListener('load', function () {
-        const gitalk = new Gitalk({
-            clientID: '783e888d298cb1fcec4f',
-            clientSecret: 'df330db37b2d67f6caf1048fb4338dca98f5fc99',
-            repo: 'MyBlog',
-            owner: 'LSanJie',
-            admin: ['LSanJie'],
-            id: window.location.pathname,
-            distractionFreeMode: false
-        });
-        gitalk.render('gitalk-container');
-        document.querySelector('#gitalk-container').addEventListener('click', function (e) {
-            e && e.stopPropagation && e.stopPropagation();
-        });
-    })
-</script>
-
 </div>
-<aside class="sidebar sidebar-right hidden-md hidden-xs hidden-sm">
-    <div></div>
-    <div class="sidebar-wrapper">
-        
-
-        
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-        
-
-<!-- 侧边栏ad 250 * 90 -->
-<ins class="adsbygoogle" style="display:inline-block;width:250px;height:90px"
-    data-ad-client="ca-pub-939225546" data-ad-slot="3708583719"></ins>
-
-
-
-
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-    </div>
-</aside>
-<script>
-    (function () {
-        [].slice.call(document.querySelectorAll('.sidebar .sidebar-wrapper')).forEach(function (ele, index) {
-            var last = 0
-            window.addEventListener("scroll", function (e) {
-                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-                var isDown = scrollTop > last;
-                var pos = getPosition(ele).y - scrollTop;
-                var downLimit = index == 0 ? -50 : 40;
-                var upLimit = index == 0 ? -100 : 40;
-                isDown && pos <= downLimit && ele.classList.add("sidebar-fixed");
-                !isDown && pos > upLimit && ele.classList.remove("sidebar-fixed");
-                last = scrollTop
-            })
-        })
-    })();
 </script>
         </div>
         <div id="gkt-index-sidebar" class="hidden-xs hidden-sm col-md-4">

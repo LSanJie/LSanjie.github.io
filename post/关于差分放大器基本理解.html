@@ -14,7 +14,7 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,ic,">
+  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,ic,Analog,">
   <!-- page.description has higher priority -->
   <meta name="description" content="刘三姐的小站，致力于分享和思考。">
   <link rel="shortcut icon" href="/img/icon.png">
@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">13</number><span>文章</span>
+            <number class="number">14</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -397,6 +397,11 @@
                 </li>
                 
                 <li>
+                    <a href="/post/关于单级放大器基本理解.html"
+                        class="">关于单级共源放大器的基本理解</a>
+                </li>
+                
+                <li>
                     <a href="/post/关于差分放大器基本理解.html"
                         class="sidebar-active">关于差分放大器基本理解</a>
                 </li>
@@ -414,6 +419,10 @@
                 </li>
                 
                 <li>
+                    <a href="/post/关于单级放大器基本理解.html">关于单级共源放大器的基本理解</a>
+                </li>
+                
+                <li>
                     <a href="/post/Mathjax公式渲染.html">Mathjax公式渲染</a>
                 </li>
                 
@@ -423,10 +432,6 @@
                 
                 <li>
                     <a href="/post/沉默的默契.html">沉默的默契</a>
-                </li>
-                
-                <li>
-                    <a href="/post/もういちど.html">もういちど！</a>
                 </li>
                 
             </ul>
@@ -465,8 +470,13 @@
                 </li>
                 
                 <li>
+                    <a href="/post/关于单级放大器基本理解.html">关于单级共源放大器的基本理解</a>
+                    <span class="post-item-date">(Dec 16, 2019)</span>
+                </li>
+                
+                <li>
                     <a href="/post/关于差分放大器基本理解.html">关于差分放大器基本理解</a>
-                    <span class="post-item-date">(Sep 16, 2019)</span>
+                    <span class="post-item-date">(Dec 16, 2019)</span>
                 </li>
                 
             </ul>
@@ -475,8 +485,16 @@
         
         
         <p>关于差分放大器，很基础却用途很广，这里做个简单小结。差分放大器是围绕“差分”和“共模”这两个概念展开的，具有摆幅大、对共模干扰不敏感、偏置电路简单以及线性度高等优点。尾电流源的加入形成差分对，让偏置电流更小地依赖输入CM电平（Otherwise?）。</p>
-<p>从图1直观来看，差分对的Vin,CM范围具有如下边界，超过这个边界，虽说CM特性趋势不变，但差分增益会降低（Why?）。</p>
-<p>严格定量分析，大信号分析算出<span class="math inline">\(V_{out1}-V_{out2}\)</span>（也即ID1-ID2）关于Vin1-Vin2的转移函数，得到如下关系：</p>
+<p>从图1直观来看，差分对的<span class="math inline">\(V_{in,CM}\)</span>范围具有如下式边界，超过这个边界，虽说CM特性趋势不变，但差分增益会降低（Why?）。 <span class="math display">\[V_{GS1}+(V_{GS3}-V_{TH3}) \le V_{in,CM} \le min [V_{DD}-R_D \frac{I_{SS}}{2}+V_{TH}, V_{DD}] \]</span> 严格的定量分析，</p>
+<ul>
+<li>经过大信号分析算出<span class="math inline">\(\Delta V_{in}=V_{out1}-V_{out2}\)</span>（也即<span class="math inline">\(\Delta I=I_{D1}-I_{D2}\)</span>）关于<span class="math inline">\(\Delta V_{out}=V_{in1}-V_{in2}\)</span>的转移函数，得到如下关系： <span class="math display">\[I_{D1}-I_{D2}=\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{in1}-V_{in2})\sqrt{\frac{4I_{SS}}{\mu_nC_{ox}\frac{W}{L}}-(V_{in1}-V_{in2})^2}\]</span> 从上式可知道：1）等效跨导Gm；2）小信号差分增益<span class="math inline">\(|A_v|\)</span>；但由上式不能得出<span class="math inline">\(\Delta I\)</span>的过零点有两个：<span class="math inline">\(\Delta V_{in}=0\)</span> 和<span class="math inline">\(\Delta V_{in}=\sqrt{4I_{SS}/(\mu_nC_{ox}W/L}\)</span>。在这里，后者并不成立（Why？）。实际上，M1完全吸取电流<span class="math inline">\(I_{SS}\)</span>、M2刚完全关断时的<span class="math inline">\(\Delta V_{in1}\)</span>为平衡态过驱动电压的<span class="math inline">\(\sqrt{2}\)</span>倍。</li>
+</ul>
+<blockquote>
+<p>从设计的角度来考虑，增加<span class="math inline">\(V_{in1}\)</span>来使电路更加线性，就不可避免要增加M1和M2的过驱动电压。两种方法：1. <span class="math inline">\(I_{SS}\)</span>保持不变，减小W/L，代价是<span class="math inline">\(g_m\)</span>减小（gain降低）；2. W/L保持不变，增加<span class="math inline">\(I_{SS}\)</span>，代价是功耗上升（如果还要考虑摆幅，<span class="math inline">\(I_{SS}R_D\)</span>保持不变，gain还会下降）。</p>
+</blockquote>
+<ul>
+<li></li>
+</ul>
 
         <hr>
         <hr />
@@ -512,6 +530,10 @@
                     <code style="color: #333" key="ic" class="post-label">#ic</code>
                 </a>
                 
+                <a href="/tags/#Analog">
+                    <code style="color: #333" key="Analog" class="post-label">#Analog</code>
+                </a>
+                
             </p>
             
             <p>
@@ -524,7 +546,7 @@
             </p>
             
             <p>
-                <span>发表于2019-09-16 22:30:33，最后修改于2019-09-12 10:09:17。</span>
+                <span>发表于2019-12-16 22:30:33，最后修改于2019-09-12 16:37:44。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
@@ -533,6 +555,8 @@
     
     <a class="float-left" href="/post/Mathjax公式渲染.html">« 上一篇 Mathjax公式渲染</a>
     
+    
+    <a class="float-right" href="/post/关于单级放大器基本理解.html">下一篇 » 关于单级共源放大器的基本理解</a>
     
 </p>
     </article>
@@ -675,7 +699,73 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/关于差分放大器基本理解.html" class="title">
+                关于差分放大器基本理解
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-12-16，</span>
+                    <span class="hidden-xs">全文1078字，</span>
+                    <span>阅读约2分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/关于单级放大器基本理解.html" class="title">
+                关于单级共源放大器的基本理解
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-12-16，</span>
+                    <span class="hidden-xs">全文3907字，</span>
+                    <span>阅读约6分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/renwei/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -689,72 +779,14 @@
                 
                 
             </div>
-            <a href="/post/放下手机.html" class="title">
-                放下手机
+            <a href="/post/人为刀俎.html" class="title">
+                人为刀俎
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-09-10，</span>
-                    <span class="hidden-xs">全文258字，</span>
+                    <span>发表于2019-03-07，</span>
+                    <span class="hidden-xs">全文693字，</span>
                     <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/もういちど.html" class="title">
-                もういちど！
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-08-11，</span>
-                    <span class="hidden-xs">全文552字，</span>
-                    <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/lvyou/JP/3.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#happy"
-                    title="happy">happy</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/日本商旅之行.html" class="title">
-                日本商旅之行
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2018-11-17，</span>
-                    <span class="hidden-xs">全文8122字，</span>
-                    <span>阅读约12分钟</span>
                 </small>
             </p>
         </div>
@@ -784,14 +816,14 @@
 </style>
 <div id="featured-tag">
     
+    <a class="post-tag-item" href="/tags/#website" title="website"
+        rel="2">#website (2) </a>
+    
     <a class="post-tag-item" href="/tags/#ads" title="ads"
         rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
-        rel="3">#ic (3) </a>
-    
-    <a class="post-tag-item" href="/tags/#website" title="website"
-        rel="2">#website (2) </a>
+        rel="4">#ic (4) </a>
     
     <a class="post-tag-item" href="/tags/#cadence" title="cadence"
         rel="1">#cadence (1) </a>
@@ -802,8 +834,8 @@
     <a class="post-tag-item" href="/tags/#happy" title="happy"
         rel="2">#happy (2) </a>
     
-    <a class="post-tag-item" href="/tags/#websit" title="websit"
-        rel="0">#websit (0) </a>
+    <a class="post-tag-item" href="/tags/#Analog" title="Analog"
+        rel="2">#Analog (2) </a>
     
 </div>
     </div>

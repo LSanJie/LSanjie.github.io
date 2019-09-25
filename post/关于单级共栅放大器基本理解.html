@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    关于单级共栅放大器的基本理解 | 阅微草堂
+    关于单级共栅（CG）放大器的基本理解 | 阅微草堂
     
   </title>
 
@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">17</number><span>文章</span>
+            <number class="number">18</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -397,23 +397,23 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html"
-                        class="">关于单级共源放大器的基本理解</a>
-                </li>
-                
-                <li>
                     <a href="/post/关于单级共源放大器基本理解.html"
-                        class="">关于单级共源放大器的基本理解</a>
+                        class="">关于单级共源（CS）放大器的基本理解</a>
                 </li>
                 
                 <li>
                     <a href="/post/关于单级源跟随器基本理解 .html"
-                        class="">关于单级跟随器的基本理解</a>
+                        class="">关于单级跟随器（SF）的基本理解</a>
                 </li>
                 
                 <li>
                     <a href="/post/关于单级共栅放大器基本理解.html"
-                        class="sidebar-active">关于单级共栅放大器的基本理解</a>
+                        class="sidebar-active">关于单级共栅（CG）放大器的基本理解</a>
+                </li>
+                
+                <li>
+                    <a href="/post/关于共源共栅放大器基本理解.html"
+                        class="">关于共源共栅（Cascode）放大器的基本理解</a>
                 </li>
                 
                 <li>
@@ -434,19 +434,19 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅放大器的基本理解</a>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
                 </li>
                 
                 <li>
-                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器的基本理解</a>
+                    <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅（CG）放大器的基本理解</a>
                 </li>
                 
                 <li>
-                    <a href="/post/关于单级共源放大器基本理解.html">关于单级共源放大器的基本理解</a>
+                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器（SF）的基本理解</a>
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于单级共源放大器的基本理解</a>
+                    <a href="/post/关于单级共源放大器基本理解.html">关于单级共源（CS）放大器的基本理解</a>
                 </li>
                 
             </ul>
@@ -455,7 +455,7 @@
 </aside>
 <div class="col-xs-12">
     <article class="post-container">
-        <h1> 关于单级共栅放大器的基本理解 </h1>
+        <h1> 关于单级共栅（CG）放大器的基本理解 </h1>
 
         
 
@@ -485,23 +485,23 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于单级共源放大器的基本理解</a>
+                    <a href="/post/关于单级共源放大器基本理解.html">关于单级共源（CS）放大器的基本理解</a>
                     <span class="post-item-date">(Sep 17, 2019)</span>
                 </li>
                 
                 <li>
-                    <a href="/post/关于单级共源放大器基本理解.html">关于单级共源放大器的基本理解</a>
-                    <span class="post-item-date">(Sep 17, 2019)</span>
-                </li>
-                
-                <li>
-                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器的基本理解</a>
+                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器（SF）的基本理解</a>
                     <span class="post-item-date">(Sep 18, 2019)</span>
                 </li>
                 
                 <li>
-                    <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅放大器的基本理解</a>
+                    <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅（CG）放大器的基本理解</a>
                     <span class="post-item-date">(Sep 20, 2019)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <span class="post-item-date">(Sep 26, 2019)</span>
                 </li>
                 
                 <li>
@@ -515,7 +515,10 @@
         
         
         <p>　　在CS和SF中，输入信号加在MOS的栅上，其实也可加在源端，然后漏端输出，如图1(a)。Gate接dc进行合适的偏置。不过M1偏置电流将流过输入信号源，可进行(b)所示的修改。分析(a)的大信号行为，并微分可知小信号增益为+，且体效应增加了等效跨导值。如何最大化增益呢？第一，可以加宽器件增大<span class="math inline">\(g_m\)</span>，最终是器件进入亚阈值区（<span class="math inline">\(g_m\)</span>也是对指数关系求导）；第二，增大<span class="math inline">\(R_D\)</span>，不可避免输出电压裕度降低，(b)存在输出电压最小值<span class="math inline">\(V_{GS}-V_{TH}+V_{I1}\)</span>。其次，CG的输入电阻也很值得一谈。从源看进去的电阻即为输入电阻为：<span class="math inline">\(1/(g_m+g_{mb})\)</span>，体效应降低了输入电阻。这种低输入电阻特征在一些应用中十分有用，比如匹配50<span class="math inline">\(\Omega\)</span>输出电阻，但是增益可以更大！</p>
-<p>　　考虑一般情况下的CS级，即带晶体管输出电阻<span class="math inline">\(r_o\)</span>和信号源内阻<span class="math inline">\(R_S\)</span>的情况，其增益与源退化的CS级类似，不过由于体效应，CG级的增益要稍微高一点。同时分析CG级的输入和输出阻抗</p>
+<center>
+<img src="/img/post/razavi_aic/3cg/1.jpg" width="40%">图1 直接输入耦合和容性输入耦合的共栅级
+</center>
+<p>　　考虑一般情况下的CS级，即带晶体管输出电阻<span class="math inline">\(r_o\)</span>和信号源内阻<span class="math inline">\(R_S\)</span>的情况，其增益与源退化的CS级类似，不过由于体效应，CG级的增益要稍微高一点。同时用小信号模型分析CG级的输入和输出阻抗。可知：从源极看进去的输入阻抗为漏极阻抗除以本征增益<span class="math inline">\((g_m+g_{mb}r_o)\)</span>，这个观察比较重要，尤其是在短沟道器件中（Why?<strong>[1]</strong>）。 同时还可以考虑两种情况，<span class="math inline">\(R_D=0\)</span>时，该结构输入阻抗变成之前所讲SF从源端看进的阻抗；而将<span class="math inline">\(R_D\)</span>替换成电流源时，输入阻抗接近无穷大，虽有些惊讶，但也能解释该结果。直观上讲，因为总电流是固定为I1，源极上电位的变化并不会引起电流的变化，因此<span class="math inline">\(I_X=0\)</span>。以上分析表明，仅当漏极电阻较低时，CG级的输入阻抗才会相对较低。从退化的CS和CG分析可知，晶体管可以将源极电阻提升（从D端看进去），而将漏极电阻减小（从S端看进去）。于是很方便推导带体效应的输出阻抗表达式（可以不画小信号模型，考虑物理机制！Try！<strong>[2]</strong>）。</p>
 
         <hr>
         <hr />
@@ -567,17 +570,17 @@
             </p>
             
             <p>
-                <span>发表于2019-09-20 22:30:33，最后修改于2019-09-20 17:00:52。</span>
+                <span>发表于2019-09-20 22:30:33，最后修改于2019-09-25 09:06:42。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
         <hr />
         <p name="pagination">
     
-    <a class="float-left" href="/post/关于单级源跟随器基本理解 .html">« 上一篇 关于单级跟随器的基本理解</a>
+    <a class="float-left" href="/post/关于单级源跟随器基本理解 .html">« 上一篇 关于单级跟随器（SF）的基本理解</a>
     
     
-    <a class="float-right" href="/post/关于差分放大器基本理解.html">下一篇 » 关于差分放大器基本理解</a>
+    <a class="float-right" href="/post/关于共源共栅放大器基本理解.html">下一篇 » 关于共源共栅（Cascode）放大器的基本理解</a>
     
 </p>
     </article>
@@ -720,7 +723,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/mathjax/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cas/1.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -728,20 +731,24 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#website"
-                    title="website">website</a>
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/Mathjax公式渲染.html" class="title">
-                Mathjax公式渲染
+            <a href="/post/关于共源共栅放大器基本理解.html" class="title">
+                关于共源共栅（Cascode）放大器的基本理解
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-09-12，</span>
-                    <span class="hidden-xs">全文1464字，</span>
-                    <span>阅读约3分钟</span>
+                    <span>发表于2019-09-26，</span>
+                    <span class="hidden-xs">全文418字，</span>
+                    <span>阅读约1分钟</span>
                 </small>
             </p>
         </div>
@@ -749,7 +756,40 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/hkChina/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cs/1.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/关于单级共源放大器基本理解.html" class="title">
+                关于单级共源（CS）放大器的基本理解
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-09-17，</span>
+                    <span class="hidden-xs">全文3912字，</span>
+                    <span>阅读约6分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -763,42 +803,13 @@
                 
                 
             </div>
-            <a href="/post/沉默的默契.html" class="title">
-                沉默的默契
+            <a href="/post/放下手机.html" class="title">
+                放下手机
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-08-15，</span>
-                    <span class="hidden-xs">全文1412字，</span>
-                    <span>阅读约3分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/lianli/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#happy"
-                    title="happy">happy</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/共结连理.html" class="title">
-                共结连理
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-05-05，</span>
-                    <span class="hidden-xs">全文426字，</span>
+                    <span>发表于2019-09-10，</span>
+                    <span class="hidden-xs">全文258字，</span>
                     <span>阅读约1分钟</span>
                 </small>
             </p>
@@ -842,7 +853,7 @@
         rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
-        rel="6">#thinking (6) </a>
+        rel="7">#thinking (7) </a>
     
     <a class="post-tag-item" href="/tags/#happy" title="happy"
         rel="2">#happy (2) </a>

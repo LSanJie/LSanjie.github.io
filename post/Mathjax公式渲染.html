@@ -446,30 +446,21 @@
         
         <p>基于理工科属性和行文主题，公式不可避免，让前端支持数学公式，正是Mathjax目标。</p>
 <p>网络上大部分给出了NEXT主题下的方法，其实在其他主题下的方法也类似，不外乎以下几个步骤：</p>
-<ol>
-<li><p>更换Hexo的markdown渲染引擎，marked变为kramed引擎，kramed修改了一些bug，两者比较接近，也比较轻量级。执行下面命令，卸载原有渲染引擎，安装新引擎：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>解决语义冲突。更换引擎后行间公式可以正确渲染了，但这样还没有完全解决问题，行内公式的渲染还存在问题，因为hexo-renderer-kramed引擎也存在语义冲突的问题。接下来到博客根目录下，找到node_modules\kramed\lib\rules\inline.js，把第11行的escape变量的值做相应的修改，这一步是在原基础上取消了对\,{,}的转义(escape)：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br></pre></td></tr></table></figure>
-<p> 同时把第20行的em变量也要做相应的修改：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在主题中开启mathjax开关。进入到主题目录，找到_config.yml配置问题，把mathjax默认的false修改为true，具体如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure>
-<p> 这样还不够，还需要在文章的Front-matter里打开mathjax开关，如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Mathjax公式渲染</span><br><span class="line">date: </span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">mathjax: true</span><br><span class="line">image: </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p> 以上步骤就完美解决了在前端显示公式的问题，最后重启以下Hexo：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-</li>
+<ol type="1">
+<li><p>更换Hexo的markdown渲染引擎，marked变为kramed引擎，kramed修改了一些bug，两者比较接近，也比较轻量级。执行下面命令，卸载原有渲染引擎，安装新引擎： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure></p></li>
+<li><p>解决语义冲突。更换引擎后行间公式可以正确渲染了，但这样还没有完全解决问题，行内公式的渲染还存在问题，因为hexo-renderer-kramed引擎也存在语义冲突的问题。接下来到博客根目录下，找到node_modules.js，把第11行的escape变量的值做相应的修改，这一步是在原基础上取消了对,{,}的转义(escape)： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br></pre></td></tr></table></figure></p>
+<p>同时把第20行的em变量也要做相应的修改： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure></p></li>
+<li><p>在主题中开启mathjax开关。进入到主题目录，找到_config.yml配置问题，把mathjax默认的false修改为true，具体如下： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure></p>
+<p>这样还不够，还需要在文章的Front-matter里打开mathjax开关，如下： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Mathjax公式渲染</span><br><span class="line">date: </span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">mathjax: true</span><br><span class="line">image: </span><br><span class="line">---</span><br></pre></td></tr></table></figure></p>
+<p>以上步骤就完美解决了在前端显示公式的问题，最后重启以下Hexo： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p></li>
 </ol>
-<p>一个测试，薛定谔方程：</p>
-<script type="math/tex; mode=display">i\hbar\frac{\partial \psi}{\partial t}
+<p>一个测试，薛定谔方程： <span class="math display">\[ i\hbar\frac{\partial \psi}{\partial t}
 = \frac{-\hbar^2}{2m} \left(
 \frac{\partial^2}{\partial x^2}
 + \frac{\partial^2}{\partial y^2}
 + \frac{\partial^2}{\partial z^2}
-\right) \psi + V \psi.</script>
+\right) \psi + V \psi.\]</span></p>
+
         <hr>
         <hr />
         <!-- 文章末尾的提示 start -->
@@ -523,7 +514,7 @@
         <hr />
         <p name="pagination">
     
-    <a class="float-left" href="/post/放下手机.html">« 上一篇 放下手机</a>
+    <a class="float-left" href="/post/少.html">« 上一篇 放下手机</a>
     
     
     <a class="float-right" href="/post/关于单级共源放大器基本理解.html">下一篇 » 关于单级共源（CS）放大器的基本理解</a>
@@ -669,7 +660,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3sf/1.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/mathjax/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -677,53 +668,20 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#ic"
-                    title="ic">ic</a>
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#Analog"
-                    title="Analog">Analog</a>
+                <a class="text-gray" href="/tags/#website"
+                    title="website">website</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/关于单级源跟随器基本理解 .html" class="title">
-                关于单级跟随器（SF）的基本理解
+            <a href="/post/Mathjax公式渲染.html" class="title">
+                Mathjax公式渲染
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-09-18，</span>
-                    <span class="hidden-xs">全文1400字，</span>
-                    <span>阅读约2分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/少.html" class="title">
-                放下手机
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-09-10，</span>
-                    <span class="hidden-xs">全文258字，</span>
-                    <span>阅读约1分钟</span>
+                    <span>发表于2019-09-12，</span>
+                    <span class="hidden-xs">全文1464字，</span>
+                    <span>阅读约3分钟</span>
                 </small>
             </p>
         </div>
@@ -753,6 +711,35 @@
                     <span>发表于2019-08-15，</span>
                     <span class="hidden-xs">全文1412字，</span>
                     <span>阅读约3分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/newlearn/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/新手学习技巧.html" class="title">
+                新手学习技巧<转载>
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-05-04，</span>
+                    <span class="hidden-xs">全文1292字，</span>
+                    <span>阅读约2分钟</span>
                 </small>
             </p>
         </div>

@@ -14,7 +14,7 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,ic,ads,">
+  <meta name="keywords" content="阅微草堂,刘三姐的博客,刘三姐的小站,ads,ic,">
   <!-- page.description has higher priority -->
   <meta name="description" content="刘三姐的小站，致力于分享和思考。">
   <link rel="shortcut icon" href="/img/icon.png">
@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">13</number><span>文章</span>
+            <number class="number">14</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -405,6 +405,10 @@
             <ul>
                 
                 <li>
+                    <a href="/post/又回来了.html">又回来了！</a>
+                </li>
+                
+                <li>
                     <a href="/post/少安毋躁.html">少安毋躁会当晴</a>
                 </li>
                 
@@ -418,10 +422,6 @@
                 
                 <li>
                     <a href="/post/沉默的默契.html">沉默的默契</a>
-                </li>
-                
-                <li>
-                    <a href="/post/もういちど.html">もういちど！</a>
                 </li>
                 
             </ul>
@@ -464,7 +464,9 @@
         
         
         
-        <h1 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h1><p><em>本文来自作者的知乎文章，曾经用户名为cosmos，水印可见，原地址访问<a href="https://zhuanlan.zhihu.com/p/49971724" target="_blank" rel="noopener">这里</a></em><br><strong>之前设计PA都使用ADS自带的Load-Pull模板进行设计，但最近设计一款PA发现模板某些地方好像有点不明白。总的来说，模板给的内容太多太杂，有些结果目前根本用不上，因此打算自己来配置一下Load-Pull的仿真设置，加深一下对此的理解。通过调研ADS的help文档并自己完成验证，下面就把过程总结到这里。在总结之前，需要注意一下几点：</strong></p>
+        <h1 id="0-前言"><a class="markdownIt-Anchor" href="#0-前言"></a> 0. 前言</h1>
+<p><em>本文来自作者的知乎文章，曾经用户名为cosmos，水印可见，原地址访问<a href="https://zhuanlan.zhihu.com/p/49971724" target="_blank" rel="noopener">这里</a></em><br>
+<strong>之前设计PA都使用ADS自带的Load-Pull模板进行设计，但最近设计一款PA发现模板某些地方好像有点不明白。总的来说，模板给的内容太多太杂，有些结果目前根本用不上，因此打算自己来配置一下Load-Pull的仿真设置，加深一下对此的理解。通过调研ADS的help文档并自己完成验证，下面就把过程总结到这里。在总结之前，需要注意一下几点：</strong></p>
 <ul>
 <li>Load-Pull仿真的前提：器件的大信号模型要准，否则使用测试数据设计PA更佳；</li>
 <li>一般在偏置bias和稳定性stability网络确定后再做Load-Pull仿真；</li>
@@ -473,102 +475,93 @@
 </ul>
 <p>Load-Pull仿真，中文叫做负载牵引，它可以改变器件的负载反射系数，从而找到使输出功率Pdel或功率附加效率PAE最大的最优反射系数。接下来就讲一下如何画出Pdel和PAE轮廓。</p>
 <center><img src="/img/post/adslpsim/0.jpg" width="50%">图0</center>
-
-<h1 id="1-指定并生成期望的负载反射系数"><a href="#1-指定并生成期望的负载反射系数" class="headerlink" title="1. 指定并生成期望的负载反射系数"></a>1. 指定并生成期望的负载反射系数</h1><h2 id="1-1-扫描变量的设置"><a href="#1-1-扫描变量的设置" class="headerlink" title="1.1 扫描变量的设置"></a>1.1 扫描变量的设置</h2><p>我们通常在一个圆里面来指定负载反射系数，虽然这样设置会比较复杂，但是得到的反射系数区域会更加均匀，从而方便后续一些参数的计算，得到如下图1-1左图所示这样的圆区域。而不是像右图那样呈放射状的反射系数区域。</p>
+<h1 id="1-指定并生成期望的负载反射系数"><a class="markdownIt-Anchor" href="#1-指定并生成期望的负载反射系数"></a> 1. 指定并生成期望的负载反射系数</h1>
+<h2 id="11-扫描变量的设置"><a class="markdownIt-Anchor" href="#11-扫描变量的设置"></a> 1.1 扫描变量的设置</h2>
+<p>我们通常在一个圆里面来指定负载反射系数，虽然这样设置会比较复杂，但是得到的反射系数区域会更加均匀，从而方便后续一些参数的计算，得到如下图1-1左图所示这样的圆区域。而不是像右图那样呈放射状的反射系数区域。</p>
 <center><img src="/img/post/adslpsim/1.jpg" width="50%">图1-1</center>
-
 <ul>
 <li>在一个圆内扫描反射系数，那么首先要画出一个圆，画圆则需要指定圆心和半径。ADS中用变量模块VAR来指定：</li>
 </ul>
 <center><img src="/img/post/adslpsim/2.jpg" width="50%">图1-2</center>
-
 <ul>
 <li>通过扫描两个变量imag_indexs11和real_indexs11可以在圆上产生反射系数点，它们分别表示反射系数点的虚部和实部。ADS中用参数扫描控件来设置。</li>
 </ul>
 <center><img src="/img/post/adslpsim/3.jpg" width="50%">图1-3</center>
-
 <ul>
 <li>圆上的每个反射系数点都是一组数据对，Smith图上的中心点为(0,0)，其中y轴表示虚部，x轴表示实部。</li>
 </ul>
 <center><img src="/img/post/adslpsim/4.jpg" width="50%">图1-4</center>
-
-<h2 id="1-2-imag-indexs11的扫描限制"><a href="#1-2-imag-indexs11的扫描限制" class="headerlink" title="1.2 imag_indexs11的扫描限制"></a>1.2 imag_indexs11的扫描限制</h2><ul>
+<h2 id="12-imag_indexs11的扫描限制"><a class="markdownIt-Anchor" href="#12-imag_indexs11的扫描限制"></a> 1.2 imag_indexs11的扫描限制</h2>
+<ul>
 <li>图1-5中max_rho是有效圆的半径，也就是说如果圆跑到Smith图外面去了，表明这是个有源负载，max_rho公式可以减小仿真反射系数圆的半径。在ADS中的公式如下。</li>
 </ul>
 <center><img src="/img/post/adslpsim/5.jpg" width="50%">图1-5</center>
 <center><img src="/img/post/adslpsim/6.jpg" width="50%">图1-6</center>
-
 <ul>
 <li>max_rho/(lines+1)又是什么呢？</li>
 </ul>
 <center><img src="/img/post/adslpsim/7.jpg" width="50%">图1-7</center>
-
-<h2 id="1-3-real-indexs11的扫描限制"><a href="#1-3-real-indexs11的扫描限制" class="headerlink" title="1.3 real_indexs11的扫描限制"></a>1.3 real_indexs11的扫描限制</h2><ul>
+<h2 id="13-real_indexs11的扫描限制"><a class="markdownIt-Anchor" href="#13-real_indexs11的扫描限制"></a> 1.3 real_indexs11的扫描限制</h2>
+<ul>
 <li>设置水平扫描线</li>
 </ul>
 <center><img src="/img/post/adslpsim/8.jpg" width="50%">图1-8</center>
-
 <ul>
 <li>计算c_limit</li>
 </ul>
 <center><img src="/img/post/adslpsim/9.jpg" width="50%">图1-9</center>
-
 <ul>
 <li>计算扫描线lines的数量和每条线上的扫描点数</li>
 </ul>
 <center><img src="/img/post/adslpsim/10.jpg" width="50%">图1-10</center>
-
-<h1 id="2-在谐波频率指定任意反射系数"><a href="#2-在谐波频率指定任意反射系数" class="headerlink" title="2. 在谐波频率指定任意反射系数"></a>2. 在谐波频率指定任意反射系数</h1><ul>
+<h1 id="2-在谐波频率指定任意反射系数"><a class="markdownIt-Anchor" href="#2-在谐波频率指定任意反射系数"></a> 2. 在谐波频率指定任意反射系数</h1>
+<ul>
 <li>需要注意的而是，虽说可以设置负载阻抗与频率无关，但这样的仿真会给出一个不切实际的简单情况，从而得到一个次优的结果，当然也可以定义与频率相关的阻抗值，用if-then-else语句即可。但这里仅仅举个例子说明如何设置Load-Pull仿真，考虑与频率无关的负载阻抗。在变量模块VAR中声明：</li>
 </ul>
 <center><img src="/img/post/adslpsim/11.jpg" width="50%">图2-1</center>
-
 <ul>
 <li>如何把谐波频率对应的上述阻抗值加载在LoadTuner模块呢？通过list()函数得到数组，在ADS中的语句如下：</li>
 </ul>
 <center><img src="/img/post/adslpsim/12.jpg" width="50%">图2-2</center>
-
 <ul>
 <li>解释一下上面程序的执行过程：</li>
 </ul>
 <center><img src="/img/post/adslpsim/13.jpg" width="50%">图2-3</center>
-
 <p>以上步骤就完成了Load-Pull仿真设置，此时就可以执行仿真了。接下来是画Pdel和PAE轮廓的步骤。</p>
-<h1 id="3-计算输出功率Pdel和功率附加效率PAE并画出轮廓"><a href="#3-计算输出功率Pdel和功率附加效率PAE并画出轮廓" class="headerlink" title="3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓"></a>3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓</h1><p><em>（以下公式均在数据显示窗口dds中写入）</em></p>
-<h2 id="3-1-计算直流功耗-Pdc"><a href="#3-1-计算直流功耗-Pdc" class="headerlink" title="3.1 计算直流功耗 Pdc"></a>3.1 计算直流功耗 Pdc</h2><center><img src="/img/post/adslpsim/14.jpg" width="50%">图3-1</center>
-
-<h2 id="3-2-计算输出功率和PAE"><a href="#3-2-计算输出功率和PAE" class="headerlink" title="3.2 计算输出功率和PAE"></a>3.2 计算输出功率和PAE</h2><center><img src="/img/post/adslpsim/15.jpg" width="50%">图3-2</center>
-
-<h2 id="3-3-计算Pdel和PAE的最大值"><a href="#3-3-计算Pdel和PAE的最大值" class="headerlink" title="3.3 计算Pdel和PAE的最大值"></a>3.3 计算Pdel和PAE的最大值</h2><ul>
+<h1 id="3-计算输出功率pdel和功率附加效率pae并画出轮廓"><a class="markdownIt-Anchor" href="#3-计算输出功率pdel和功率附加效率pae并画出轮廓"></a> 3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓</h1>
+<p><em>（以下公式均在数据显示窗口dds中写入）</em></p>
+<h2 id="31-计算直流功耗-pdc"><a class="markdownIt-Anchor" href="#31-计算直流功耗-pdc"></a> 3.1 计算直流功耗 Pdc</h2>
+<center><img src="/img/post/adslpsim/14.jpg" width="50%">图3-1</center>
+<h2 id="32-计算输出功率和pae"><a class="markdownIt-Anchor" href="#32-计算输出功率和pae"></a> 3.2 计算输出功率和PAE</h2>
+<center><img src="/img/post/adslpsim/15.jpg" width="50%">图3-2</center>
+<h2 id="33-计算pdel和pae的最大值"><a class="markdownIt-Anchor" href="#33-计算pdel和pae的最大值"></a> 3.3 计算Pdel和PAE的最大值</h2>
+<ul>
 <li>计算思想是首先找出一维(real_indexs11)的最大值，然后在该剩下的数组中找出最大值。即：</li>
 </ul>
 <center><img src="/img/post/adslpsim/16.jpg" width="50%">图3-3</center>
-
 <p>Pdelmax的计算与此类似</p>
-<h2 id="3-4-画Pdel和PAE的轮廓线"><a href="#3-4-画Pdel和PAE的轮廓线" class="headerlink" title="3.4 画Pdel和PAE的轮廓线"></a>3.4 画Pdel和PAE的轮廓线</h2><center><img src="/img/post/adslpsim/17.jpg" width="50%">图3-4</center>
+<h2 id="34-画pdel和pae的轮廓线"><a class="markdownIt-Anchor" href="#34-画pdel和pae的轮廓线"></a> 3.4 画Pdel和PAE的轮廓线</h2>
+<center><img src="/img/post/adslpsim/17.jpg" width="50%">图3-4</center>
 <center><img src="/img/post/adslpsim/18.jpg" width="50%">图3-5</center>
-
 <ul>
 <li>当然，有一种更复杂但更灵活的画轮廓公式【优】，</li>
 </ul>
 <center><img src="/img/post/adslpsim/19.jpg" width="50%">图3-6</center>
-
-<h3 id="3-4-1-在矩形图上生成轮廓线"><a href="#3-4-1-在矩形图上生成轮廓线" class="headerlink" title="3.4.1 在矩形图上生成轮廓线"></a>3.4.1 在矩形图上生成轮廓线</h3><center><img src="/img/post/adslpsim/20.jpg" width="50%">图3-7</center>
-
-<h3 id="3-4-2-在Smith图上生成轮廓线"><a href="#3-4-2-在Smith图上生成轮廓线" class="headerlink" title="3.4.2 在Smith图上生成轮廓线"></a>3.4.2 在Smith图上生成轮廓线</h3><center><img src="/img/post/adslpsim/21.jpg" width="50%">图3-8</center>
-
+<h3 id="341-在矩形图上生成轮廓线"><a class="markdownIt-Anchor" href="#341-在矩形图上生成轮廓线"></a> 3.4.1 在矩形图上生成轮廓线</h3>
+<center><img src="/img/post/adslpsim/20.jpg" width="50%">图3-7</center>
+<h3 id="342-在smith图上生成轮廓线"><a class="markdownIt-Anchor" href="#342-在smith图上生成轮廓线"></a> 3.4.2 在Smith图上生成轮廓线</h3>
+<center><img src="/img/post/adslpsim/21.jpg" width="50%">图3-8</center>
 <ul>
 <li>画出实际仿真的反射系数点</li>
 </ul>
 <center><img src="/img/post/adslpsim/22.jpg" width="50%">图3-9</center>
-
 <ul>
 <li>计算出与光标m3对应的imag_indexs11和real_indexs11的索引并求出相应的Pdel和PAE：</li>
 </ul>
 <center><img src="/img/post/adslpsim/23.jpg" width="50%">图3-10</center>
-
-<h1 id="4-小结"><a href="#4-小结" class="headerlink" title="4. 小结"></a>4. 小结</h1><p>从调研到验证这个过程花了自己大概1天的时间，整体来说并不复杂，感觉画出好看的图形基本上是数学几何公式的天下，反倒是计算PAE和Pdel并不是太难。</p>
-<p>完成初次Load-Pull仿真后，会得到此刻源阻抗下的最优负载，但并不是最优源阻抗下的最优负载，还要进行source-pull仿真。因为放大器是双边的，所以确定了最优源阻抗也会改变之前的最优负载阻抗，因此又要迭代进行Load-Pull，一般这样来来回回做个3到4次就能确定最优源阻抗以及最优负载阻抗。迭代的方法是，先进行Load-Pull找到一个负载阻抗，然后将其代入source-pull的仿真设置中，仿真得到源阻抗，然后再将该源阻抗代入load-pull仿真设置……source-pull的设置与load-pull类似，只不过时固定基波负载阻抗，公式里面扫描的是源阻抗。还是如前言所说，仿真是次优的，最好还是用load-pull测试数据进行PA的设计。下图是本次验证所使用的原理图和DDS窗口：</p>
+<h1 id="4-小结"><a class="markdownIt-Anchor" href="#4-小结"></a> 4. 小结</h1>
+<p>从调研到验证这个过程花了自己大概1天的时间，整体来说并不复杂，感觉画出好看的图形基本上是数学几何公式的天下，反倒是计算PAE和Pdel并不是太难。</p>
+<p>完成初次Load-Pull仿真后，会得到此刻源阻抗下的最优负载，但并不是最优源阻抗下的最优负载，还要进行source-pull仿真。因为放大器是双边的，所以确定了最优源阻抗也会改变之前的最优负载阻抗，因此又要迭代进行Load-Pull，一般这样来来回回做个3到4次就能确定最优源阻抗以及最优负载阻抗。迭代的方法是，先进行Load-Pull找到一个负载阻抗，然后将其代入source-pull的仿真设置中，仿真得到源阻抗，然后再将该源阻抗代入load-pull仿真设置…source-pull的设置与load-pull类似，只不过时固定基波负载阻抗，公式里面扫描的是源阻抗。还是如前言所说，仿真是次优的，最好还是用load-pull测试数据进行PA的设计。下图是本次验证所使用的原理图和DDS窗口：</p>
 <center><img src="/img/post/adslpsim/24.jpg" width="50%"></center>
 <center><img src="/img/post/adslpsim/25.jpg" width="50%"></center>
         <hr>
@@ -601,12 +594,12 @@
             <p>
                 <span>标签: </span>
                 
-                <a href="/tags/#ic">
-                    <code style="color: #333" key="ic" class="post-label">#ic</code>
-                </a>
-                
                 <a href="/tags/#ads">
                     <code style="color: #333" key="ads" class="post-label">#ads</code>
+                </a>
+                
+                <a href="/tags/#ic">
+                    <code style="color: #333" key="ic" class="post-label">#ic</code>
                 </a>
                 
             </p>
@@ -801,7 +794,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/lianli/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -809,19 +802,19 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#happy"
-                    title="happy">happy</a>
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/共结连理.html" class="title">
-                共结连理
+            <a href="/post/放下手机.html" class="title">
+                放下手机
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-05-05，</span>
-                    <span class="hidden-xs">全文426字，</span>
+                    <span>发表于2019-09-10，</span>
+                    <span class="hidden-xs">全文258字，</span>
                     <span>阅读约1分钟</span>
                 </small>
             </p>
@@ -830,7 +823,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/adslpsim/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -838,24 +831,20 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#ic"
-                    title="ic">ic</a>
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#ads"
-                    title="ads">ads</a>
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/ads-LP-sim.html" class="title">
-                使用ADS进行Load-Pull仿真
+            <a href="/post/もういちど.html" class="title">
+                もういちど！
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2018-11-15，</span>
-                    <span class="hidden-xs">全文4215字，</span>
-                    <span>阅读约7分钟</span>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文552字，</span>
+                    <span>阅读约1分钟</span>
                 </small>
             </p>
         </div>
@@ -888,17 +877,17 @@
     <a class="post-tag-item" href="/tags/#website" title="website"
         rel="2">#website (2) </a>
     
-    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
-        rel="1">#cadence (1) </a>
+    <a class="post-tag-item" href="/tags/#ads" title="ads"
+        rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
         rel="2">#ic (2) </a>
     
-    <a class="post-tag-item" href="/tags/#ads" title="ads"
-        rel="1">#ads (1) </a>
+    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
+        rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
-        rel="7">#thinking (7) </a>
+        rel="8">#thinking (8) </a>
     
     <a class="post-tag-item" href="/tags/#happy" title="happy"
         rel="2">#happy (2) </a>
@@ -941,7 +930,7 @@
 <div id="sidebar-toc">
   <!-- TOC  -->
   
-  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#0-前言"><span class="toc-nav-text">0. 前言</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#1-指定并生成期望的负载反射系数"><span class="toc-nav-text">1. 指定并生成期望的负载反射系数</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-1-扫描变量的设置"><span class="toc-nav-text">1.1 扫描变量的设置</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-2-imag-indexs11的扫描限制"><span class="toc-nav-text">1.2 imag_indexs11的扫描限制</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-3-real-indexs11的扫描限制"><span class="toc-nav-text">1.3 real_indexs11的扫描限制</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#2-在谐波频率指定任意反射系数"><span class="toc-nav-text">2. 在谐波频率指定任意反射系数</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#3-计算输出功率Pdel和功率附加效率PAE并画出轮廓"><span class="toc-nav-text">3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-1-计算直流功耗-Pdc"><span class="toc-nav-text">3.1 计算直流功耗 Pdc</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-2-计算输出功率和PAE"><span class="toc-nav-text">3.2 计算输出功率和PAE</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-3-计算Pdel和PAE的最大值"><span class="toc-nav-text">3.3 计算Pdel和PAE的最大值</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-4-画Pdel和PAE的轮廓线"><span class="toc-nav-text">3.4 画Pdel和PAE的轮廓线</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-1-在矩形图上生成轮廓线"><span class="toc-nav-text">3.4.1 在矩形图上生成轮廓线</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-2-在Smith图上生成轮廓线"><span class="toc-nav-text">3.4.2 在Smith图上生成轮廓线</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#4-小结"><span class="toc-nav-text">4. 小结</span></a></li></ol>
+  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#0-前言"><span class="toc-nav-text"> 0. 前言</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#1-指定并生成期望的负载反射系数"><span class="toc-nav-text"> 1. 指定并生成期望的负载反射系数</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#11-扫描变量的设置"><span class="toc-nav-text"> 1.1 扫描变量的设置</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#12-imag_indexs11的扫描限制"><span class="toc-nav-text"> 1.2 imag_indexs11的扫描限制</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#13-real_indexs11的扫描限制"><span class="toc-nav-text"> 1.3 real_indexs11的扫描限制</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#2-在谐波频率指定任意反射系数"><span class="toc-nav-text"> 2. 在谐波频率指定任意反射系数</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#3-计算输出功率pdel和功率附加效率pae并画出轮廓"><span class="toc-nav-text"> 3. 计算输出功率Pdel和功率附加效率PAE并画出轮廓</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#31-计算直流功耗-pdc"><span class="toc-nav-text"> 3.1 计算直流功耗 Pdc</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#32-计算输出功率和pae"><span class="toc-nav-text"> 3.2 计算输出功率和PAE</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#33-计算pdel和pae的最大值"><span class="toc-nav-text"> 3.3 计算Pdel和PAE的最大值</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#34-画pdel和pae的轮廓线"><span class="toc-nav-text"> 3.4 画Pdel和PAE的轮廓线</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#341-在矩形图上生成轮廓线"><span class="toc-nav-text"> 3.4.1 在矩形图上生成轮廓线</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#342-在smith图上生成轮廓线"><span class="toc-nav-text"> 3.4.2 在Smith图上生成轮廓线</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#4-小结"><span class="toc-nav-text"> 4. 小结</span></a></li></ol>
   
 </div>
 

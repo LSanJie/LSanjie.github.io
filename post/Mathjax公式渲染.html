@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">14</number><span>文章</span>
+            <number class="number">13</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -395,10 +395,6 @@
             <ul>
                 
                 <li>
-                    <a href="/post/hello-world.html">Hello World</a>
-                </li>
-                
-                <li>
                     <a href="/post/少安毋躁.html">少安毋躁会当晴</a>
                 </li>
                 
@@ -412,6 +408,10 @@
                 
                 <li>
                     <a href="/post/沉默的默契.html">沉默的默契</a>
+                </li>
+                
+                <li>
+                    <a href="/post/もういちど.html">もういちど！</a>
                 </li>
                 
             </ul>
@@ -447,34 +447,29 @@
         <p>基于理工科属性和行文主题，公式不可避免，让前端支持数学公式，正是Mathjax目标。</p>
 <p>网络上大部分给出了NEXT主题下的方法，其实在其他主题下的方法也类似，不外乎以下几个步骤：</p>
 <ol>
-<li>更换Hexo的markdown渲染引擎，marked变为kramed引擎，kramed修改了一些bug，两者比较接近，也比较轻量级。执行下面命令，卸载原有渲染引擎，安装新引擎：</li>
-</ol>
+<li><p>更换Hexo的markdown渲染引擎，marked变为kramed引擎，kramed修改了一些bug，两者比较接近，也比较轻量级。执行下面命令，卸载原有渲染引擎，安装新引擎：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>解决语义冲突。更换引擎后行间公式可以正确渲染了，但这样还没有完全解决问题，行内公式的渲染还存在问题，因为hexo-renderer-kramed引擎也存在语义冲突的问题。接下来到博客根目录下，找到node_modules\kramed\lib\rules\inline.js，把第11行的escape变量的值做相应的修改，这一步是在原基础上取消了对,{,}的转义(escape)：</li>
-</ol>
+</li>
+<li><p>解决语义冲突。更换引擎后行间公式可以正确渲染了，但这样还没有完全解决问题，行内公式的渲染还存在问题，因为hexo-renderer-kramed引擎也存在语义冲突的问题。接下来到博客根目录下，找到node_modules\kramed\lib\rules\inline.js，把第11行的escape变量的值做相应的修改，这一步是在原基础上取消了对\,{,}的转义(escape)：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br></pre></td></tr></table></figure>
-<pre><code>同时把第20行的em变量也要做相应的修改：
-</code></pre>
+<p> 同时把第20行的em变量也要做相应的修改：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在主题中开启mathjax开关。进入到主题目录，找到_config.yml配置问题，把mathjax默认的false修改为true，具体如下：</li>
-</ol>
+</li>
+<li><p>在主题中开启mathjax开关。进入到主题目录，找到_config.yml配置问题，把mathjax默认的false修改为true，具体如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure>
-<pre><code>这样还不够，还需要在文章的Front-matter里打开mathjax开关，如下：
-</code></pre>
+<p> 这样还不够，还需要在文章的Front-matter里打开mathjax开关，如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Mathjax公式渲染</span><br><span class="line">date: </span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">mathjax: true</span><br><span class="line">image: </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<pre><code>以上步骤就完美解决了在前端显示公式的问题，最后重启以下Hexo：
-</code></pre>
+<p> 以上步骤就完美解决了在前端显示公式的问题，最后重启以下Hexo：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 <p>一个测试，薛定谔方程：</p>
-<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi><mi mathvariant="normal">ℏ</mi><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>ψ</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mi mathvariant="normal">ℏ</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><mrow><mo fence="true">(</mo><mfrac><msup><mi mathvariant="normal">∂</mi><mn>2</mn></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><msup><mi mathvariant="normal">∂</mi><mn>2</mn></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><msup><mi mathvariant="normal">∂</mi><mn>2</mn></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></mfrac><mo fence="true">)</mo></mrow><mi>ψ</mi><mo>+</mo><mi>V</mi><mi>ψ</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> i\hbar\frac{\partial \psi}{\partial t}
+<script type="math/tex; mode=display">i\hbar\frac{\partial \psi}{\partial t}
 = \frac{-\hbar^2}{2m} \left(
 \frac{\partial^2}{\partial x^2}
 + \frac{\partial^2}{\partial y^2}
 + \frac{\partial^2}{\partial z^2}
-\right) \psi + V \psi.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0574399999999997em;vertical-align:-0.686em;"></span><span class="mord mathdefault">i</span><span class="mord">ℏ</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714399999999998em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.441138em;vertical-align:-0.95003em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathdefault">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord"><span class="mord">ℏ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mord">.</span></span></span></span></span></p>
-
+\right) \psi + V \psi.</script>
         <hr>
         <hr />
         <!-- 文章末尾的提示 start -->
@@ -674,7 +669,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/hkChina/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -688,42 +683,13 @@
                 
                 
             </div>
-            <a href="/post/沉默的默契.html" class="title">
-                沉默的默契
+            <a href="/post/放下手机.html" class="title">
+                放下手机
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-08-15，</span>
-                    <span class="hidden-xs">全文1412字，</span>
-                    <span>阅读约3分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/jizu/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/祭祀祖先.html" class="title">
-                祭祀祖先
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-05-04，</span>
-                    <span class="hidden-xs">全文488字，</span>
+                    <span>发表于2019-09-10，</span>
+                    <span class="hidden-xs">全文258字，</span>
                     <span>阅读约1分钟</span>
                 </small>
             </p>
@@ -732,7 +698,36 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/cdstooa/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/もういちど.html" class="title">
+                もういちど！
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-11，</span>
+                    <span class="hidden-xs">全文552字，</span>
+                    <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/adslpsim/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -744,20 +739,20 @@
                     title="ic">ic</a>
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#cadence"
-                    title="cadence">cadence</a>
+                <a class="text-gray" href="/tags/#ads"
+                    title="ads">ads</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/cds-to-OA小结.html" class="title">
-                cds_to_OA
+            <a href="/post/ads-LP-sim.html" class="title">
+                使用ADS进行Load-Pull仿真
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-03-25，</span>
-                    <span class="hidden-xs">全文682字，</span>
-                    <span>阅读约1分钟</span>
+                    <span>发表于2018-11-15，</span>
+                    <span class="hidden-xs">全文4215字，</span>
+                    <span>阅读约7分钟</span>
                 </small>
             </p>
         </div>
@@ -787,17 +782,17 @@
 </style>
 <div id="featured-tag">
     
-    <a class="post-tag-item" href="/tags/#ads" title="ads"
-        rel="1">#ads (1) </a>
-    
-    <a class="post-tag-item" href="/tags/#ic" title="ic"
-        rel="2">#ic (2) </a>
-    
     <a class="post-tag-item" href="/tags/#website" title="website"
         rel="2">#website (2) </a>
     
     <a class="post-tag-item" href="/tags/#cadence" title="cadence"
         rel="1">#cadence (1) </a>
+    
+    <a class="post-tag-item" href="/tags/#ic" title="ic"
+        rel="2">#ic (2) </a>
+    
+    <a class="post-tag-item" href="/tags/#ads" title="ads"
+        rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="7">#thinking (7) </a>

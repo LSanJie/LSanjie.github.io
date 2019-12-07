@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://leeremicro.com/"/>
+  <link href="http://leeremicro.com/"/>
   <updated>2019-09-25T01:08:36.000Z</updated>
-  <id>https://leeremicro.com/</id>
+  <id>http://leeremicro.com/</id>
   
   <author>
     <name>刘三姐</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于差分放大器基本理解</title>
-    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://leeremicro.com/post/关于差分放大器基本理解.html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>http://leeremicro.com/post/关于差分放大器基本理解.html</id>
     <published>2019-12-16T14:30:33.000Z</published>
     <updated>2019-09-25T01:08:36.000Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
+      <category term="Analog" scheme="http://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://leeremicro.com/post/hello-world.html"/>
-    <id>https://leeremicro.com/post/hello-world.html</id>
+    <link href="http://leeremicro.com/post/hello-world.html"/>
+    <id>http://leeremicro.com/post/hello-world.html</id>
     <published>2019-12-07T02:18:20.006Z</published>
     <updated>2019-12-07T02:18:20.006Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>关于共源共栅（Cascode）的基本理解</title>
-    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://leeremicro.com/post/关于共源共栅放大器基本理解.html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>http://leeremicro.com/post/关于共源共栅放大器基本理解.html</id>
     <published>2019-09-26T14:30:33.000Z</published>
     <updated>2019-09-27T07:03:14.000Z</updated>
     
@@ -83,19 +83,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
+      <category term="Analog" scheme="http://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>少安毋躁会当晴</title>
-    <link href="https://leeremicro.com/post/%E5%B0%91%E5%AE%89%E6%AF%8B%E8%BA%81.html"/>
-    <id>https://leeremicro.com/post/少安毋躁.html</id>
+    <link href="http://leeremicro.com/post/%E5%B0%91%E5%AE%89%E6%AF%8B%E8%BA%81.html"/>
+    <id>http://leeremicro.com/post/少安毋躁.html</id>
     <published>2019-09-24T14:06:50.000Z</published>
     <updated>2019-09-25T02:18:44.000Z</updated>
     
@@ -110,17 +110,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>关于单级共栅（CG）放大器的基本理解</title>
-    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://leeremicro.com/post/关于单级共栅放大器基本理解.html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>http://leeremicro.com/post/关于单级共栅放大器基本理解.html</id>
     <published>2019-09-20T14:30:33.000Z</published>
     <updated>2019-09-25T01:06:44.000Z</updated>
     
@@ -135,19 +135,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
+      <category term="Analog" scheme="http://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>关于单级跟随器（SF）的基本理解</title>
-    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%BA%90%E8%B7%9F%E9%9A%8F%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%20.html"/>
-    <id>https://leeremicro.com/post/关于单级源跟随器基本理解 .html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%BA%90%E8%B7%9F%E9%9A%8F%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%20.html"/>
+    <id>http://leeremicro.com/post/关于单级源跟随器基本理解 .html</id>
     <published>2019-09-18T14:30:33.000Z</published>
     <updated>2019-09-25T01:00:22.000Z</updated>
     
@@ -162,19 +162,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
+      <category term="Analog" scheme="http://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>关于单级共源（CS）放大器的基本理解</title>
-    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://leeremicro.com/post/关于单级共源放大器基本理解.html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>http://leeremicro.com/post/关于单级共源放大器基本理解.html</id>
     <published>2019-09-17T14:30:33.000Z</published>
     <updated>2019-09-25T01:00:16.000Z</updated>
     
@@ -189,19 +189,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
+      <category term="Analog" scheme="http://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>Mathjax公式渲染</title>
-    <link href="https://leeremicro.com/post/Mathjax%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93.html"/>
-    <id>https://leeremicro.com/post/Mathjax公式渲染.html</id>
+    <link href="http://leeremicro.com/post/Mathjax%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93.html"/>
+    <id>http://leeremicro.com/post/Mathjax公式渲染.html</id>
     <published>2019-09-12T09:06:50.000Z</published>
     <updated>2019-09-12T02:51:16.000Z</updated>
     
@@ -219,17 +219,17 @@
     
     </summary>
     
-      <category term="业余" scheme="https://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
+      <category term="业余" scheme="http://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
     
     
-      <category term="website" scheme="https://leeremicro.com/tags/website/"/>
+      <category term="website" scheme="http://leeremicro.com/tags/website/"/>
     
   </entry>
   
   <entry>
     <title>放下手机</title>
-    <link href="https://leeremicro.com/post/%E6%94%BE%E4%B8%8B%E6%89%8B%E6%9C%BA.html"/>
-    <id>https://leeremicro.com/post/放下手机.html</id>
+    <link href="http://leeremicro.com/post/%E6%94%BE%E4%B8%8B%E6%89%8B%E6%9C%BA.html"/>
+    <id>http://leeremicro.com/post/放下手机.html</id>
     <published>2019-09-10T09:06:50.000Z</published>
     <updated>2019-09-10T09:22:08.000Z</updated>
     
@@ -253,17 +253,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>沉默的默契</title>
-    <link href="https://leeremicro.com/post/%E6%B2%89%E9%BB%98%E7%9A%84%E9%BB%98%E5%A5%91.html"/>
-    <id>https://leeremicro.com/post/沉默的默契.html</id>
+    <link href="http://leeremicro.com/post/%E6%B2%89%E9%BB%98%E7%9A%84%E9%BB%98%E5%A5%91.html"/>
+    <id>http://leeremicro.com/post/沉默的默契.html</id>
     <published>2019-08-15T02:05:48.000Z</published>
     <updated>2019-08-15T09:00:42.000Z</updated>
     
@@ -281,17 +281,17 @@
     
     </summary>
     
-      <category term="观点" scheme="https://leeremicro.com/categories/%E8%A7%82%E7%82%B9/"/>
+      <category term="观点" scheme="http://leeremicro.com/categories/%E8%A7%82%E7%82%B9/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>もういちど！</title>
-    <link href="https://leeremicro.com/post/%E3%82%82%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
-    <id>https://leeremicro.com/post/もういちど.html</id>
+    <link href="http://leeremicro.com/post/%E3%82%82%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
+    <id>http://leeremicro.com/post/もういちど.html</id>
     <published>2019-08-11T14:38:04.000Z</published>
     <updated>2019-09-10T09:23:36.000Z</updated>
     
@@ -310,17 +310,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>建站基本流程</title>
-    <link href="https://leeremicro.com/post/buildsite.html"/>
-    <id>https://leeremicro.com/post/buildsite.html</id>
+    <link href="http://leeremicro.com/post/buildsite.html"/>
+    <id>http://leeremicro.com/post/buildsite.html</id>
     <published>2019-08-11T12:18:24.000Z</published>
     <updated>2019-08-12T13:57:10.000Z</updated>
     
@@ -335,17 +335,17 @@
     
     </summary>
     
-      <category term="业余" scheme="https://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
+      <category term="业余" scheme="http://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
     
     
-      <category term="website" scheme="https://leeremicro.com/tags/website/"/>
+      <category term="website" scheme="http://leeremicro.com/tags/website/"/>
     
   </entry>
   
   <entry>
     <title>共结连理</title>
-    <link href="https://leeremicro.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
-    <id>https://leeremicro.com/post/共结连理.html</id>
+    <link href="http://leeremicro.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
+    <id>http://leeremicro.com/post/共结连理.html</id>
     <published>2019-05-05T01:51:35.000Z</published>
     <updated>2019-08-15T09:03:28.000Z</updated>
     
@@ -361,17 +361,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="happy" scheme="https://leeremicro.com/tags/happy/"/>
+      <category term="happy" scheme="http://leeremicro.com/tags/happy/"/>
     
   </entry>
   
   <entry>
     <title>新手学习技巧&lt;转载&gt;</title>
-    <link href="https://leeremicro.com/post/%E6%96%B0%E6%89%8B%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7.html"/>
-    <id>https://leeremicro.com/post/新手学习技巧.html</id>
+    <link href="http://leeremicro.com/post/%E6%96%B0%E6%89%8B%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7.html"/>
+    <id>http://leeremicro.com/post/新手学习技巧.html</id>
     <published>2019-05-04T14:26:33.000Z</published>
     <updated>2019-08-12T14:33:32.000Z</updated>
     
@@ -390,17 +390,17 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>祭祀祖先</title>
-    <link href="https://leeremicro.com/post/%E7%A5%AD%E7%A5%80%E7%A5%96%E5%85%88.html"/>
-    <id>https://leeremicro.com/post/祭祀祖先.html</id>
+    <link href="http://leeremicro.com/post/%E7%A5%AD%E7%A5%80%E7%A5%96%E5%85%88.html"/>
+    <id>http://leeremicro.com/post/祭祀祖先.html</id>
     <published>2019-05-04T10:50:50.000Z</published>
     <updated>2019-08-15T09:04:14.000Z</updated>
     
@@ -415,17 +415,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>cds_to_OA</title>
-    <link href="https://leeremicro.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
-    <id>https://leeremicro.com/post/cds-to-OA小结.html</id>
+    <link href="http://leeremicro.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
+    <id>http://leeremicro.com/post/cds-to-OA小结.html</id>
     <published>2019-03-25T00:55:44.000Z</published>
     <updated>2019-08-15T09:02:52.000Z</updated>
     
@@ -442,19 +442,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
-      <category term="cadence" scheme="https://leeremicro.com/tags/cadence/"/>
+      <category term="cadence" scheme="http://leeremicro.com/tags/cadence/"/>
     
   </entry>
   
   <entry>
     <title>人为刀俎</title>
-    <link href="https://leeremicro.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
-    <id>https://leeremicro.com/post/人为刀俎.html</id>
+    <link href="http://leeremicro.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
+    <id>http://leeremicro.com/post/人为刀俎.html</id>
     <published>2019-03-07T11:45:14.000Z</published>
     <updated>2019-08-12T13:57:08.000Z</updated>
     
@@ -471,17 +471,17 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
+      <category term="thinking" scheme="http://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>日本商旅之行</title>
-    <link href="https://leeremicro.com/post/%E6%97%A5%E6%9C%AC%E5%95%86%E6%97%85%E4%B9%8B%E8%A1%8C.html"/>
-    <id>https://leeremicro.com/post/日本商旅之行.html</id>
+    <link href="http://leeremicro.com/post/%E6%97%A5%E6%9C%AC%E5%95%86%E6%97%85%E4%B9%8B%E8%A1%8C.html"/>
+    <id>http://leeremicro.com/post/日本商旅之行.html</id>
     <published>2018-11-17T04:39:14.000Z</published>
     <updated>2019-08-15T09:03:58.000Z</updated>
     
@@ -494,17 +494,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="happy" scheme="https://leeremicro.com/tags/happy/"/>
+      <category term="happy" scheme="http://leeremicro.com/tags/happy/"/>
     
   </entry>
   
   <entry>
     <title>使用ADS进行Load-Pull仿真</title>
-    <link href="https://leeremicro.com/post/ads-LP-sim.html"/>
-    <id>https://leeremicro.com/post/ads-LP-sim.html</id>
+    <link href="http://leeremicro.com/post/ads-LP-sim.html"/>
+    <id>http://leeremicro.com/post/ads-LP-sim.html</id>
     <published>2018-11-15T13:56:00.000Z</published>
     <updated>2019-08-15T09:02:44.000Z</updated>
     
@@ -520,12 +520,12 @@
     
     </summary>
     
-      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="http://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ads" scheme="https://leeremicro.com/tags/ads/"/>
+      <category term="ads" scheme="http://leeremicro.com/tags/ads/"/>
     
-      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
+      <category term="ic" scheme="http://leeremicro.com/tags/ic/"/>
     
   </entry>
   

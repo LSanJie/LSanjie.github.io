@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">18</number><span>文章</span>
+            <number class="number">19</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -413,7 +413,7 @@
                 
                 <li>
                     <a href="/post/关于共源共栅放大器基本理解.html"
-                        class="">关于共源共栅（Cascode）放大器的基本理解</a>
+                        class="">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -434,7 +434,11 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/hello-world.html">Hello World</a>
+                </li>
+                
+                <li>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -443,10 +447,6 @@
                 
                 <li>
                     <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅（CG）放大器的基本理解</a>
-                </li>
-                
-                <li>
-                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器（SF）的基本理解</a>
                 </li>
                 
             </ul>
@@ -500,7 +500,7 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                     <span class="post-item-date">(Sep 26, 2019)</span>
                 </li>
                 
@@ -514,8 +514,15 @@
         
         
         
-        <p>动机： 　　cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p>
-<p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中； 2.解压(tar)--安装（PDKinstall.pl）； 3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径； 4.在OA文件夹下终端打开cadence，运行tool -- CDB conversion -- cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk； 5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk； 6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中； 5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>
+        <p>动机：<br>
+　　cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p>
+<p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>
+2.解压(tar)–安装（<a href="http://PDKinstall.pl" target="_blank" rel="noopener">PDKinstall.pl</a>）；<br>
+3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>
+4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>
+5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>
+6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>
+5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>
 
         <hr>
         <hr />
@@ -567,7 +574,7 @@
             </p>
             
             <p>
-                <span>发表于2019-03-25 08:55:44，最后修改于2019-08-15 17:02:51。</span>
+                <span>发表于2019-03-25 08:55:44，最后修改于2019-08-15 17:02:52。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
@@ -720,7 +727,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/wuzao/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -734,13 +741,13 @@
                 
                 
             </div>
-            <a href="/post/放下手机.html" class="title">
-                放下手机
+            <a href="/post/少安毋躁.html" class="title">
+                少安毋躁会当晴
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-09-10，</span>
-                    <span class="hidden-xs">全文258字，</span>
+                    <span>发表于2019-09-24，</span>
+                    <span class="hidden-xs">全文471字，</span>
                     <span>阅读约1分钟</span>
                 </small>
             </p>
@@ -749,7 +756,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/lianli/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/hkChina/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -757,20 +764,20 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#happy"
-                    title="happy">happy</a>
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/共结连理.html" class="title">
-                共结连理
+            <a href="/post/沉默的默契.html" class="title">
+                沉默的默契
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-05-05，</span>
-                    <span class="hidden-xs">全文426字，</span>
-                    <span>阅读约1分钟</span>
+                    <span>发表于2019-08-15，</span>
+                    <span class="hidden-xs">全文1412字，</span>
+                    <span>阅读约3分钟</span>
                 </small>
             </p>
         </div>
@@ -778,7 +785,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/lvyou/JP/3.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/cdstooa/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -786,20 +793,24 @@
                 
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#happy"
-                    title="happy">happy</a>
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#cadence"
+                    title="cadence">cadence</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/日本商旅之行.html" class="title">
-                日本商旅之行
+            <a href="/post/cds-to-OA小结.html" class="title">
+                cds_to_OA
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2018-11-17，</span>
-                    <span class="hidden-xs">全文8122字，</span>
-                    <span>阅读约12分钟</span>
+                    <span>发表于2019-03-25，</span>
+                    <span class="hidden-xs">全文682字，</span>
+                    <span>阅读约1分钟</span>
                 </small>
             </p>
         </div>
@@ -829,14 +840,17 @@
 </style>
 <div id="featured-tag">
     
+    <a class="post-tag-item" href="/tags/#website" title="website"
+        rel="2">#website (2) </a>
+    
     <a class="post-tag-item" href="/tags/#ads" title="ads"
         rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
         rel="7">#ic (7) </a>
     
-    <a class="post-tag-item" href="/tags/#website" title="website"
-        rel="2">#website (2) </a>
+    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
+        rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="7">#thinking (7) </a>
@@ -846,9 +860,6 @@
     
     <a class="post-tag-item" href="/tags/#Analog" title="Analog"
         rel="5">#Analog (5) </a>
-    
-    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
-        rel="1">#cadence (1) </a>
     
 </div>
     </div>

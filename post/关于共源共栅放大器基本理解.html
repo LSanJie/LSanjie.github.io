@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    关于共源共栅（Cascode）放大器的基本理解 | 阅微草堂
+    关于共源共栅（Cascode）的基本理解 | 阅微草堂
     
   </title>
 
@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">18</number><span>文章</span>
+            <number class="number">19</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -413,7 +413,7 @@
                 
                 <li>
                     <a href="/post/关于共源共栅放大器基本理解.html"
-                        class="sidebar-active">关于共源共栅（Cascode）放大器的基本理解</a>
+                        class="sidebar-active">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -434,7 +434,11 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/hello-world.html">Hello World</a>
+                </li>
+                
+                <li>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -445,17 +449,13 @@
                     <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅（CG）放大器的基本理解</a>
                 </li>
                 
-                <li>
-                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器（SF）的基本理解</a>
-                </li>
-                
             </ul>
         </section>
     </div>
 </aside>
 <div class="col-xs-12">
     <article class="post-container">
-        <h1> 关于共源共栅（Cascode）放大器的基本理解 </h1>
+        <h1> 关于共源共栅（Cascode）的基本理解 </h1>
 
         
 
@@ -500,7 +500,7 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                     <span class="post-item-date">(Sep 26, 2019)</span>
                 </li>
                 
@@ -514,10 +514,26 @@
         
         
         
-        CG的输入信号可能是个电流，而我们又知道CS的功能将电压转换为电流，因此，CS+CG两级就将电压转为电压，构成所谓的Cascode级（笔者习惯称其为纵向级联）。工作原理如图1所示，输入器件M1产生一个正比于小信号输入电压Vin的小信号电流，而Cascode器件M2的作用仅仅是将该小信号电流路由到RD。该结构也叫套筒式Cascode，相比简单CS级具有诸多优点。
-<center>
-<img src="/img/post/razavi_aic/3cas/1.jpg" width="20%">图1 Cascode级
-</center>
+        <p>CG的输入信号可能是个电流，而我们又知道CS的功能将电压转换为电流，因此，CS+CG两级就将电压转为电压，构成所谓的Cascode级（笔者习惯称其为纵向级联）。工作原理如图1所示，输入器件M1产生一个正比于小信号输入电压Vin的小信号电流，而Cascode器件M2的作用仅仅是将该小信号电流路由到RD。该结构也叫套筒式Cascode，相比简单CS级具有诸多优点。</p>
+<center><img src="/img/post/razavi_aic/3cas/1.jpg" width="20%">图1 Cascode级</center>
+<p>对电路进行定性分析对设计有所帮助，如果<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mi>b</mi></msub></mrow><annotation encoding="application/x-tex">V_b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>和<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{in}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>都变化了一小量，则会发生什么？（自行分析！）。再来考虑Cascode的偏置条件，要让两个管子都在饱和区，则Vout最小输出电压为M1、M2的两个过驱动电压。也就是M2“堆叠”在M1上，相比单级CS，摆幅减小一个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>D</mi><mo separator="true">,</mo><mi>s</mi><mi>a</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{D,sat}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.328331em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>。再来考虑<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{in}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>从0变到<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>D</mi><mi>D</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{DD}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的大信号行为，这里存在一个哪个管子先进入线性区的问题，同时也可知，当M2处于深线性区，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mi>X</mi></msub></mrow><annotation encoding="application/x-tex">V_X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.07847em;">X</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>和<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>近似相等。最后考虑Cascode的小信号特征，假设两个管子都在饱和区且<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>λ</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\lambda=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">λ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，其电压增益等于CS级的（Why?），与M2的跨导和体效应无关，可用<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>A</mi><mi>V</mi></msub><mo>=</mo><mo>−</mo><msub><mi>G</mi><mi>m</mi></msub><msub><mi>R</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">A_V=-G_mR_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">−</span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>来验证。</p>
+<p>Cascode一个重要特征就是其高的输出电阻！求解Cascode输出电阻，可将它看作是带电阻<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>r</mi><mrow><mi>o</mi><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">r_{o1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>退化的CS级，于是得到：</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><mo>=</mo><mo stretchy="false">[</mo><mn>1</mn><mo>+</mo><mo stretchy="false">(</mo><msub><mi>g</mi><mrow><mi>m</mi><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi><mn>2</mn></mrow></msub><mo stretchy="false">)</mo><msub><mi>r</mi><mrow><mi>o</mi><mn>2</mn></mrow></msub><mo stretchy="false">]</mo><msub><mi>r</mi><mrow><mi>o</mi><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>r</mi><mrow><mi>o</mi><mn>2</mn></mrow></msub></mrow><annotation encoding="application/x-tex">R_{out}=[1+(g_{m2}+g_{mb2})r_{o2}]r_{o1}+r_{o2}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>也就是说，M2将M1的输出阻抗提升了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><msub><mi>g</mi><mrow><mi>m</mi><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi><mn>2</mn></mrow></msub><mo stretchy="false">)</mo><msub><mi>r</mi><mrow><mi>o</mi><mn>2</mn></mrow></msub></mrow><annotation encoding="application/x-tex">(g_{m2}+g_{mb2})r_{o2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>倍。当然也可以堆叠更多层器件来增加输出阻抗，代价当然是需要消耗额外的电压裕度，例如三层堆叠Cascode最小输出电压为三个过驱动之和，这使得该结构不怎么有吸引力。来欣赏一下高输出阻抗的实用性，回顾之前的辅助定理，即电压增益可写成<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>−</mo><msub><mi>G</mi><mi>m</mi></msub><msub><mi>R</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">-G_mR_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">−</span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。由于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">G_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>通常由一个晶体管（如M1）的跨导决定，因此会遭受偏置电流和器件电容的折中，于是期望通过最大化<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">R_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>来增加电压增益，如下图2的结构最大电压增益大约为晶体管本征增益的平方。</p>
+<center><img src="/img/post/razavi_aic/3cas/2.jpg" width="20%">图2 电流源负载的Cascode级</center>
+<p>比较两种提高输出电阻的方法：1. Cascode；2. 增加CS级输入管的长度。第2种情况下，假设L变为4倍而宽度不变，则过驱动电压加倍，那么该CS消耗与Cascode同样的电压裕度，也就是说，第1和第2种情况下摆幅限制一样。但是分别考虑每种的输出阻抗，CS级下，本征增益才变为原来2倍，而Cascode的变为原来的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>g</mi><mi>m</mi></msub><msubsup><mi>r</mi><mi>o</mi><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">g_mr_o^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.061108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4530000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span>倍，而且跨导也只有Cascode中M1的一半，这会使得性能退化！因此结论是，**相同电压摆幅下，Cascode结构提供更高的输出阻抗。**同时，Cascode也不必要作为放大器来使用，因其输出阻抗大，它还可作为电流源。比如图2中电流源换成PMOS的Cascode级，如图3（尝试计算一下该输出阻抗！）。需要注意的是，图3中Cascode放大器的输出端直流并未很好定义，这是因为两个具有不同高阻的电流源串联（想想非理想电流源串联会怎样）。因此，该电路必须用负反馈环路来偏置。</p>
+<center><img src="/img/post/razavi_aic/3cas/3.jpg" width="20%">图3 PMOS Cascode负载的NMOS Cascode放大器</center>
+<p><strong>糟糕的Cascode</strong><br>
+　　“极简主义者”省去了Cascode所需的偏置电压，如图4。这个糟糕的Cascode将M2置于三极管区（Why?），实际上如果M1和M2具有相同尺寸，可证明该结构具有2倍沟长的单管，而不是真正的Cascode！</p>
+<center><img src="/img/post/razavi_aic/3cas/4.jpg" width="20%">图4 糟糕的Cascode放大器</center>
+　　当然，在现代CMOS工艺中，可以得到不同阈值的晶体管，若M1的阈值电压低于M2，则M2也可工作在饱和区，则该电路又表现为Cascode结构了。
+<p><strong>屏蔽特性</strong><br>
+　　之前文章有讲，高输出阻抗带来如下事实：若输出节点电压变化<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>V</mi></mrow><annotation encoding="application/x-tex">\Delta V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Δ</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span>，则Cascode管的源端变化很小（Why？）。这在某种意义上表明Cascode管屏蔽了输入器件，防止其受到输出端电压变化的影响。该屏蔽特性在很多电路中都有用！当然，若Cascode进入三极管区，则屏蔽效应会减弱（Why？）。</p>
+<p><strong>折叠式Cascode</strong><br>
+　　都知道了Cascode背后的思想（V/I、I/V），所以输入器件和Cascode管不必是相同类型的，即PMOS-NMOS组合也能实现相同功能。如图5所示，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>I</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">I_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>用于偏置M1和M2，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>I</mi><mrow><mi>D</mi><mn>1</mn></mrow></msub><mi mathvariant="normal">∣</mi><mo>+</mo><msub><mi>I</mi><mrow><mi>D</mi><mn>2</mn></mrow></msub><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">|I_{D1}|+I_{D2}=I_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，保持为常数。现分析小信号行为，</p>
+<center><img src="/img/post/razavi_aic/3cas/5.jpg" width="20%">图5 简单折叠Cascode/带合适偏置的Cascode/NMOS输入管的Cascode</center>
+<p>之所以将(b)、©称为折叠Cascode，是因为小信号电流被向上折叠(b)或向下折叠（c）。</p>
 
         <hr>
         <hr />
@@ -569,7 +585,7 @@
             </p>
             
             <p>
-                <span>发表于2019-09-26 22:30:33，最后修改于2019-09-25 09:24:59。</span>
+                <span>发表于2019-09-26 22:30:33，最后修改于2019-09-27 15:03:14。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
@@ -579,7 +595,7 @@
     <a class="float-left" href="/post/少安毋躁.html">« 上一篇 少安毋躁会当晴</a>
     
     
-    <a class="float-right" href="/post/关于差分放大器基本理解.html">下一篇 » 关于差分放大器基本理解</a>
+    <a class="float-right" href="/post/hello-world.html">下一篇 » Hello World</a>
     
 </p>
     </article>
@@ -722,35 +738,6 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/wuzao/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/少安毋躁.html" class="title">
-                少安毋躁会当晴
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-09-24，</span>
-                    <span class="hidden-xs">全文471字，</span>
-                    <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
     <div class="post-img" style="background-image: url('/img/post/mathjax/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
@@ -780,7 +767,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/renwei/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/shouji/cover.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -794,14 +781,43 @@
                 
                 
             </div>
-            <a href="/post/人为刀俎.html" class="title">
-                人为刀俎
+            <a href="/post/放下手机.html" class="title">
+                放下手机
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-03-07，</span>
-                    <span class="hidden-xs">全文693字，</span>
+                    <span>发表于2019-09-10，</span>
+                    <span class="hidden-xs">全文258字，</span>
                     <span>阅读约1分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/hkChina/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#thinking"
+                    title="thinking">thinking</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/沉默的默契.html" class="title">
+                沉默的默契
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-08-15，</span>
+                    <span class="hidden-xs">全文1412字，</span>
+                    <span>阅读约3分钟</span>
                 </small>
             </p>
         </div>
@@ -831,14 +847,17 @@
 </style>
 <div id="featured-tag">
     
+    <a class="post-tag-item" href="/tags/#website" title="website"
+        rel="2">#website (2) </a>
+    
     <a class="post-tag-item" href="/tags/#ads" title="ads"
         rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
         rel="7">#ic (7) </a>
     
-    <a class="post-tag-item" href="/tags/#website" title="website"
-        rel="2">#website (2) </a>
+    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
+        rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="7">#thinking (7) </a>
@@ -848,9 +867,6 @@
     
     <a class="post-tag-item" href="/tags/#Analog" title="Analog"
         rel="5">#Analog (5) </a>
-    
-    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
-        rel="1">#cadence (1) </a>
     
 </div>
     </div>

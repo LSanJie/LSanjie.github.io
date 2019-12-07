@@ -348,7 +348,7 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">18</number><span>文章</span>
+            <number class="number">19</number><span>文章</span>
         </a>
         <a href="/categories" class="col-xs-4 middle">
             <number class="number">4</number><span>分类</span>
@@ -413,7 +413,7 @@
                 
                 <li>
                     <a href="/post/关于共源共栅放大器基本理解.html"
-                        class="">关于共源共栅（Cascode）放大器的基本理解</a>
+                        class="">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -434,7 +434,11 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/hello-world.html">Hello World</a>
+                </li>
+                
+                <li>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                 </li>
                 
                 <li>
@@ -443,10 +447,6 @@
                 
                 <li>
                     <a href="/post/关于单级共栅放大器基本理解.html">关于单级共栅（CG）放大器的基本理解</a>
-                </li>
-                
-                <li>
-                    <a href="/post/关于单级源跟随器基本理解 .html">关于单级跟随器（SF）的基本理解</a>
                 </li>
                 
             </ul>
@@ -500,7 +500,7 @@
                 </li>
                 
                 <li>
-                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）放大器的基本理解</a>
+                    <a href="/post/关于共源共栅放大器基本理解.html">关于共源共栅（Cascode）的基本理解</a>
                     <span class="post-item-date">(Sep 26, 2019)</span>
                 </li>
                 
@@ -514,11 +514,9 @@
         
         
         
-        <p>　　在CS和SF中，输入信号加在MOS的栅上，其实也可加在源端，然后漏端输出，如图1(a)。Gate接dc进行合适的偏置。不过M1偏置电流将流过输入信号源，可进行(b)所示的修改。分析(a)的大信号行为，并微分可知小信号增益为+，且体效应增加了等效跨导值。如何最大化增益呢？第一，可以加宽器件增大<span class="math inline">\(g_m\)</span>，最终是器件进入亚阈值区（<span class="math inline">\(g_m\)</span>也是对指数关系求导）；第二，增大<span class="math inline">\(R_D\)</span>，不可避免输出电压裕度降低，(b)存在输出电压最小值<span class="math inline">\(V_{GS}-V_{TH}+V_{I1}\)</span>。其次，CG的输入电阻也很值得一谈。从源看进去的电阻即为输入电阻为：<span class="math inline">\(1/(g_m+g_{mb})\)</span>，体效应降低了输入电阻。这种低输入电阻特征在一些应用中十分有用，比如匹配50<span class="math inline">\(\Omega\)</span>输出电阻，但是增益可以更大！</p>
-<center>
-<img src="/img/post/razavi_aic/3cg/1.jpg" width="40%">图1 直接输入耦合和容性输入耦合的共栅级
-</center>
-<p>　　考虑一般情况下的CS级，即带晶体管输出电阻<span class="math inline">\(r_o\)</span>和信号源内阻<span class="math inline">\(R_S\)</span>的情况，其增益与源退化的CS级类似，不过由于体效应，CG级的增益要稍微高一点。同时用小信号模型分析CG级的输入和输出阻抗。可知：从源极看进去的输入阻抗为漏极阻抗除以本征增益<span class="math inline">\((g_m+g_{mb}r_o)\)</span>，这个观察比较重要，尤其是在短沟道器件中（Why?<strong>[1]</strong>）。 同时还可以考虑两种情况，<span class="math inline">\(R_D=0\)</span>时，该结构输入阻抗变成之前所讲SF从源端看进的阻抗；而将<span class="math inline">\(R_D\)</span>替换成电流源时，输入阻抗接近无穷大，虽有些惊讶，但也能解释该结果。直观上讲，因为总电流是固定为I1，源极上电位的变化并不会引起电流的变化，因此<span class="math inline">\(I_X=0\)</span>。以上分析表明，仅当漏极电阻较低时，CG级的输入阻抗才会相对较低。从退化的CS和CG分析可知，晶体管可以将源极电阻提升（从D端看进去），而将漏极电阻减小（从S端看进去）。于是很方便推导带体效应的输出阻抗表达式（可以不画小信号模型，考虑物理机制！Try！<strong>[2]</strong>）。</p>
+        <p>在CS和SF中，输入信号加在MOS的栅上，其实也可加在源端，然后漏端输出，如图1(a)。Gate接dc进行合适的偏置。不过M1偏置电流将流过输入信号源，可进行(b)所示的修改。分析(a)的大信号行为，并微分可知小信号增益为+，且体效应增加了等效跨导值。如何最大化增益呢？第一，可以加宽器件增大<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>g</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">g_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，最终是器件进入亚阈值区（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>g</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">g_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>也是对指数关系求导）；第二，增大<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>D</mi></msub></mrow><annotation encoding="application/x-tex">R_D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，不可避免输出电压裕度降低，(b)存在输出电压最小值<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub><mo>+</mo><msub><mi>V</mi><mrow><mi>I</mi><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}-V_{TH}+V_{I1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="mord mathdefault mtight" style="margin-right:0.08125em;">H</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.07847em;">I</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。其次，CG的输入电阻也很值得一谈。从源看进去的电阻即为输入电阻为：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mo stretchy="false">(</mo><msub><mi>g</mi><mi>m</mi></msub><mo>+</mo><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi></mrow></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">1/(g_m+g_{mb})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>，体效应降低了输入电阻。这种低输入电阻特征在一些应用中十分有用，比如匹配50<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ω</span></span></span></span>输出电阻，但是增益可以更大！</p>
+<center><img src="/img/post/razavi_aic/3cg/1.jpg" width="40%">图1 直接输入耦合和容性输入耦合的共栅级</center>
+<p>考虑一般情况下的CS级，即带晶体管输出电阻<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>r</mi><mi>o</mi></msub></mrow><annotation encoding="application/x-tex">r_o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>和信号源内阻<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>S</mi></msub></mrow><annotation encoding="application/x-tex">R_S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的情况，其增益与源退化的CS级类似，不过由于体效应，CG级的增益要稍微高一点。同时用小信号模型分析CG级的输入和输出阻抗。可知：从源极看进去的输入阻抗为漏极阻抗除以本征增益<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><msub><mi>g</mi><mi>m</mi></msub><mo>+</mo><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi></mrow></msub><msub><mi>r</mi><mi>o</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(g_m+g_{mb}r_o)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>，这个观察比较重要，尤其是在短沟道器件中（Why?<strong>[1]</strong>）。	同时还可以考虑两种情况，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>D</mi></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">R_D=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>时，该结构输入阻抗变成之前所讲SF从源端看进的阻抗；而将<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>D</mi></msub></mrow><annotation encoding="application/x-tex">R_D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>替换成电流源时，输入阻抗接近无穷大，虽有些惊讶，但也能解释该结果。直观上讲，因为总电流是固定为I1，源极上电位的变化并不会引起电流的变化，因此<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>I</mi><mi>X</mi></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">I_X=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.07847em;">X</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。以上分析表明，仅当漏极电阻较低时，CG级的输入阻抗才会相对较低。从退化的CS和CG分析可知，晶体管可以将源极电阻提升（从D端看进去），而将漏极电阻减小（从S端看进去）。于是很方便推导带体效应的输出阻抗表达式（可以不画小信号模型，考虑物理机制！Try！<strong>[2]</strong>）。</p>
 
         <hr>
         <hr />
@@ -570,7 +568,7 @@
             </p>
             
             <p>
-                <span>发表于2019-09-20 22:30:33，最后修改于2019-09-25 09:06:42。</span>
+                <span>发表于2019-09-20 22:30:33，最后修改于2019-09-25 09:06:44。</span>
             </p>
             <p><span>本站文章欢迎链接分享，禁止全文转载。</span></p>
         </div>
@@ -723,65 +721,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/wuzao/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/少安毋躁.html" class="title">
-                少安毋躁会当晴
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-09-24，</span>
-                    <span class="hidden-xs">全文471字，</span>
-                    <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/again/cover.png')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/もういちど.html" class="title">
-                もういちど！
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-08-11，</span>
-                    <span class="hidden-xs">全文552字，</span>
-                    <span>阅读约1分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/cdstooa/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cg/0.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -793,20 +733,82 @@
                     title="ic">ic</a>
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#cadence"
-                    title="cadence">cadence</a>
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/cds-to-OA小结.html" class="title">
-                cds_to_OA
+            <a href="/post/关于单级共栅放大器基本理解.html" class="title">
+                关于单级共栅（CG）放大器的基本理解
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-03-25，</span>
-                    <span class="hidden-xs">全文682字，</span>
-                    <span>阅读约1分钟</span>
+                    <span>发表于2019-09-20，</span>
+                    <span class="hidden-xs">全文1034字，</span>
+                    <span>阅读约2分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/mathjax/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#website"
+                    title="website">website</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/Mathjax公式渲染.html" class="title">
+                Mathjax公式渲染
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-09-12，</span>
+                    <span class="hidden-xs">全文1464字，</span>
+                    <span>阅读约3分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/adslpsim/cover.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ads"
+                    title="ads">ads</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/ads-LP-sim.html" class="title">
+                使用ADS进行Load-Pull仿真
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2018-11-15，</span>
+                    <span class="hidden-xs">全文4215字，</span>
+                    <span>阅读约7分钟</span>
                 </small>
             </p>
         </div>
@@ -836,14 +838,17 @@
 </style>
 <div id="featured-tag">
     
+    <a class="post-tag-item" href="/tags/#website" title="website"
+        rel="2">#website (2) </a>
+    
     <a class="post-tag-item" href="/tags/#ads" title="ads"
         rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
         rel="7">#ic (7) </a>
     
-    <a class="post-tag-item" href="/tags/#website" title="website"
-        rel="2">#website (2) </a>
+    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
+        rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="7">#thinking (7) </a>
@@ -853,9 +858,6 @@
     
     <a class="post-tag-item" href="/tags/#Analog" title="Analog"
         rel="5">#Analog (5) </a>
-    
-    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
-        rel="1">#cadence (1) </a>
     
 </div>
     </div>

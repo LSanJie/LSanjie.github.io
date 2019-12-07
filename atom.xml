@@ -445,9 +445,9 @@
       <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
-    
       <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
+    
+      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
     
   </entry>
   
@@ -523,9 +523,9 @@
       <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ads" scheme="https://cosicer.com/tags/ads/"/>
-    
       <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+    
+      <category term="ads" scheme="https://cosicer.com/tags/ads/"/>
     
   </entry>
   

@@ -514,7 +514,7 @@
         
         
         
-        <p>之前<a href="http://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html">CS级的小结</a>表明，为了在有限供电下实现高增益，负载阻抗必须要尽可能大。所以，如果用该CS级驱动一个低阻抗负载，则必须在它和负载之间加一个缓冲器（buffer），以防止增益减小来驱动负载。其中，源跟随器（共漏CD放大器）可作为这样的buffer。</p>
+        <p>之前<a href="http://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html" target="_blank" rel="noopener">CS级的小结</a>表明，为了在有限供电下实现高增益，负载阻抗必须要尽可能大。所以，如果用该CS级驱动一个低阻抗负载，则必须在它和负载之间加一个缓冲器（buffer），以防止增益减小来驱动负载。其中，源跟随器（共漏CD放大器）可作为这样的buffer。</p>
 <center><img src="/img/post/razavi_aic/3sf/1.jpg" width="20%">图1 基本的源跟随器</center>
 <p>大信号分析SF行为（Try!<strong>[1]</strong>）可知，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>相差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>来跟随<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{in}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。M1在饱和区有下式：</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>μ</mi><mi>n</mi></msub><msub><mi>C</mi><mrow><mi>o</mi><mi>x</mi></mrow></msub><mfrac><mi>W</mi><mi>L</mi></mfrac><mo stretchy="false">(</mo><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><msup><mo stretchy="false">)</mo><mn>2</mn></msup><msub><mi>R</mi><mi>S</mi></msub><mo>=</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{in}-V_{TH}-V_{out})^2R_S=V_{out}
@@ -534,7 +534,7 @@
         <!-- 文章末尾的提示 start -->
         
         <p>
-            本站永久域名<strong>「 <a href="/post/关于单级源跟随器基本理解 .html">cosicer.com</a>
+            本站永久域名<strong>「 <a href="/post/关于单级源跟随器基本理解 .html">leeremicro.com</a>
                 」</strong>，也可搜索<strong>「 阅微草堂 」</strong>找到我。
         </p>
         
@@ -732,7 +732,7 @@
         <h3>推荐阅读</h3>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3sf/1.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cas/1.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -750,14 +750,14 @@
                 
                 
             </div>
-            <a href="/post/关于单级源跟随器基本理解 .html" class="title">
-                关于单级跟随器（SF）的基本理解
+            <a href="/post/关于共源共栅放大器基本理解.html" class="title">
+                关于共源共栅（Cascode）的基本理解
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2019-09-18，</span>
-                    <span class="hidden-xs">全文1400字，</span>
-                    <span>阅读约2分钟</span>
+                    <span>发表于2019-09-26，</span>
+                    <span class="hidden-xs">全文2518字，</span>
+                    <span>阅读约4分钟</span>
                 </small>
             </p>
         </div>
@@ -765,36 +765,7 @@
 </div>
         
         <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/newlearn/cover.jpg')"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-                <span>/</span>
-                
-                <a class="text-gray" href="/tags/#thinking"
-                    title="thinking">thinking</a>
-                <span>/</span>
-                
-                
-            </div>
-            <a href="/post/新手学习技巧.html" class="title">
-                新手学习技巧<转载>
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>发表于2019-05-04，</span>
-                    <span class="hidden-xs">全文1292字，</span>
-                    <span>阅读约2分钟</span>
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" style="background-image: url('/img/post/adslpsim/cover.jpg')"></div>
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cg/0.jpg')"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -806,20 +777,53 @@
                     title="ic">ic</a>
                 <span>/</span>
                 
-                <a class="text-gray" href="/tags/#ads"
-                    title="ads">ads</a>
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
                 <span>/</span>
                 
                 
             </div>
-            <a href="/post/ads-LP-sim.html" class="title">
-                使用ADS进行Load-Pull仿真
+            <a href="/post/关于单级共栅放大器基本理解.html" class="title">
+                关于单级共栅（CG）放大器的基本理解
             </a>
             <p class="text-gray">
                 <small>
-                    <span>发表于2018-11-15，</span>
-                    <span class="hidden-xs">全文4215字，</span>
-                    <span>阅读约7分钟</span>
+                    <span>发表于2019-09-20，</span>
+                    <span class="hidden-xs">全文1034字，</span>
+                    <span>阅读约2分钟</span>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" style="background-image: url('/img/post/razavi_aic/3cs/1.jpg')"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#ic"
+                    title="ic">ic</a>
+                <span>/</span>
+                
+                <a class="text-gray" href="/tags/#Analog"
+                    title="Analog">Analog</a>
+                <span>/</span>
+                
+                
+            </div>
+            <a href="/post/关于单级共源放大器基本理解.html" class="title">
+                关于单级共源（CS）放大器的基本理解
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>发表于2019-09-17，</span>
+                    <span class="hidden-xs">全文3912字，</span>
+                    <span>阅读约6分钟</span>
                 </small>
             </p>
         </div>
@@ -849,17 +853,17 @@
 </style>
 <div id="featured-tag">
     
-    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
-        rel="1">#cadence (1) </a>
+    <a class="post-tag-item" href="/tags/#website" title="website"
+        rel="2">#website (2) </a>
+    
+    <a class="post-tag-item" href="/tags/#ads" title="ads"
+        rel="1">#ads (1) </a>
     
     <a class="post-tag-item" href="/tags/#ic" title="ic"
         rel="7">#ic (7) </a>
     
-    <a class="post-tag-item" href="/tags/#website" title="website"
-        rel="2">#website (2) </a>
-    
-    <a class="post-tag-item" href="/tags/#Analog" title="Analog"
-        rel="5">#Analog (5) </a>
+    <a class="post-tag-item" href="/tags/#cadence" title="cadence"
+        rel="1">#cadence (1) </a>
     
     <a class="post-tag-item" href="/tags/#thinking" title="thinking"
         rel="7">#thinking (7) </a>
@@ -867,8 +871,8 @@
     <a class="post-tag-item" href="/tags/#happy" title="happy"
         rel="2">#happy (2) </a>
     
-    <a class="post-tag-item" href="/tags/#ads" title="ads"
-        rel="1">#ads (1) </a>
+    <a class="post-tag-item" href="/tags/#Analog" title="Analog"
+        rel="5">#Analog (5) </a>
     
 </div>
     </div>
@@ -1185,7 +1189,7 @@
 <script>
     (function (window, document, undefined) {
         var hearts = [];
-        var keywords = ["点个赞", "留个言", "赞赏一下", "阅微草堂", "cosicer.com"];
+        var keywords = ["点个赞", "留个言", "赞赏一下", "阅微草堂", "leeremicro.com"];
         function randomInt(max) {
             return Math.floor(Math.random() * Math.floor(max));
         }

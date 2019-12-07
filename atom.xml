@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://cosicer.com/"/>
+  <link href="https://leeremicro.com/"/>
   <updated>2019-09-25T01:08:36.000Z</updated>
-  <id>https://cosicer.com/</id>
+  <id>https://leeremicro.com/</id>
   
   <author>
     <name>刘三姐</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于差分放大器基本理解</title>
-    <link href="https://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://cosicer.com/post/关于差分放大器基本理解.html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>https://leeremicro.com/post/关于差分放大器基本理解.html</id>
     <published>2019-12-16T14:30:33.000Z</published>
     <updated>2019-09-25T01:08:36.000Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://cosicer.com/tags/Analog/"/>
+      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://cosicer.com/post/hello-world.html"/>
-    <id>https://cosicer.com/post/hello-world.html</id>
+    <link href="https://leeremicro.com/post/hello-world.html"/>
+    <id>https://leeremicro.com/post/hello-world.html</id>
     <published>2019-12-07T02:18:20.006Z</published>
     <updated>2019-12-07T02:18:20.006Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>关于共源共栅（Cascode）的基本理解</title>
-    <link href="https://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://cosicer.com/post/关于共源共栅放大器基本理解.html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>https://leeremicro.com/post/关于共源共栅放大器基本理解.html</id>
     <published>2019-09-26T14:30:33.000Z</published>
     <updated>2019-09-27T07:03:14.000Z</updated>
     
@@ -83,19 +83,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://cosicer.com/tags/Analog/"/>
+      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>少安毋躁会当晴</title>
-    <link href="https://cosicer.com/post/%E5%B0%91%E5%AE%89%E6%AF%8B%E8%BA%81.html"/>
-    <id>https://cosicer.com/post/少安毋躁.html</id>
+    <link href="https://leeremicro.com/post/%E5%B0%91%E5%AE%89%E6%AF%8B%E8%BA%81.html"/>
+    <id>https://leeremicro.com/post/少安毋躁.html</id>
     <published>2019-09-24T14:06:50.000Z</published>
     <updated>2019-09-25T02:18:44.000Z</updated>
     
@@ -110,17 +110,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>关于单级共栅（CG）放大器的基本理解</title>
-    <link href="https://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://cosicer.com/post/关于单级共栅放大器基本理解.html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>https://leeremicro.com/post/关于单级共栅放大器基本理解.html</id>
     <published>2019-09-20T14:30:33.000Z</published>
     <updated>2019-09-25T01:06:44.000Z</updated>
     
@@ -135,23 +135,23 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://cosicer.com/tags/Analog/"/>
+      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>关于单级跟随器（SF）的基本理解</title>
-    <link href="https://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%BA%90%E8%B7%9F%E9%9A%8F%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%20.html"/>
-    <id>https://cosicer.com/post/关于单级源跟随器基本理解 .html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%BA%90%E8%B7%9F%E9%9A%8F%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%20.html"/>
+    <id>https://leeremicro.com/post/关于单级源跟随器基本理解 .html</id>
     <published>2019-09-18T14:30:33.000Z</published>
     <updated>2019-09-25T01:00:22.000Z</updated>
     
-    <content type="html"><![CDATA[<p>之前<a href="http://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html">CS级的小结</a>表明，为了在有限供电下实现高增益，负载阻抗必须要尽可能大。所以，如果用该CS级驱动一个低阻抗负载，则必须在它和负载之间加一个缓冲器（buffer），以防止增益减小来驱动负载。其中，源跟随器（共漏CD放大器）可作为这样的buffer。</p><center><img src="/img/post/razavi_aic/3sf/1.jpg" width="20%">图1 基本的源跟随器</center><p>大信号分析SF行为（Try!<strong>[1]</strong>）可知，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>相差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>来跟随<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{in}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。M1在饱和区有下式：</p><p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>μ</mi><mi>n</mi></msub><msub><mi>C</mi><mrow><mi>o</mi><mi>x</mi></mrow></msub><mfrac><mi>W</mi><mi>L</mi></mfrac><mo stretchy="false">(</mo><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><msup><mo stretchy="false">)</mo><mn>2</mn></msup><msub><mi>R</mi><mi>S</mi></msub><mo>=</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{in}-V_{TH}-V_{out})^2R_S=V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault">μ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">L</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="mord mathdefault mtight" style="margin-right:0.08125em;">H</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p><p>对上式取微分后，可得到小信号增益。用小信号等效电路也可得到相同结果，且增益最终接近1（Why?<strong>[2]</strong>）。同时，上图结构M1漏极电流严重取决于输入DC电平，从而引起非线性，为了缓解该问题，可将电阻换成电流源，如图2所示。</p><center><img src="/img/post/razavi_aic/3sf/2.jpg" width="40%"></center><center>图2 采用电流源的源跟随器</center><p>计算其输出阻抗，与从二极管连接MOS的源极看进去的电阻一样，并很容易从直观上解释体效应为何可以进一步减小该输出阻抗（Try!<strong>[3]</strong>）。也可从小信号等效电路分析出相同结果，这里可以把<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi></mrow></msub></mrow><annotation encoding="application/x-tex">g_{mb}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的效应等效为一个电阻（只有SF才成立！），同时也能解释为什么当<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>S</mi></msub><mo>=</mo><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">R_S=\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">∞</span></span></span></span>增益小于单位1了。当然，有限阻抗负载和沟长调制也可包含进来分析增益。</p><p>源跟随器表现出高输入阻抗和中等输出阻抗，代价有二：非线性和电压裕度限制。非线性是由于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{TH}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="mord mathdefault mtight" style="margin-right:0.08125em;">H</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>依赖源端电压，而在亚微米工艺中，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>r</mi><mi>o</mi></msub></mrow><annotation encoding="application/x-tex">r_o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>又强烈依赖<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>D</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{DS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，从而典型的SF遭受严重的非线性；除非背栅连到源，这种体效应造成的非线性便可消除。这只能PMOS可以做到，因为所有NMOS共享相同衬底，不能同时做到SB相连。然而PMOS低迁移率表现出更高的输出阻抗。 此外，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的电平平移消耗了电压裕度，从而限制了输出摆幅。</p><p>比较CS和SF驱动50<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ω</span></span></span></span>的增益发现，SF并不是一个有效的驱动。再加上之前所述非线性和摆幅限制，后面还会讲到，SF会引入严重的衬底噪声，不适合用在低噪声应用。以上原因均限制了SF的使用。</p><blockquote><p>一般规则是，我们避免使用SF，除非它们绝对必要！比如用在需要进行电平平移的场合。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>之前<a href="http://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html" target="_blank" rel="noopener">CS级的小结</a>表明，为了在有限供电下实现高增益，负载阻抗必须要尽可能大。所以，如果用该CS级驱动一个低阻抗负载，则必须在它和负载之间加一个缓冲器（buffer），以防止增益减小来驱动负载。其中，源跟随器（共漏CD放大器）可作为这样的buffer。</p><center><img src="/img/post/razavi_aic/3sf/1.jpg" width="20%">图1 基本的源跟随器</center><p>大信号分析SF行为（Try!<strong>[1]</strong>）可知，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>相差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>来跟随<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{in}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。M1在饱和区有下式：</p><p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>μ</mi><mi>n</mi></msub><msub><mi>C</mi><mrow><mi>o</mi><mi>x</mi></mrow></msub><mfrac><mi>W</mi><mi>L</mi></mfrac><mo stretchy="false">(</mo><msub><mi>V</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub><mo>−</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><msup><mo stretchy="false">)</mo><mn>2</mn></msup><msub><mi>R</mi><mi>S</mi></msub><mo>=</mo><msub><mi>V</mi><mrow><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{in}-V_{TH}-V_{out})^2R_S=V_{out}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault">μ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">L</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="mord mathdefault mtight" style="margin-right:0.08125em;">H</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">u</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p><p>对上式取微分后，可得到小信号增益。用小信号等效电路也可得到相同结果，且增益最终接近1（Why?<strong>[2]</strong>）。同时，上图结构M1漏极电流严重取决于输入DC电平，从而引起非线性，为了缓解该问题，可将电阻换成电流源，如图2所示。</p><center><img src="/img/post/razavi_aic/3sf/2.jpg" width="40%"></center><center>图2 采用电流源的源跟随器</center><p>计算其输出阻抗，与从二极管连接MOS的源极看进去的电阻一样，并很容易从直观上解释体效应为何可以进一步减小该输出阻抗（Try!<strong>[3]</strong>）。也可从小信号等效电路分析出相同结果，这里可以把<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>g</mi><mrow><mi>m</mi><mi>b</mi></mrow></msub></mrow><annotation encoding="application/x-tex">g_{mb}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">b</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的效应等效为一个电阻（只有SF才成立！），同时也能解释为什么当<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mi>S</mi></msub><mo>=</mo><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">R_S=\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">∞</span></span></span></span>增益小于单位1了。当然，有限阻抗负载和沟长调制也可包含进来分析增益。</p><p>源跟随器表现出高输入阻抗和中等输出阻抗，代价有二：非线性和电压裕度限制。非线性是由于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>T</mi><mi>H</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{TH}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="mord mathdefault mtight" style="margin-right:0.08125em;">H</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>依赖源端电压，而在亚微米工艺中，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>r</mi><mi>o</mi></msub></mrow><annotation encoding="application/x-tex">r_o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>又强烈依赖<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>D</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{DS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，从而典型的SF遭受严重的非线性；除非背栅连到源，这种体效应造成的非线性便可消除。这只能PMOS可以做到，因为所有NMOS共享相同衬底，不能同时做到SB相连。然而PMOS低迁移率表现出更高的输出阻抗。 此外，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>G</mi><mi>S</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{GS}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">G</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的电平平移消耗了电压裕度，从而限制了输出摆幅。</p><p>比较CS和SF驱动50<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ω</span></span></span></span>的增益发现，SF并不是一个有效的驱动。再加上之前所述非线性和摆幅限制，后面还会讲到，SF会引入严重的衬底噪声，不适合用在低噪声应用。以上原因均限制了SF的使用。</p><blockquote><p>一般规则是，我们避免使用SF，除非它们绝对必要！比如用在需要进行电平平移的场合。</p></blockquote>]]></content>
     
     <summary type="html">
     
@@ -162,19 +162,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://cosicer.com/tags/Analog/"/>
+      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>关于单级共源（CS）放大器的基本理解</title>
-    <link href="https://cosicer.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
-    <id>https://cosicer.com/post/关于单级共源放大器基本理解.html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%BA%A7%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3.html"/>
+    <id>https://leeremicro.com/post/关于单级共源放大器基本理解.html</id>
     <published>2019-09-17T14:30:33.000Z</published>
     <updated>2019-09-25T01:00:16.000Z</updated>
     
@@ -189,19 +189,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="Analog" scheme="https://cosicer.com/tags/Analog/"/>
+      <category term="Analog" scheme="https://leeremicro.com/tags/Analog/"/>
     
   </entry>
   
   <entry>
     <title>Mathjax公式渲染</title>
-    <link href="https://cosicer.com/post/Mathjax%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93.html"/>
-    <id>https://cosicer.com/post/Mathjax公式渲染.html</id>
+    <link href="https://leeremicro.com/post/Mathjax%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93.html"/>
+    <id>https://leeremicro.com/post/Mathjax公式渲染.html</id>
     <published>2019-09-12T09:06:50.000Z</published>
     <updated>2019-09-12T02:51:16.000Z</updated>
     
@@ -219,17 +219,17 @@
     
     </summary>
     
-      <category term="业余" scheme="https://cosicer.com/categories/%E4%B8%9A%E4%BD%99/"/>
+      <category term="业余" scheme="https://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
     
     
-      <category term="website" scheme="https://cosicer.com/tags/website/"/>
+      <category term="website" scheme="https://leeremicro.com/tags/website/"/>
     
   </entry>
   
   <entry>
     <title>放下手机</title>
-    <link href="https://cosicer.com/post/%E6%94%BE%E4%B8%8B%E6%89%8B%E6%9C%BA.html"/>
-    <id>https://cosicer.com/post/放下手机.html</id>
+    <link href="https://leeremicro.com/post/%E6%94%BE%E4%B8%8B%E6%89%8B%E6%9C%BA.html"/>
+    <id>https://leeremicro.com/post/放下手机.html</id>
     <published>2019-09-10T09:06:50.000Z</published>
     <updated>2019-09-10T09:22:08.000Z</updated>
     
@@ -253,17 +253,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>沉默的默契</title>
-    <link href="https://cosicer.com/post/%E6%B2%89%E9%BB%98%E7%9A%84%E9%BB%98%E5%A5%91.html"/>
-    <id>https://cosicer.com/post/沉默的默契.html</id>
+    <link href="https://leeremicro.com/post/%E6%B2%89%E9%BB%98%E7%9A%84%E9%BB%98%E5%A5%91.html"/>
+    <id>https://leeremicro.com/post/沉默的默契.html</id>
     <published>2019-08-15T02:05:48.000Z</published>
     <updated>2019-08-15T09:00:42.000Z</updated>
     
@@ -281,17 +281,17 @@
     
     </summary>
     
-      <category term="观点" scheme="https://cosicer.com/categories/%E8%A7%82%E7%82%B9/"/>
+      <category term="观点" scheme="https://leeremicro.com/categories/%E8%A7%82%E7%82%B9/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>もういちど！</title>
-    <link href="https://cosicer.com/post/%E3%82%82%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
-    <id>https://cosicer.com/post/もういちど.html</id>
+    <link href="https://leeremicro.com/post/%E3%82%82%E3%81%86%E3%81%84%E3%81%A1%E3%81%A9.html"/>
+    <id>https://leeremicro.com/post/もういちど.html</id>
     <published>2019-08-11T14:38:04.000Z</published>
     <updated>2019-09-10T09:23:36.000Z</updated>
     
@@ -310,17 +310,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>建站基本流程</title>
-    <link href="https://cosicer.com/post/buildsite.html"/>
-    <id>https://cosicer.com/post/buildsite.html</id>
+    <link href="https://leeremicro.com/post/buildsite.html"/>
+    <id>https://leeremicro.com/post/buildsite.html</id>
     <published>2019-08-11T12:18:24.000Z</published>
     <updated>2019-08-12T13:57:10.000Z</updated>
     
@@ -335,17 +335,17 @@
     
     </summary>
     
-      <category term="业余" scheme="https://cosicer.com/categories/%E4%B8%9A%E4%BD%99/"/>
+      <category term="业余" scheme="https://leeremicro.com/categories/%E4%B8%9A%E4%BD%99/"/>
     
     
-      <category term="website" scheme="https://cosicer.com/tags/website/"/>
+      <category term="website" scheme="https://leeremicro.com/tags/website/"/>
     
   </entry>
   
   <entry>
     <title>共结连理</title>
-    <link href="https://cosicer.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
-    <id>https://cosicer.com/post/共结连理.html</id>
+    <link href="https://leeremicro.com/post/%E5%85%B1%E7%BB%93%E8%BF%9E%E7%90%86.html"/>
+    <id>https://leeremicro.com/post/共结连理.html</id>
     <published>2019-05-05T01:51:35.000Z</published>
     <updated>2019-08-15T09:03:28.000Z</updated>
     
@@ -361,17 +361,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="happy" scheme="https://cosicer.com/tags/happy/"/>
+      <category term="happy" scheme="https://leeremicro.com/tags/happy/"/>
     
   </entry>
   
   <entry>
     <title>新手学习技巧&lt;转载&gt;</title>
-    <link href="https://cosicer.com/post/%E6%96%B0%E6%89%8B%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7.html"/>
-    <id>https://cosicer.com/post/新手学习技巧.html</id>
+    <link href="https://leeremicro.com/post/%E6%96%B0%E6%89%8B%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7.html"/>
+    <id>https://leeremicro.com/post/新手学习技巧.html</id>
     <published>2019-05-04T14:26:33.000Z</published>
     <updated>2019-08-12T14:33:32.000Z</updated>
     
@@ -390,17 +390,17 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>祭祀祖先</title>
-    <link href="https://cosicer.com/post/%E7%A5%AD%E7%A5%80%E7%A5%96%E5%85%88.html"/>
-    <id>https://cosicer.com/post/祭祀祖先.html</id>
+    <link href="https://leeremicro.com/post/%E7%A5%AD%E7%A5%80%E7%A5%96%E5%85%88.html"/>
+    <id>https://leeremicro.com/post/祭祀祖先.html</id>
     <published>2019-05-04T10:50:50.000Z</published>
     <updated>2019-08-15T09:04:14.000Z</updated>
     
@@ -415,17 +415,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>cds_to_OA</title>
-    <link href="https://cosicer.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
-    <id>https://cosicer.com/post/cds-to-OA小结.html</id>
+    <link href="https://leeremicro.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
+    <id>https://leeremicro.com/post/cds-to-OA小结.html</id>
     <published>2019-03-25T00:55:44.000Z</published>
     <updated>2019-08-15T09:02:52.000Z</updated>
     
@@ -442,19 +442,19 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="cadence" scheme="https://cosicer.com/tags/cadence/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="cadence" scheme="https://leeremicro.com/tags/cadence/"/>
     
   </entry>
   
   <entry>
     <title>人为刀俎</title>
-    <link href="https://cosicer.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
-    <id>https://cosicer.com/post/人为刀俎.html</id>
+    <link href="https://leeremicro.com/post/%E4%BA%BA%E4%B8%BA%E5%88%80%E4%BF%8E.html"/>
+    <id>https://leeremicro.com/post/人为刀俎.html</id>
     <published>2019-03-07T11:45:14.000Z</published>
     <updated>2019-08-12T13:57:08.000Z</updated>
     
@@ -471,17 +471,17 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="thinking" scheme="https://cosicer.com/tags/thinking/"/>
+      <category term="thinking" scheme="https://leeremicro.com/tags/thinking/"/>
     
   </entry>
   
   <entry>
     <title>日本商旅之行</title>
-    <link href="https://cosicer.com/post/%E6%97%A5%E6%9C%AC%E5%95%86%E6%97%85%E4%B9%8B%E8%A1%8C.html"/>
-    <id>https://cosicer.com/post/日本商旅之行.html</id>
+    <link href="https://leeremicro.com/post/%E6%97%A5%E6%9C%AC%E5%95%86%E6%97%85%E4%B9%8B%E8%A1%8C.html"/>
+    <id>https://leeremicro.com/post/日本商旅之行.html</id>
     <published>2018-11-17T04:39:14.000Z</published>
     <updated>2019-08-15T09:03:58.000Z</updated>
     
@@ -494,17 +494,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://cosicer.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://leeremicro.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="happy" scheme="https://cosicer.com/tags/happy/"/>
+      <category term="happy" scheme="https://leeremicro.com/tags/happy/"/>
     
   </entry>
   
   <entry>
     <title>使用ADS进行Load-Pull仿真</title>
-    <link href="https://cosicer.com/post/ads-LP-sim.html"/>
-    <id>https://cosicer.com/post/ads-LP-sim.html</id>
+    <link href="https://leeremicro.com/post/ads-LP-sim.html"/>
+    <id>https://leeremicro.com/post/ads-LP-sim.html</id>
     <published>2018-11-15T13:56:00.000Z</published>
     <updated>2019-08-15T09:02:44.000Z</updated>
     
@@ -520,12 +520,12 @@
     
     </summary>
     
-      <category term="专业" scheme="https://cosicer.com/categories/%E4%B8%93%E4%B8%9A/"/>
+      <category term="专业" scheme="https://leeremicro.com/categories/%E4%B8%93%E4%B8%9A/"/>
     
     
-      <category term="ic" scheme="https://cosicer.com/tags/ic/"/>
+      <category term="ads" scheme="https://leeremicro.com/tags/ads/"/>
     
-      <category term="ads" scheme="https://cosicer.com/tags/ads/"/>
+      <category term="ic" scheme="https://leeremicro.com/tags/ic/"/>
     
   </entry>
   

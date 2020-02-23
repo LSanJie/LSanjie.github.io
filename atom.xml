@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://leeremicro.com/"/>
-  <updated>2020-01-01T14:27:15.263Z</updated>
+  <updated>2020-02-23T10:55:35.015Z</updated>
   <id>http://leeremicro.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://leeremicro.com/post/hello-world.html"/>
+    <id>http://leeremicro.com/post/hello-world.html</id>
+    <published>2020-02-23T10:55:35.015Z</published>
+    <updated>2020-02-23T10:55:35.015Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2020第一天</title>
@@ -348,7 +369,7 @@
     <link href="http://leeremicro.com/post/cds-to-OA%E5%B0%8F%E7%BB%93.html"/>
     <id>http://leeremicro.com/post/cds-to-OA小结.html</id>
     <published>2019-03-25T00:55:44.000Z</published>
-    <updated>2019-08-15T09:02:52.000Z</updated>
+    <updated>2020-02-23T03:33:34.744Z</updated>
     
     <content type="html"><![CDATA[<p>动机：<br>　　cds版本的pdk适用于老版本cadence ic，如51x系列。而现在cadence版本基本为61x系列，为了兼容老版本pdk，需要进行转换，下面是自己对本次操作的一个小结，简单记录备份一下。</p><p>1.首先要得到一个pdk安装包(tar)，将其丢到Linux中；<br>2.解压(tar)–安装（<a href="http://PDKinstall.pl" target="_blank" rel="noopener">PDKinstall.pl</a>）；<br>3.新建OA文件夹用于存放转换后的OA版本。在OA文件新建CDB文件夹，存放cds.lib文件，该文件从pdk安装目录拷贝到CDB文件夹。并修改其中内容为pdk安装路径；<br>4.在OA文件夹下终端打开cadence，运行tool – CDB conversion – cds to OA conversion，选择CDS文件夹下的cds.lib进行转换，整个过程大概几分钟，转换完成没有报错，有警告是正常的。此时OA文件夹会生成一个新pdk；<br>5.将原本安装的cds版本pdk删除，用OA版本的新pdk替换老版本的pdk；<br>6.新建project时，需要将cds.lib中pdk路径指定到OA版本路径，记得将显示文件display.drf也拷贝到project中；<br>5.目前遇到的问题：在Library Manager中元件的image预览看不到，但不影响使用，待后续解决了更新。</p>]]></content>
     

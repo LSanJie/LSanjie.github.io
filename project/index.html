@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="project" />
     <meta name="hexo-theme-A4" content="v1.7.1" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>TomLee</title>
 
     
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
         
 <link rel="stylesheet" href="/css/reset.css">
 
@@ -20,12 +24,40 @@
  
          <!--注意：首页既不是post也不是page-->
         
-    
-    
+        
+        
 <link rel="stylesheet" href="/css/ui.css">
  
-    
+        
 <link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
 
 <meta name="generator" content="Hexo 6.3.0"></head>
     
@@ -44,6 +76,16 @@
         .post-md code {
             background: #e8e0c9;
             color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #9e5345;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #9e5345;
         }
         .year-font-color {
             color: #9e5345 !important;
@@ -140,16 +182,57 @@
             background: #efeae2;
         }
 
-        .post-md>table tr:nth-child(odd) td {
+        .post-md table tr:nth-child(odd) td {
             background: #efeae2;
         }
 
-        .post-md>table tr:nth-child(even) td {
+        .post-md table tr:nth-child(even) td {
             background: #efeae2;
+        }
+
+    
+        .progress-wrap::after {
+            color: #9e5345; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #9e5345; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #2e5041, #2e5041); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #9e5345; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #9e5345; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #2e5041, #2e5041); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #9e5345; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #2e5041;
+            border-left-color: #2e5041;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #9e5345;
         }
     </style>
 
+    
     <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
         <div class="paper">
             
             
@@ -157,6 +240,8 @@
             
                 <div class="shadow-drop-2-bottom paper-main">
                     
+
+
 <div class="header">
     <div class="header-container">
         <img style="
@@ -215,13 +300,15 @@
 
     <div class="post-md">
         
-        <p>​    </p>
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>​    </p>
 <h3 id="专业项目汇总"><a href="#专业项目汇总" class="headerlink" title="专业项目汇总"></a><strong>专业项目汇总</strong></h3><p>单击下列项目课题，可展开阅读相关描述。每个项目都介绍了对应的动机、技术挑战以及所呈现的结果。（↓下图是基于InP HBT工艺的CML电路局部显微图）</p>
 <center>
-    <img style="border-radius: 0.3125em;
+    <a href="\img\project-imecas0.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
 width = "256" height = "192"
-src="\img\project-imecas0.webp" width = "100%" alt=""/>
+src="\img\project-imecas0.webp" width = "100%" alt=""/></a>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
 display: inline-block;
@@ -246,10 +333,10 @@ padding: 0px;"></div>
     <summary><u>课题1 - InP HBT宽带跟踪保持放大器（THA）</u></summary> 
     <p>提出一种发射极阻容退化结构的THA设计。测试表明该THA在24-Gsps采样率下可正常工作，-3 dB小信号跟踪带宽大于22 GHz，第一区内的SFDR和大信号THD分别好于32 dB和-25 dBc。</p> 
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-imecas1.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "240" height = "214"
-    src="\img\project-imecas1.webp" width = "100%" alt=""/>
+    src="\img\project-imecas1.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -262,10 +349,10 @@ padding: 0px;"></div>
     <summary><u>课题2 - InP HBT高线性度跟踪保持放大器（THA）</u></summary> 
     <p>使用Vbe调制补偿技术的线性化方法设计了一款40-Gsps的 THA。测试结果表明其小信号跟踪带宽达到21.8 GHz，而第一区内的SFDR＞39.4 dB，大信号THD＜-32.7 dBc。</p>
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-imecas2.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "240" height = "214"
-    src="\img\project-imecas2.webp" width = "100%" alt=""/>
+    src="\img\project-imecas2.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -278,10 +365,10 @@ padding: 0px;"></div>
     <ol>
         <li><p>使用了有源电感峰化技术设计了一款超宽带的THA芯片，时钟路径采用CPWG结构。仿真结果表明，其采样率为64-Gsps, -3 dB小信号跟踪带宽可达到67 GHz，第一区内的大信号THD＜-25.5 dBc。已TO，没来得及测试</p></li>
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-imecas3.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "186" height = "228"
-    src="\img\project-imecas3.webp" width = "100%" alt=""/>
+    src="\img\project-imecas3.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -290,10 +377,10 @@ padding: 0px;"></div>
     </center>
     <li><p>独立设计了一款30-Gsps，3-bit的DAC核心原形芯片。测试结果表明，该DAC芯片在15 GHz的时钟频率下，输入为30Gbps的数字码，可正确输出正弦波模拟信号，INL和DNL绝对值均小于0.5 LSB。同时结果表明该DAC原形芯片可实现最好31.5 dB的SFDR性能。</p></li>
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-imecas4.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "200" height = "150"
-    src="\img\project-imecas4.webp" width = "100%" alt=""/>
+    src="\img\project-imecas4.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -302,10 +389,10 @@ padding: 0px;"></div>
     </center>
         <li><p>基于24-Gsps超高速THA的设计和测试结果，独立设计了一款单路16-Gsps，3-bit的Flash ADC（下图右上）。后仿结果表明，时钟频率为16 GHz时，该ADC在7.9 GHz，-10 dBm输入模拟正弦波下实现了模数转换的功能，该条件下的THD＜-25.6 dBc，满足了3-bit的设计要求。毕业没来得及TO和测试。</p></li>
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-imecas5.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "206" height = "180"
-    src="\img\project-imecas5.webp" width = "100%" alt=""/>
+    src="\img\project-imecas5.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -321,10 +408,10 @@ padding: 0px;"></div>
     <summary><u>课题 - GaAs HBT跟踪保持放大器（THA）</u></summary> 
     <p>独立设计了一款THA，使用“SEF+Schottky二极管”作为T/H开关级以增强保持模式隔离、同时实现快速时钟切换的功能。因设备和散热限制，最终进行eSOP8封装，做PCB测试。结果表明时钟频率可达到8GHz，小信号带宽>3.6GHz，SFDR=43.9dB@0.5GHz，功耗约0.5W。</p> 
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-xidian1.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "234" height = "213"
-    src="\img\project-xidian1.webp" width = "100%" alt=""/>
+    src="\img\project-xidian1.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -337,10 +424,10 @@ padding: 0px;"></div>
     <summary><u>课题 - GaAs HBT功率放大器（PA）</u></summary> 
     <p>独立设计了一款sub-6G的单级PA，采用偏置弥散补偿电路和RC反馈结构以提高线性度和效率，在片测试结果表明其大信号输出带宽4.2GHz-5.8GHz，饱和输出功率为23.2dBm，峰值PAE为47.2%，带内峰值PAE>40%。</p> 
     <center>
-        <img style="border-radius: 0.3125em;
+        <a href="\img\project-xidian2.webp" class="gallery-item" style="box-shadow: none;"> <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     width = "191" height = "168"
-    src="\img\project-xidian2.webp" width = "100%" alt=""/>
+    src="\img\project-xidian2.webp" width = "100%" alt=""/></a>
         <br>
         <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -348,7 +435,12 @@ padding: 0px;"></div>
     padding: 0px;"></div>
     </center>
 </details>
-
+</div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -356,11 +448,19 @@ padding: 0px;"></div>
         
         </i>
     </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
      
 </div>
 
 
 
+                                      
                     
                     
                     <div class="footer">
@@ -387,21 +487,86 @@ padding: 0px;"></div>
 
 
     
-<link rel="stylesheet" href="/css/a11y-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
 
     
-<script src="/js/highlight.min.js"></script>
 
     
-<script src="/js/highlightjs-line-numbers.js"></script>
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
 
 
 
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
                 </div>
             
     </body>
+
+
+    <!--暗黑模式-->
+    <script src="/js/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #e8e0c9  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
 </html>

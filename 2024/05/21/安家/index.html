@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
-    <meta name="description" content="" />
+    <meta name="description" content="安家" />
     <meta name="hexo-theme-A4" content="v1.8.9" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>TomLee</title>
@@ -23,6 +23,10 @@
 <link rel="stylesheet" href="/css/fonts.css">
  
          <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
         
         
         
@@ -273,13 +277,7 @@
             
         
             
-                <li><i>
-                    
-                        <u>
-                            <a  href="/tags/">标签</a>
-                        </u>
-                    
-                </i></li>
+                <li><a href="/tags/">标签</a></li>
             
         
             
@@ -297,67 +295,123 @@
                     
 
                     
-                            
-
-
-<div class="archive-list">
-  <ul class="archive">
-
-    
-    <span>📌<i>life</i></span>
- 
-    
-
-    
-    
-
-    
-
-    
-  
-    
-        <li>
-        <span class="archive-date">2024-05-21</span>
-        <div class="archive-main">
-            <a class="archive-title" href="/2024/05/21/%E5%AE%89%E5%AE%B6/">安家</a>
-        </div>
-        </li>
-    
-  
-    
-        <li>
-        <span class="archive-date">2024-02-16</span>
-        <div class="archive-main">
-            <a class="archive-title" href="/2024/02/16/%E5%9B%9E%E5%AE%B6%E8%BF%87%E5%B9%B4/">回家过年</a>
-        </div>
-        </li>
-    
-  
-    
-        <li>
-        <span class="archive-date">2024-01-14</span>
-        <div class="archive-main">
-            <a class="archive-title" href="/2024/01/14/%E5%91%A8%E6%9C%AB%E5%8F%98%E8%BA%AB/">周末「变身」</a>
-        </div>
-        </li>
-    
-  
-    
-        <li>
-        <span class="archive-date">2023-11-05</span>
-        <div class="archive-main">
-            <a class="archive-title" href="/2023/11/05/%E6%8A%93%E4%BD%8F2023%E5%B9%B4%E7%9A%84%E5%B0%BE%E5%B7%B4/">抓住2023年的尾巴</a>
-        </div>
-        </li>
-    
-  
-  </ul>
-</div>
- 
-                    
                     
                     
                     <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            安家
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                
+            
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-05-21</span>
+            
+                <span>该篇文章被 Lewis</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/life/'>
+                            life
+                        </a>
+                    
+                        <a href='/tags/home/'>
+                            home
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E7%94%9F%E6%B4%BB/'>
+                            生活
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上 
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://blog-hexo202310.vercel.app/',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '留下你的评论吧。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                                      
                     
                     
                     <div class="footer">

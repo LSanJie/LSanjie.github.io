@@ -55,10 +55,23 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"></head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
     
     <style>
         :root {
@@ -226,7 +239,28 @@
     </style>
 
     
+    
     <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e8e0c9  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
         
         <div class="paper">
             
@@ -296,12 +330,48 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            房缘🔏
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    房缘🔏
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                    <span>最近更新：2024-01-21</span> 
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                     <span>字数总计：18</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：1分钟</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span id="busuanzi_container_page_pv">
+                        阅读量：<span id="busuanzi_value_page_pv"></span>次
+                    </span>
+                
+            </div>
     
 
     <div class="post-md">
@@ -311,7 +381,7 @@
             
         
         <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="16725f9262d4b08ddfae26ad04e297f24b209e5a28f2925a552ac00fe42059ed">cac0716b0652eda4195d0bfb4a05ff72fa5dea3e423e61d4b263e3d374bf5805244e7cc2aa30c2b9d30d97d4c20d4b68d0f097d48d4c62f66e99ce9cf0856fa7c941862c1177d939d25289b539571c7c31a277a96abb713a09d4783820b90e71dfb7926233d3f6cb607b4a52ea7cc82b4f14cbb415a039d117ce774008ee290bde46616b736722175c4534ff0e51fb005fda07316f3ae25b83276959b705ca752eb8f32ae98035ffede6878eaa71d96f000abdb4f4ed6acbed8fb7e1698510c9c005b266817d793f2c52c5ddb2028254c813d8c023b4a11435c901f8b0a2965e1b349507b7b2aa9f9a86c9084c430a34ea2792a30833db57c57d038ddd7e0f3c9712c464a370c1596950a6311fae9735293feef74e4c934beb72a71f9c0d365da1e7632dbd6e3f0151d65a438841eba7c23c5e0f7ee39fc33e1bac9f7093465e29e3aa8e90e7ee88e3e97090970c1ed998bd1c332d38913412cf41e1c605bfb8a835706da35d8bb92c08226785843e36777210a91440d0a283c843acc0a9d4d387e826ab403dabbd76b246855d56c2813dc74904039dac2240f6612b92da1d8bba057068a0afb2574ebb4e9e809031c0281329d624482b4d67773335fa0ce03cbee7c7c882f19a335967d3e083e51d05866bbea4a8c2615a9ff5c8855d3835ae6fb03a578e7bad4cd6bbb91fb032a539b4a79e56ab6ca8ef957125245d0d2c6d125e43453ca854227880ae221801fb2e3a6318efe71d4420ec62baa208041110aec13c5311d3fd5ed78fe3906390fd1b925ad5019f3755e194d85581efc2732d30768b7a0a3d12e70ba3e6bd1083abeb4b223422723423f5dec71ee44c200d458bffcc1292ed37a6050cbc3420b9f4f6155e7460cb5eac20eaae55296b89a785bd1a8930f286f117c62dcf3c7e31d7d366dfbe883c7beddc4e3a66c451ee71907e2efbe5236fd3fdc16c944c56827ba639140e691534566764757a9079f24fff975f97007e27499b90a086752b12744053f9ccb0b84df8fad4939359d2777000d8f5d99a896b8efe4332188cb58c5e4c29dba58c18b29ddbd0650dfd1b972ca45d2b2160d71289c66a35d3d0ca9691bb661149bba7fbec703b9bcd1b8cbf608bcf03cbf70109587337d941716c61e155d9042c3ab6036ceef7140718a0845e4a24baf786cbb49a7594e1e0ddf47d99f0a4b4ef3bfb5f3fedc3f49702f7f4b728947c8ac606aa8af28fd517aa6d5b0624abd7cfca871fe1a98514047f112a232e6787d38382628894b02abeb9904b4ba103a10d34909726ca5f68234f9554bbcbb79e466113ad0e95546ee85fc27f31e01bde3aa3f4273c4c74ebbe24829eb2be8a92b0fade8ebc7d0fa7520e006fbb8f9c0dde3db663036e8a0806e136827296644534bb912a5bd2b5c46eb3d28c602d3e968e39ab21aaaf439ead0af2c1bd4e2429223ad1379613dda5bcea4648e4d35edd310e2ab9b4d89f4a3541df65f67b1fbce5c98762ef9aa1c58a01bf0a2507bc4a38744fb25a793f306d5aade5b75027fa5f9777701767c1c513e04ab9b3b5f2acaf6c653df0fbb789769ae985cf97ca4ac3475fcd8cee29ac44c8f46d08810776f2fe6e368f9ae53f105663fd1f8ae1fd498ed003cc85b549a80abfceae3fda92d7a9bff328da20db7d4c8c87127ace013f16df893d476c926ab132a2c50e</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="9702755d94cf91e35c085dd5caadb30776d720dd9cf2a6f8cd7485bcf9db1ca5">cac0716b0652eda4195d0bfb4a05ff72a4143895fbdeeae202f20fdf77c7b69dc4421b9e94c70442cd63c440ecc51f1e68c82194609083b4aed41acb5982b7f30a84b0111d3eb3f106125553efdb8541f92b9457c5b69be3d012c1ae2a43eb8a5bc960e179c0c95b4f30637e854734ef9794d1aa64bdcfd0ca604da4faae073e01966d48a88987adbe72ef1b1f903550c6e1a5b35d7b92005101fd769c3f10cdd4512f1e618371ece7f92342c95feea3f14bdc76145c377348f8256ae0823cf60ae64c6a5fc7e9985d6fbebfc4ae590f62516dc61f5baa0bbcdbac4b2ebe0b4edc1327caa2999e84a820503af80b5f0f57578d6e4354171046a74d063437568526c3f994c5f1448aafb62df4d5d4c09508b93a261b4b5447e174e98682111afaf63953bf62819dc61a0dca49b8ee31b01783e1825938ae7ed6f861749e3128c3f8df4df16c1de91c0e73204b216bf57901c7a6ee42c547d806a10a328d057ad8ae9aa813f586e48ccaa384ccefe2f227fde301e5644fc2904c83f8b5f7d55e7b0f71fa03147cd21aef96eea4a1d1aea6b4f535840cfe3ad7fe99b27d2fb7522a90dc1c3b4fea5318ca4b670802057aa7f5f75ed7eda722551acc10d2917da5c6a5504a8b54d552088c6f7418148a4d2e4f0714f8c0522cc7def1849630930799a8cbb93036f5f37d8174e9052b64ea54174b1a0525b7b6ade748eeca4a21952c0b5c4d761ab87dd59f53a356e7c1dce81e7ae038caf6adfb0e70fb049f659c1a54af1b8f49c38d5b9295203ac72c381c1548ab2bd07b54409fd24255ee897240c0971b60171cd86391315dc112fc7fdb9fe666ef808253cb6a0f91f20aee9f2b6ca9659bb74d13682c7fdbe2a1cd887f28c63145372b43dfb076aa651b857483f0c9975a61d3d51c89e5ddad582037177f3a324f19b9d06945d136631ec41f8bb637c6ab4179301c3f76018e547ee49f29f5695a6357fc1b121eb48a44006b8ffd1a54186f92bdf8980025e6071bb691c31fdb33d07977a3390333f09b13e95e</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -356,17 +426,30 @@
     </div>
     <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2023/12/29/%E4%BA%BA%E7%94%9F%E9%B8%A1%E6%B1%A4%E8%A7%A3%E8%AF%B4/'>人生鸡汤解说 [摘]</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/11/20/11%E6%9C%8819%E6%97%A5%E7%86%AC%E5%A4%9C%E5%B0%8F%E8%AE%B0/">11月19日熬夜哄娃小记</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
     <div class="comments-container">
     <div id="comment-anchor"></div>
     <div class="comment-area-title">
-        以上 
+         
     </div>
     
         
@@ -422,8 +505,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -461,9 +548,54 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
 
 
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
 
                 </div>
             
@@ -484,31 +616,4 @@
                 </div>
             
     </body>
-
-
-    <!--暗黑模式-->
-    <script src="/js/darkmode-js.min.js"></script>
-    <script>
-        function addDarkmodeWidget() {
-        const options = {
-            bottom: '53px', // default: '32px'
-            right: 'unset', // default: '32px'
-            left: '42px', // default: 'unset'
-            time: '0.3s', // default: '0.3s'
-            mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #e8e0c9  ',  // default: '#fff'
-            buttonColorDark: '#100f2c',  // default: '#100f2c'
-            buttonColorLight: '#fff', // default: '#fff'
-            saveInCookies: true, // default: true,
-            label: '🌓', // default: ''
-            autoMatchOsTheme: true // default: true
-        }
-    
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
-        
-        }
-        window.addEventListener('load', addDarkmodeWidget);
-    </script>
-  
 </html>

@@ -51,7 +51,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+<link rel="stylesheet" href="/css/lightgallery.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
@@ -167,19 +167,6 @@ mjx-container[display="true"] + br {
   display: none;
 }
 </style></head>
-    
-    
-
-    
-    
-
-
-
-    
-
-    
-    
-
     
     <style>
         :root {
@@ -356,28 +343,7 @@ mjx-container[display="true"] + br {
         }  
     </style>
 
-    
     <body>
-        <script src="/js/darkmode-js.min.js"></script>
-        
-        <script>
-            const options = {
-                bottom: '40px', // default: '32px'
-                right: 'unset', // default: '32px'
-                left: '42px', // default: 'unset'
-                time: '0.3s', // default: '0.3s'
-                mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #e8e0c9  ',  // default: '#fff'
-                buttonColorDark: '#100f2c',  // default: '#100f2c'
-                buttonColorLight: '#fff', // default: '#fff'
-                saveInCookies: true, // default: true,
-                label: '🌓', // default: ''
-                autoMatchOsTheme: true // default: true
-            }
-            const darkmode = new Darkmode(options);
-            darkmode.showWidget();
-        </script>
-        
         
         <div class="paper">
             
@@ -453,9 +419,6 @@ mjx-container[display="true"] + br {
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
-    
-
-    
 
     
 
@@ -463,7 +426,7 @@ mjx-container[display="true"] + br {
         
             
         
-        <div class=".article-gallery"><p>​    </p>
+        <link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>​    </p>
 <p><strong>当前职位：</strong>高级模拟IC工程师</p>
 <p><strong>研究兴趣：</strong>模拟、射频 &amp; 混合集成电路（芯片）设计，包括有源/无源模块、基于CMOS及Bipolar的Amplifier、Sampler、ADCs、LO path等，其中尤其关注高速高精度ADC的设计</p>
 <p><strong>联系方式：</strong>lee.ic007 at gmail dot com</p>
@@ -474,7 +437,12 @@ mjx-container[display="true"] + br {
 <p>本小站于2023年10月建立，基于hexo+github，使用A4主题。建立初衷是作为主站的备份站点。主站于2016年基于wordpress平台建立，众所周知的原因，主站速度较慢且经常被Ban，比较恼火，于是有了本小站，形式比较简单。本站没有特别突出的主题，会写一些专业上的看法和知识分享，也会发表一些个人情绪和值得收藏的瞬间。出于隐私考虑，博主会将某些内容带🔏加密，仅做记录不开放。博主平日繁忙，更新间隔可能会比较长，可能出现文章只有标题却没有内容的情况，待后续闲时再补充，望大家理解~🤞</p>
 <hr>
 <p style="color:red;">声明：该站点内容仅代表本站长个人的观点和想法，不代表任何组织、公司、政府或其他个人的观点和想法。内容仅供参考和分享，不构成任何投资、法律、医疗或其他专业建议。</p>
-</div>
+</div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -484,18 +452,10 @@ mjx-container[display="true"] + br {
     </div>
     <br>
     
-    
-        
-            
-    
-            <div class="post-footer-pre-next">
-                
-
-                
-            </div>
-    
-        
-    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
 
      
 </div>
@@ -515,12 +475,8 @@ mjx-container[display="true"] + br {
 
             
         </span>
-       
     
 </div>
-
-
-
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -558,54 +514,9 @@ mjx-container[display="true"] + br {
 
 
 
-<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+<script src="/js/lightgallery.min.js"></script>
 
 
-
-<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
-
-
-
-<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
-
-
-
-
-<script type="text/javascript">
-     
-    if (typeof lightGallery !== "undefined") {
-        var options1 = {
-            selector: '.gallery-item',
-            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
-            thumbnail: true,          // 显示缩略图
-            zoom: true,               // 启用缩放功
-            rotate: true,             // 启用旋转功能能
-            autoplay: true,        // 启用自动播放功能
-            fullScreen: true,      // 启用全屏功能
-            pager: false, //页码,
-            zoomFromOrigin: true,   // 从原始位置缩放
-            actualSize: true,       // 启用查看实际大小的功能
-            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
-    }
-    
-</script>
-
-
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
 
                 </div>
             
@@ -626,4 +537,31 @@ mjx-container[display="true"] + br {
                 </div>
             
     </body>
+
+
+    <!--暗黑模式-->
+    <script src="/js/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #e8e0c9  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
 </html>

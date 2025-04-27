@@ -55,7 +55,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+<link rel="stylesheet" href="/css/lightgallery.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
@@ -171,19 +171,6 @@ mjx-container[display="true"] + br {
   display: none;
 }
 </style></head>
-    
-    
-
-    
-    
-
-
-
-    
-
-    
-    
-
     
     <style>
         :root {
@@ -360,28 +347,7 @@ mjx-container[display="true"] + br {
         }  
     </style>
 
-    
     <body>
-        <script src="/js/darkmode-js.min.js"></script>
-        
-        <script>
-            const options = {
-                bottom: '40px', // default: '32px'
-                right: 'unset', // default: '32px'
-                left: '42px', // default: 'unset'
-                time: '0.3s', // default: '0.3s'
-                mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #e8e0c9  ',  // default: '#fff'
-                buttonColorDark: '#100f2c',  // default: '#100f2c'
-                buttonColorLight: '#fff', // default: '#fff'
-                saveInCookies: true, // default: true,
-                label: '🌓', // default: ''
-                autoMatchOsTheme: true // default: true
-            }
-            const darkmode = new Darkmode(options);
-            darkmode.showWidget();
-        </script>
-        
         
         <div class="paper">
             
@@ -451,48 +417,12 @@ mjx-container[display="true"] + br {
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
-    
 
     
-        
-            
-                <div class="post-main-title" style="text-align: center;">
-                    阻抗匹配 [摘]
-                </div>
-            
-        
+        <div class="post-main-title">
+            阻抗匹配 [摘]
+        </div>
       
-    
-
-    
-
-        
-            <div class="post-head-meta-center">
-        
-                
-                    <span>最近更新：2023-12-31</span> 
-                
-                
-                    
-                        &nbsp; | &nbsp;
-                    
-                     <span>字数总计：476</span>
-                
-                
-                    
-                        &nbsp; | &nbsp;
-                    
-                    <span>阅读估时：1分钟</span>
-                
-                
-                    
-                        &nbsp; | &nbsp;
-                    
-                    <span id="busuanzi_container_page_pv">
-                        阅读量：<span id="busuanzi_value_page_pv"></span>次
-                    </span>
-                
-            </div>
     
 
     <div class="post-md">
@@ -501,7 +431,7 @@ mjx-container[display="true"] + br {
                 
             
         
-        <div class=".article-gallery"><p><strong>Q1：阻抗不匹配为什么会发生反射？</strong></p>
+        <link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p><strong>Q1：阻抗不匹配为什么会发生反射？</strong></p>
 <p>A：</p>
 <p>类似于光射入不同介质时会在界面处发生反射一样，光本身也是一种电磁波，在电路里面，我们把两种不同的介质称为阻抗不匹配，因此信号会发生反射，为了消除反射，常常使用阻抗匹配用来完全吸收入射波。</p>
 <p><strong>Q2：阻抗匹配网络的作用以及匹配的方法。</strong></p>
@@ -513,7 +443,12 @@ mjx-container[display="true"] + br {
 <p>5.为了减少由于信号反射引起的失真，需要对传输线进行阻抗匹配，即传输线负载阻抗等于传输线特征阻抗。</p>
 <p>阻抗变换网络起着阻抗变换的作用，它将一个阻抗变换为另一个需要的阻抗，它本身不应该消耗功率，因此阻抗匹配网络应该是无损耗的，通常不使用电阻网络。</p>
 <p>——摘自《射频集成电路与系统》</p>
-</div>
+</div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -548,30 +483,17 @@ mjx-container[display="true"] + br {
     </div>
     <br>
     
-    
-        
-            
-    
-            <div class="post-footer-pre-next">
-                
-                    <span>上一篇：<a href='/2018/04/01/%E5%B7%AE%E5%88%86%E7%BA%BF%E9%98%BB%E6%8A%97%E5%8C%B9%E9%85%8D%E4%B8%BA%E5%95%A5%E6%98%AF100%CE%A9%EF%BC%9F/'>差分线阻抗匹配为啥是100Ω？</a></span>
-                
-
-                
-                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2014/10/19/%E6%88%91%E7%9A%84%E4%BF%9D%E7%A0%94%E4%B9%8B%E8%B7%AF/">我的保研之路🔏</a>
-                    </span>
-                
-            </div>
-    
-        
-    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
 
     
         
     <div class="comments-container">
     <div id="comment-anchor"></div>
     <div class="comment-area-title">
-         
+        以上 
     </div>
     
         
@@ -627,12 +549,8 @@ mjx-container[display="true"] + br {
 
             
         </span>
-       
     
 </div>
-
-
-
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -670,54 +588,9 @@ mjx-container[display="true"] + br {
 
 
 
-<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+<script src="/js/lightgallery.min.js"></script>
 
 
-
-<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
-
-
-
-<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
-
-
-<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
-
-
-
-
-<script type="text/javascript">
-     
-    if (typeof lightGallery !== "undefined") {
-        var options1 = {
-            selector: '.gallery-item',
-            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
-            thumbnail: true,          // 显示缩略图
-            zoom: true,               // 启用缩放功
-            rotate: true,             // 启用旋转功能能
-            autoplay: true,        // 启用自动播放功能
-            fullScreen: true,      // 启用全屏功能
-            pager: false, //页码,
-            zoomFromOrigin: true,   // 从原始位置缩放
-            actualSize: true,       // 启用查看实际大小的功能
-            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
-    }
-    
-</script>
-
-
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
 
                 </div>
             
@@ -738,4 +611,31 @@ mjx-container[display="true"] + br {
                 </div>
             
     </body>
+
+
+    <!--暗黑模式-->
+    <script src="/js/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #e8e0c9  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
 </html>

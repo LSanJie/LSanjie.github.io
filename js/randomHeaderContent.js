@@ -10,4 +10,6 @@ $(document).ready(function() {
    // Fill the span element with the randomly selected element
    var spanElement = $('#targetSpan');
    spanElement.text(getRandomElement());
+   console.log("das");
+
 });

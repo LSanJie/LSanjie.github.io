@@ -19,8 +19,8 @@ p
 body
 {
     font-family: "Times New Roman", Helvetica, Tahoma, Arial, "LXGW WenKai", "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 16.8px;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.2;
     /* letter-spacing: 0.6px; */
     color: var(--font-color-1);
     background: #e4e4e4;
@@ -39,7 +39,6 @@ a
 {
     padding: 4vw;
     background: #e4e4e4;
-    min-height: 100vh;
 }
 .paper-main
 {
@@ -51,7 +50,7 @@ a
     /*border-radius: 24px;*/
     border-radius: 0px;
     background: #ffffff;
-    box-shadow:  0px 5px 13px #616161, -5px -5px 13px #ffffff;
+    /* box-shadow:  0px 5px 13px #616161, -5px -5px 13px #ffffff; */
 }
 .index-main
 {
@@ -310,20 +309,6 @@ a
     justify-content: flex-start;
     align-content: center;
 }
-.footer-last-without-line
-{
-    /* padding-bottom: 24px; */
-    /* padding-top: 6px; */
-    font-size: 10px;
-    color: var(--font-color-3);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -1px;
-    /* border-top: 1px solid var(--line-1); */
-}
 .footer-last
 {
     padding-bottom: 24px;
@@ -369,9 +354,6 @@ a
 }
 
 @media only screen and (max-width: 600px) {
-    .footer-last-without-line {
-        flex-direction: column;
-    }
     .footer-last {
         padding-top: 5px;
         flex-direction: column;
@@ -384,13 +366,6 @@ a
     .footer-last-span-right {
         float: left; 
         font-size: 10px; 
-    }
-    .post-footer-pre-next{
-        flex-direction: column;
-        align-items: normal;
-    }
-    .post-footer-pre-next-last-span-right{
-        text-align: left;
     }
   }
 
@@ -428,23 +403,6 @@ a
     line-height: 1.5;
     color: var(--font-color-1);
 }
-.post-head-meta-center
-{
-    font-size: 0.875rem;
-    color: var(--font-color-3);
-    flex: 0 0 100%;
-    margin-top: 10px;
-    text-align: center;
-}
-.post-head-meta-left
-{
-    font-size: 0.875rem;
-    color: var(--font-color-3);
-    flex: 0 0 100%;
-    margin-top: 10px;
-    text-align: left;
-}
-
 .post-meta
 {
     font-size: 0.875rem;
@@ -453,7 +411,6 @@ a
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
 
 .archive
 {
@@ -470,7 +427,7 @@ a
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: center;
-    padding: 4px 0;
+    padding: 12px 0;
 }
 .archive li:nth-child(odd)
 {
@@ -720,15 +677,11 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     }
 }
 
-/* .darkmode-layer, .darkmode-toggle {
+.darkmode-layer, .darkmode-toggle {
     z-index: 500;
-} */
+}
 
 .darkmode-background {
     background: transparent !important;
 }
-/* 覆盖原始darkmode样式 */
-.darkmode-ignore{
-    isolation:isolate;
-    display: initial;
-}
+

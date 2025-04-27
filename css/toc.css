@@ -1,18 +1,17 @@
 
 
 .left-toc-container{ 
-  top: 100px;
+  top: 206px;
   left: 1px;
   bottom: 110px;
   overflow-y: auto; /* 或者使用 overflow-y: scroll; */
   max-height: -webkit-fill-available; /* 设置最大高度，可以根据需要进行调整 */
   position: fixed;
-  scrollbar-width: none;
+  scrollbar-width: thin;
 }
 
 .left-toc-container::-webkit-scrollbar {
   width: 10px; /* 设置滚动条宽度 */
-  display: none;
 }
 
 .left-toc-container::-webkit-scrollbar-thumb {

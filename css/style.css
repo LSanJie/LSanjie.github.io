@@ -427,7 +427,7 @@ a
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: center;
-    padding: 12px 0;
+    padding: 1.2px 0;
 }
 .archive li:nth-child(odd)
 {

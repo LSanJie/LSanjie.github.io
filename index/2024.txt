@@ -1,0 +1,56 @@
+---
+title: index
+date: 2023-10-15 22:29:24
+mathjax: true
+---
+
+**- 2024年业余目标：**
+
+- <form action="" method="post" name="formName" style="background-color: yellow">摄影：VCG上线 ＞1张;
+      <input type="checkbox" name="" checked onclick="return false;"> 进度：6/1
+  </form>
+
+- <form action="" method="post" name="formName">跑步：200 km;
+      <input type="checkbox" name="" unchecked onclick="return false;"> 进度：36.7/200 &nbsp;&nbsp;&nbsp;
+  </form>
+  
+- <form action="" method="post" name="formName">跳绳：20 w+;
+      <input type="checkbox" name="" unchecked onclick="return false;"> 进度：8.96/20 &nbsp;&nbsp;&nbsp;
+  </form>
+
+------
+
+**- 2024年度期待：**
+
+- [x] ~~过年回家~~    **★★★★★ 2月**
+- [x] ~~乘坐邮轮~~    **★★★★☆ 8月 替换-->赶海**
+- [x] ~~第一版TO~~    **★★★★★ 7月**
+- [x] ~~保险配置~~    **★★★★☆ 3月**
+- [x] ~~购房安家~~    **★★★★★ 5月**
+
+<center>
+    	<img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    width = "504" height = "378"
+    src="\img\index.webp" width = "100%" alt=""/>
+    	<br>
+    	<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 0px;">2024.08.28 @ 大青山环岛。iPhone 14</div>
+	</center>
+
+
+
+- Find Me Maybe: 
+
+<a href="https://www.zhihu.com/people/opamp">
+    <button>知 乎</button> </a> // <a href="https://scholar.google.com/citations?user=yBx0POz-K0EC&hl=zh-CN">
+    <button>Google学术</button>
+</a> //<a href="https://www.instagram.com/lishaoj/">
+    <button>Instagram</button>
+</a>
+
+---
+
+本站内容涉及到的所有 [$\textcolor{blue}{标签}$](https://lishaoj.com/tags/) 和 [$\textcolor{blue}{分类}$](https://lishaoj.com/categories/)

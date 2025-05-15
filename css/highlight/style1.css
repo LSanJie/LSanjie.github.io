@@ -16,7 +16,7 @@
 }
 .post-md pre,
 .post-md code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, sans-serif, "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei";
+  font-family: Helvetica, Arial, sans-serif;
 }
 .post-md code {
   background: #eee;
@@ -94,7 +94,7 @@
 }
 .post-md .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, sans-serif, "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei";
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 .post-md .gist .gist-file .gist-data {

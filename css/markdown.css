@@ -143,13 +143,13 @@
 }
 .post-md table tr:nth-child(odd) td
 {
-    padding: 12px 0;
+    padding: 0px 0;
     border-bottom: 1px solid var(--line-1);
     background: #fafafa;
 }
 .post-md table tr:nth-child(even) td
 {
-    padding: 12px 0;
+    padding: 0px 0;
     border-bottom: 1px solid var(--line-1);
     background: #fff;
 }
